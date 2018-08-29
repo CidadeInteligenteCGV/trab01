@@ -4,7 +4,7 @@ Trabalho desenvolvido durante a disciplina de BD1 no semestre de 2018/2.
 # Sumário
 
 ### 1. COMPONENTES<br>
-* Integrantes do grupo<br>
+Integrantes do grupo<br>
 * Brunna Dalzini de Oliveira: bdalzini@gmail.com <br>
 * Daniela Salomâo Santa Clara: danisantaclara@gmail.com <br>
 * Leonir dos Reis Alves: lreis.ti@gmail.com <br>
