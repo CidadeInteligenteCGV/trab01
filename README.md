@@ -1,14 +1,14 @@
-# Cidade Inteligente - CGV
+# Controle de Frequência de Aulas
 Trabalho desenvolvido durante a disciplina de BD1
 
 # Sumário
 
 ### 1. COMPONENTES<br>
-Integrantes do grupo<br>
-Brunna Dalzini de Oliveira: bdalzini@gmail.com <br>
-Daniela Salomâo Santa Clara: danisantaclara@gmail.com <br>
-Leonir dos Reis Alves: lreis.ti@gmail.com <br>
-Mayannara Trindade Carvalho: mayannara@outlook.com <br>
+* Integrantes do grupo<br>
+* Brunna Dalzini de Oliveira: bdalzini@gmail.com <br>
+* Daniela Salomâo Santa Clara: danisantaclara@gmail.com <br>
+* Leonir dos Reis Alves: lreis.ti@gmail.com <br>
+* Mayannara Trindade Carvalho: mayannara@outlook.com <br>
 
 ### 2. INTRODUÇÃO E MOTIVAÇAO<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
