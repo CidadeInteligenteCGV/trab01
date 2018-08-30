@@ -14,32 +14,38 @@ Integrantes do grupo:
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
 <br>e motivação da escolha realizada. <br>
  
-### CIDADE INTELIGENTE – CHUVAS NA GRANDE VITÓRIA <br>
-Sistema de monitoramento de nível de água na região da Grande Vitória em dias de chuva.
+### Controle de Frequência de Aulas <br>
+O Sistema de Controle de Frequência de Aulas tem como objetivo auxiliar o professor no ato de realizar a chamada dos alunos em sala. 
+O professor perde cerca de 10 minutos para realizar a chamada a cada aula, o que além de requerer a atenção do aluno no momento de respondê-la, também é atrasada por vezes pela falta de rede ou mesmo de computador. 
+Pensando nesses contratempos e no horário disponível para a aula, o presente sistema visa a automatização de todo o processo de chamada. 
+O sistema contará com sensores localizados nas portas de cada sala de aula, que registrarão a entrada e saída do aluno através de um microchip na carteirinha do estudante e/ou checagem de qrcode por um aplicativo instalado no smartphone do aluno. O lançamento de presença ou falta será feito com base na primeira entrada e última saída registrada em sala no horário da aula. Além de controlar e registrar a entrada e saída do aluno na portaria por meio de catraca eletrônica.
 
+## Porque usar controle de acesso <br>
 
-A Região Metropolitana da Grande Vitória no Espírito Santo é formada por sete municípios: Cariacica,Fundão, Guarapari, Serra, Viana, Vila Velha e Vitória, que abrigam em torno de 48% da população do estado.
-Segundo os dados divulgados no site da Companhia Estadual de Transportes Coletivos de Passageiros do Estado do Espírito Santo (Ceturb ES) referentes à 2017, o sistema Transcol transporta o equivalente à 15.199.356 de pessoas ao mês na região da Grande Vitória.
-Em épocas de chuva forte muitas ruas ficam alagadas e os carros e demais meios de transporte acabam impossibilitados de progredir para seu destino, em alguns casos não conseguem nem voltar por onde vieram e ficam presos no local.
+Segurança, Tranquilidade, Proteção ao Patrimônio e Registro de Pessoas
+A implantação do controle de acesso em escolas pode ser feito por catracas, pontos de acesso instalados nas portas das salas de aula, tudo gerido através de uma sistema de controle de acesso integrado ao servidor e banco de dados da instituição de ensino.
+Este tipo de sistema normalmente  é instalado na entrada (portaria) do Estabelecimento de Ensino, monitorando e controlando a entrada de alunos, professores e demais funcionários com precisão e segurança. 
 
-O objetivo do presente sistema é coletar os dados dos dias em que ocorrem as chuvas fortes e usá-los para alimentar um aplicativo que possibilite o redirecionamento de rotas do sistema de transporte público do estado assim como informe a condição das estradas à toda população, que atualmente só descobre se vai conseguir ou não sair de casa para trabalhar quando já se encontra à caminho. 
-Os sensores serão colocados nas ruas com maior fluxo de veículos e em algumas outras já conhecidas por alagarem. 
-Futuramente também será possível utilizar os dados coletados para pensar o replanejamento urbano dos pontos mais afetados.
+## Vantagens das Catracas Eletrônicas nas Escolas <br>
 
-Sensores
-Condições ambientais: Chuva, pluviômetro
+Relatórios de acesso em tempo real
+O Sistema de Controle de Acesso quando implementado de forma a contabilizar a frequência dos alunos disponibiliza relatórios precisos dos ingressos realizados para dentro ou para fora da instituição. Possibilitando assim, um maior acompanhamento da frequência que é disponibilizado para o aluno e/ou pais de alunos, e também para todo equipe pedagógica e professores.
 
+Maior segurança para alunos e professores
+A catraca eletrônica instalada na estrada da escola, controla o acesso de alunos, professores, pais e demais funcionários com tranquilidade e segurança. Todas as pessoas que frequentam a instituição cadastram seus dados no sistema de controle de acesso, e tem sua entrada liberada quando utilizam um cartão de acesso. Quando a pessoa é identificada pelo sistema, há liberação da sua na instituição.
+
+Não permite o acesso de pessoas desconhecidas
+Pessoas que não são cadastradas no sistema ou não recebem o cartão de acesso ficam impedidas de entrar na instituição. Esse ponto é muito positivo e traz diversos benefícios para quem frequenta o ambiente escolar, pois evita, por exemplo, o tráfico de drogas, sequestros, assaltos e outros tipos de violência.
  
 
-### 3.MINI-MUNDO Novo<br>
+### 3.MINI-MUNDO <br>
 
-Descrever o mini-mundo! (Não deve ser maior do que 30 linhas) <br>
-Entrevista com o usuário e identificação dos requisitos.<br>
-Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
-cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
-gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
-
-> O sistema proposto para a "Devcom Projetos conterá as informacões aqui detalhadas. Dos Projetos serão armazenados o número, nome e cidade. Dos Departamentos serão armazenados o número e nome. O cliente destacou que cada projeto pode ter vários departamentos auxiliando no seu desenvolvimento, e cada departamento pode estar envolvido em vários projetos. Os dados relativos aos empregados que serão armazenados são: rg, nome, cpf, salário, data inicial do salario e supervisor de cada empregado. É importante destacar que cada empregado pode ser supervisionado por outro empregado, e obrigatoriamente deve estar alocado a um único departamento, mas pode gerenciar vários departamentos ou não gerenciar nenhum. Um empregado também pode participar de vários projetos, caso seja necessário, mas não precisa obrigatoriamente estar alocado em algum projeto. Com relação aos dependentes serão armazenadas as informações de nome do dependente, data de nascimento, sexo e grau de parentesco. Cada empregado pode ter vários dependentes, mas um dependente esta associado apenas a um único empregado. Com relação ao histórico de salário devemos armazenar as informações de valor do salário, data de início do salário no período e data final do salário no período. É importante lembrar que cada funcionario pode ter diversos eventos de histórico de salário associados a ele visto que este dado pode ser alterado várias vezes. 
+O Sistema consiste no Controle de Frequência de Aulas, e tem como objetivo principal, registrar a frequências dos alunos durante o período letivo. Sua principais funções são: cadastro de pessoas (aluno), controle de entrada e saída do aluno na instituição (portaria), controle de entrada e saída do aluno na sala de aula, relatórios de frequências.
+Ao se matricular na instituição (IFES), o aluno é orientado a baixar o app que dá acesso a suas informações acadêmicas e realizar a liberação ID para utilização de QRCode disponibilizado para smartphones. Dentro de 5 dias e antes do ínicio das aulas, o aluno recebe a carteirinha do estudante, esta carteirinha além de conter os seus dados pessoais, vem com um micro chip que se comunica com o sistema e servidores da instituição. 
+Ao iniciar o período letivo, quando o aluno chegar a instituição, deverá acessar a catraca eletrônica e por meio de aproximação deverá posicionar a carteirinha de estudante ou o código QRcode para leitura e liberação da catraca. Neste momento o sistema registra a sua entrada no Campus. De acordo com a disciplina matriculada, o aluno deverá se deslocar até a sala correta onde a disciplina será lecionada e para ter acesso a sala de aula e registrar sua frequência, o mesmo deverá mais uma vez posicionar sua carteirinha ou QRcode no leitor localizada na entrada da sala de aula. O aluno poderá sair da sala quantos vezes achar necessário e precisar, porém para que o sistema registre sua frequência é necessário que sua última saída registrada seja dentro dos últimos 15 minutos de aula, esta mesma regra também é aplicada no momento do início da aula, o aluno disponibiliza de até 15 minutos de tolerância para que o sistema processe sua frequência (entrada). Via de regra, o aluno deverá ir até o professor para que o mesmo acesse o sistema e realize qualquer tipo de alteração de dados lançados no sistema. 
+O sistema deverá guardar o status dos alunos mesmo se a rede estiver off-line, até que seja possível fazer seu envio para o banco de dados on-line, e assim, gerar um relatório de frequência.
+O aluno pode optar acessar o Campus com a carteirinha de estudante ou o código QRcode, sendo necessário apenas uma das modalidades.
+Caso haja extravio de carteirinha, o aluno deverá comunicar o registro acadêmico para que seja confeccionada uma nova carteirinha. Se o aluno for desligado do seu curso por qualquer motivo, automaticamente o seu QRcode é inativado e sua carteirinha perde a validação de acesso ao Campus. A carteirinha é válida até o fim de sua graduação e a confecção de novas carteirinhas são cobrados valor a parte. Caso ocorra também o extravio do smartphone portador ID de acesso do aluno, o mesmo deve comunicar a instituição para que haja bloqueio da IDE do aparelho e uma nova liberação.
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
