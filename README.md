@@ -20,13 +20,13 @@ O professor perde cerca de 10 minutos para realizar a chamada a cada aula, o que
 Pensando nesses contratempos e no horário disponível para a aula, o presente sistema visa a automatização de todo o processo de chamada. 
 O sistema contará com sensores localizados nas portas de cada sala de aula, que registrarão a entrada e saída do aluno através de um microchip na carteirinha do estudante e/ou checagem de qrcode por um aplicativo instalado no smartphone do aluno. O lançamento de presença ou falta será feito com base na primeira entrada e última saída registrada em sala no horário da aula. Além de controlar e registrar a entrada e saída do aluno na portaria por meio de catraca eletrônica.
 
-## Porque usar controle de acesso <br>
+#### Porque usar controle de acesso <br>
 
 Segurança, Tranquilidade, Proteção ao Patrimônio e Registro de Pessoas
 A implantação do controle de acesso em escolas pode ser feito por catracas, pontos de acesso instalados nas portas das salas de aula, tudo gerido através de uma sistema de controle de acesso integrado ao servidor e banco de dados da instituição de ensino.
 Este tipo de sistema normalmente  é instalado na entrada (portaria) do Estabelecimento de Ensino, monitorando e controlando a entrada de alunos, professores e demais funcionários com precisão e segurança. 
 
-## Vantagens das Catracas Eletrônicas nas Escolas <br>
+#### Vantagens das Catracas Eletrônicas nas Escolas <br>
 
 Relatórios de acesso em tempo real
 O Sistema de Controle de Acesso quando implementado de forma a contabilizar a frequência dos alunos disponibiliza relatórios precisos dos ingressos realizados para dentro ou para fora da instituição. Possibilitando assim, um maior acompanhamento da frequência que é disponibilizado para o aluno e/ou pais de alunos, e também para todo equipe pedagógica e professores.
