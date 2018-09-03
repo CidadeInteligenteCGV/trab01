@@ -11,32 +11,11 @@ Integrantes do grupo:
 * Mayannara Trindade Carvalho: mayannara@outlook.com <br>
 
 ### 2. INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
-<br>e motivação da escolha realizada. <br>
  
 ### Controle de Frequência de Aulas <br>
-O Sistema de Controle de Frequência de Aulas tem como objetivo auxiliar o professor no ato de realizar a chamada dos alunos em sala. 
-O professor perde cerca de 10 minutos para realizar a chamada a cada aula, o que além de requerer a atenção do aluno no momento de respondê-la, também é atrasada por vezes pela falta de rede ou mesmo de computador. 
-Pensando nesses contratempos e no horário disponível para a aula, o presente sistema visa a automatização de todo o processo de chamada. 
-O sistema contará com sensores localizados nas portas de cada sala de aula, que registrarão a entrada e saída do aluno através de um microchip na carteirinha do estudante e/ou checagem de qrcode por um aplicativo instalado no smartphone do aluno. O lançamento de presença ou falta será feito com base na primeira entrada e última saída registrada em sala no horário da aula. Além de controlar e registrar a entrada e saída do aluno na portaria por meio de catraca eletrônica.
-
-#### Porque usar controle de acesso <br>
-
-Segurança, Tranquilidade, Proteção ao Patrimônio e Registro de Pessoas
-A implantação do controle de acesso em escolas pode ser feito por catracas, pontos de acesso instalados nas portas das salas de aula, tudo gerido através de uma sistema de controle de acesso integrado ao servidor e banco de dados da instituição de ensino.
-Este tipo de sistema normalmente  é instalado na entrada (portaria) do Estabelecimento de Ensino, monitorando e controlando a entrada de alunos, professores e demais funcionários com precisão e segurança. 
-
-#### Vantagens das Catracas Eletrônicas nas Escolas <br>
-
-Relatórios de acesso em tempo real
-O Sistema de Controle de Acesso quando implementado de forma a contabilizar a frequência dos alunos disponibiliza relatórios precisos dos ingressos realizados para dentro ou para fora da instituição. Possibilitando assim, um maior acompanhamento da frequência que é disponibilizado para o aluno e/ou pais de alunos, e também para todo equipe pedagógica e professores.
-
-Maior segurança para alunos e professores
-A catraca eletrônica instalada na estrada da escola, controla o acesso de alunos, professores, pais e demais funcionários com tranquilidade e segurança. Todas as pessoas que frequentam a instituição cadastram seus dados no sistema de controle de acesso, e tem sua entrada liberada quando utilizam um cartão de acesso. Quando a pessoa é identificada pelo sistema, há liberação da sua na instituição.
-
-Não permite o acesso de pessoas desconhecidas
-Pessoas que não são cadastradas no sistema ou não recebem o cartão de acesso ficam impedidas de entrar na instituição. Esse ponto é muito positivo e traz diversos benefícios para quem frequenta o ambiente escolar, pois evita, por exemplo, o tráfico de drogas, sequestros, assaltos e outros tipos de violência.
- 
+O Sistema de "Controle de Frequência de Aulas" visa colaborar com o professor no ato de realizar
+a chamada dos alunos em sala. Sabendo-se das dificuldades na realização de chamadas manualmente e visando otimizar tal tarefa e unir informações relativas a alunos, disciplinas, campus, professor e frequência em um mesmo local , ficamos empenhados em desenvolver este sistema.
+O Sistema de "Controle de Frequência de Aulas" tem como objetivo gerenciar todas informações referentes a frequência de alunos em diversos campus do IFES. Para controlar adequadamente a frequência dos alunos, o IFES necessita que o sistema armazene informações relativas aos alunos, campus, disciplinas e professores, além de armazenar dados sobre frequência . O sistema deverá gerar um conjunto de relatórios que atenderão os anseios de alunos e da instituição.
 
 ### 3.MINI-MUNDO <br>
 
