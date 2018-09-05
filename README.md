@@ -51,7 +51,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
  
-(https://github.com/ControleFrequencia/trab01/blob/master/arquivos/Tabela_frequ%C3%AAncia.xlsx)
+(https://github.com/ControleFrequencia/trab01/blob/master/Tabela_frequ%C3%AAncia.xlsx)
     
 >## Marco de Entrega 01 em: (06/09/2018)<br>
 
