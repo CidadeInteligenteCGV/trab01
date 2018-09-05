@@ -58,7 +58,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ### 5.MODELO CONCEITUAL<br>
     
            
-![Alt text](https://github.com/CidadeInteligenteCGV/trab01/blob/master/images/Modelo_Conceitual.png)
+![Alt text](https://github.com/CidadeInteligenteCGV/trab01/blob/master/images/mod_conceitual.png)
     
       
 #### 5.1 Validação do Modelo Conceitual
