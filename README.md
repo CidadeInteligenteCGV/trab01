@@ -43,7 +43,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-- Principais Relatórios do Sistema Controle de Frequência de Aulas:
+
+Principais Relatórios do Sistema Controle de Frequência de Aulas:
 
 * Relatório da frequência geral dos alunos por disciplina, incluindo as seguintes informações: código da disciplina, nome da disciplina, carga horária da disciplina, nome do professor, nome do aluno, matrícula do aluno, data da aula, frequência do aluno na disciplina.
 
