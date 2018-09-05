@@ -10,6 +10,7 @@ Integrantes do grupo:
 * Leonir dos Reis Alves: lreis.ti@gmail.com <br>
 * Mayannara Trindade Carvalho: mayannara@outlook.com <br>
 
+
 ### 2. INTRODUÇÃO E MOTIVAÇAO<br>
  
 ### Controle de Frequência de Aulas <br>
@@ -18,6 +19,7 @@ a chamada dos alunos em sala.
 Sabendo-se dos contratempos na realização das chamadas manualmente e pretendendo otimizar tal tarefa, unindo informações relativas a alunos, disciplinas, campus, professor e frequência em um mesmo banco. 
 O sistema contará com sensores localizados nas portas de cada sala de aula, que registrarão a entrada e a saída do aluno através de um microchip na carteirinha do estudante e/ou checagem de qrcode por um aplicativo instalado no smartphone do aluno.
 O Sistema de Controle de Frequência de Aulas tem como objetivo gerenciar todas informações referentes a frequência de alunos em diversos campus do Ifes. Para controlar adequadamente essas informações, o sistema deverá armazenar as informações relativas aos alunos, campus, disciplinas e professores, além dos dados sobre frequência, podendo ao final gerar um conjunto de relatórios para análise tanto dos alunos quanto da instituição.
+
 
 ### 3.MINI-MUNDO <br>
 
@@ -30,6 +32,7 @@ O sistema deverá guardar o status dos alunos mesmo se a rede estiver off-line, 
 O aluno pode optar acessar o Campus com a carteirinha de estudante ou o código QRcode, sendo necessário apenas uma das modalidades.
 Caso haja extravio de carteirinha, o aluno deverá comunicar o registro acadêmico para que seja confeccionada uma nova carteirinha. Se o aluno for desligado do seu curso por qualquer motivo, automaticamente o seu QRcode é inativado e sua carteirinha perde a validação de acesso ao Campus. A carteirinha é válida até o fim de sua graduação e a confecção de novas carteirinhas são cobrados valor a parte. Caso ocorra também o extravio do smartphone portador ID de acesso do aluno, o mesmo deve comunicar a instituição para que haja bloqueio da IDE do aparelho e uma nova liberação.
 
+
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
@@ -37,6 +40,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
 ![Arquivo PDF do Protótipo Balsamiq feito para Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/EmpresaDevcom.pdf?raw=true "Empresa Devcom")
+
+
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     
 Relatório da frequência geral dos alunos por disciplina, incluindo as seguintes informações: código da disciplina, nome da disciplina, carga horária da disciplina, nome do professor, nome do aluno, matrícula do aluno, data da aula, frequência do aluno na disciplina.
@@ -56,6 +61,7 @@ Relatório de frequência nas disciplinas ofertadas por professor, incluindo as 
     
 >## Marco de Entrega 01 em: (06/09/2018)<br>
 
+
 ### 5.MODELO CONCEITUAL<br>
     
            
@@ -66,6 +72,7 @@ Relatório de frequência nas disciplinas ofertadas por professor, incluindo as 
    * Piscicultura: André Altivo, Gabriela Piffer, Lucca Pedrini e Marcelo Mendes.
    https://github.com/pisciculturainteligente/trab01
    * Pulseira Saúde: Anne Caroline, Leonardo Sena, Walace Silva e Willian Vaneli.
+
    https://github.com/pulseirasaude/trab01
 
 #### 5.2 DECISÕES DE PROJETO
