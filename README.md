@@ -62,8 +62,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     
       
 #### 5.1 Validação do Modelo Conceitual
-   * Pulseira Saúde: <br> Leonardo Sena, Walace Silva
-   * Piscicultura: <br> Marcelo Mendes
+   * Pulseira Saúde: Leonardo Sena, Walace Silva
+   * Piscicultura: Marcelo Mendes
 
 #### 5.2 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
