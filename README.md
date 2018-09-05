@@ -13,9 +13,11 @@ Integrantes do grupo:
 ### 2. INTRODUÇÃO E MOTIVAÇAO<br>
  
 ### Controle de Frequência de Aulas <br>
-O Sistema de "Controle de Frequência de Aulas" visa colaborar com o professor no ato de realizar
-a chamada dos alunos em sala. Sabendo-se das dificuldades na realização de chamadas manualmente e visando otimizar tal tarefa e unir informações relativas a alunos, disciplinas, campus, professor e frequência em um mesmo local , ficamos empenhados em desenvolver este sistema que contará com sensores localizados nas portas de cada sala de aula, que registrarão a entrada e a saída do aluno através de um microchip na carteirinha do estudante e/ou checagem de qrcode por um aplicativo instalado no smartphone do aluno.
-O Sistema de "Controle de Frequência de Aulas" tem como objetivo gerenciar todas informações referentes a frequência de alunos em diversos campus do IFES. Para controlar adequadamente a frequência dos alunos, o IFES necessita que o sistema armazene informações relativas aos alunos, campus, disciplinas e professores, além de armazenar dados sobre frequência . O sistema deverá gerar um conjunto de relatórios que atenderão os anseios dos alunos e da instituição.
+O Sistema de Controle de Frequência de Aulas (CFA) visa colaborar com o professor no ato de realizar
+a chamada dos alunos em sala. 
+Sabendo-se dos contratempos na realização das chamadas manualmente e pretendendo otimizar tal tarefa, unindo informações relativas a alunos, disciplinas, campus, professor e frequência em um mesmo banco. 
+O sistema contará com sensores localizados nas portas de cada sala de aula, que registrarão a entrada e a saída do aluno através de um microchip na carteirinha do estudante e/ou checagem de qrcode por um aplicativo instalado no smartphone do aluno.
+O Sistema de Controle de Frequência de Aulas tem como objetivo gerenciar todas informações referentes a frequência de alunos em diversos campus do Ifes. Para controlar adequadamente essas informações, o sistema deverá armazenar as informações relativas aos alunos, campus, disciplinas e professores, além dos dados sobre frequência, podendo ao final gerar um conjunto de relatórios para análise tanto dos alunos quanto da instituição.
 
 ### 3.MINI-MUNDO <br>
 
