@@ -6,7 +6,7 @@ Trabalho desenvolvido durante a disciplina de Banco de Dados I no semestre 2018/
 ### 1. COMPONENTES<br>
 Integrantes do grupo:
 * Brunna Dalzini de Oliveira: bdalzini@gmail.com <br>
-* Daniela Salomâo Santa Clara: danisantaclara@gmail.com <br>
+* Daniela Salomão Santa Clara: danisantaclara@gmail.com <br>
 * Leonir dos Reis Alves: lreis.ti@gmail.com <br>
 * Mayannara Trindade Carvalho: mayannara@outlook.com <br>
 
