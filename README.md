@@ -46,7 +46,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 * Relatório de empregados por projeto incluindo as seguintes informações: número do projeto, nome do projeto, rg do empregado, nome do empregado e quantidade de horas de trabalho do empregado alocadas ao projeto.
 * Relatório de empregados com dependentes incluindo as seguintes informações: rg do empregado, nome do empregado, nome do dependente, tipo de relação, data de nascimento do dependente e sexo do dependente.
 * Relatório com a quantidade de empregados por cada departamento incluindo as seguintes informações: nome do departamento, supervisor e quantidade de empregados alocados no departamento.
-* Relatório de supervisores e supervisionados incluindo as seguintes informações: nome do supervisor e nome do supervisionado.
+* Relatório de supervisores e supervisionados incluindo as seguintes informações: nome do supervisor e nome do supervisionado
  
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
