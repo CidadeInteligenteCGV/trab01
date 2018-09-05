@@ -1,5 +1,5 @@
 # Controle de Frequência de Aulas
-Trabalho desenvolvido durante a disciplina de BD1 no semestre de 2018/2.
+Trabalho desenvolvido durante a disciplina de Banco de Dados I no semestre 2018/2.
 
 # Sumário
 
