@@ -53,7 +53,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
  
 (https://github.com/ControleFrequencia/trab01/blob/master/arquivos/Tabela_frequ%C3%AAncia.xlsx)
     
->## Marco de Entrega 01 em: (30/08/2018)<br>
+>## Marco de Entrega 01 em: (06/09/2018)<br>
 
 ### 5.MODELO CONCEITUAL<br>
     
@@ -73,7 +73,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     pode possuir para cada departamento mais de uma localização... 
     b) justifique!
 
->## Marco de Entrega 02 em: (13/09/2018)<br>
+>## Marco de Entrega 02 em: (17/09/2018)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
     [objeto]: [descrição do objeto]
     
