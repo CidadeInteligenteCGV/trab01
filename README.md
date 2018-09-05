@@ -62,8 +62,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     
       
 #### 5.1 VALIDAÇÃO DO MODELO CONCEITUAL
-   * Pulseira Saúde: Leonardo Sena e Walace Silva.
-   * Piscicultura: Marcelo Mendes.
+   * Piscicultura: André Altivo, Gabriela Piffer, Lucca Pedrini e Marcelo Mendes.
+   * Pulseira Saúde: Anne Caroline, Leonardo Sena, Walace Silva e Willian Vaneli.
 
 #### 5.2 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
