@@ -63,7 +63,9 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
       
 #### 5.1 VALIDAÇÃO DO MODELO CONCEITUAL
    * Piscicultura: André Altivo, Gabriela Piffer, Lucca Pedrini e Marcelo Mendes.
+   https://github.com/pisciculturainteligente/trab01
    * Pulseira Saúde: Anne Caroline, Leonardo Sena, Walace Silva e Willian Vaneli.
+   https://github.com/pulseirasaude/trab01
 
 #### 5.2 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
