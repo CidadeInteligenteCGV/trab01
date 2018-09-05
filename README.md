@@ -61,9 +61,9 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ![Alt text](https://github.com/CidadeInteligenteCGV/trab01/blob/master/images/mod_conceitual.png)
     
       
-#### 5.1 Validação do Modelo Conceitual
-   * Pulseira Saúde: Leonardo Sena, Walace Silva
-   * Piscicultura: Marcelo Mendes
+#### 5.1 VALIDAÇÃO DO MODELO CONCEITUAL
+   * Pulseira Saúde: Leonardo Sena e Walace Silva.
+   * Piscicultura: Marcelo Mendes.
 
 #### 5.2 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
