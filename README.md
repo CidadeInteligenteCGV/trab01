@@ -71,7 +71,7 @@ Relatório de frequência nas disciplinas ofertadas por professor, incluindo as 
 #### 5.1 VALIDAÇÃO DO MODELO CONCEITUAL
    * Piscicultura: André Altivo, Gabriela Piffer, Lucca Pedrini e Marcelo Mendes.
    https://github.com/pisciculturainteligente/trab01
-   * Pulseira Saúde: Anne Caroline, Leonardo Sena, Walace Silva e Willian Vaneli.
+   * Pulseira Saúde: Anne Caroline, Leonardo Sena, Walace Silva e Willian Vaneli.  
    https://github.com/pulseirasaude/trab01
 
 #### 5.2 DECISÕES DE PROJETO
