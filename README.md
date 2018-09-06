@@ -29,7 +29,7 @@ As principais funções do sistema são de controle da entrada e saída do aluno
 
 Se o aluno for desligado do seu curso por qualquer motivo, seu QRCode será automaticamente desativado. E em caso de extravio do smartphone com o acesso do aluno, este deverá requerer na instituição o bloqueio da IDE do aparelho e uma nova liberação.
 
-As informações obtidas serão salvas localmente caso a rede esteja off-line, até que seja possível realizar seu envio o sistema on-line, através do qual será possível a visualização e download dos relatórios de frequência. 
+As informações obtidas serão salvas localmente caso a rede esteja off-line, até que seja possível realizar seu envio para o sistema on-line, através do qual será possível a visualização e download dos relatórios de frequência. 
 
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
