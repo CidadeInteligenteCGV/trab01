@@ -65,10 +65,10 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
     
       
 #### 5.1 VALIDAÇÃO DO MODELO CONCEITUAL
-   * Piscicultura: André Altivo, Gabriela Piffer, Lucca Pedrini e Marcelo Mendes.
-   https://github.com/pisciculturainteligente/trab01
-   * Pulseira Saúde: Anne Caroline, Leonardo Sena, Walace Silva e Willian Vaneli.  
-   https://github.com/pulseirasaude/trab01
+   * [Piscicultura](https://github.com/pisciculturainteligente/trab01): Marcelo Mendes.
+   
+   * [Pulseira Saúde](https://github.com/pulseirasaude/trab01): Leonardo Sena e Walace Silva.  
+   
 
 #### 5.2 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
