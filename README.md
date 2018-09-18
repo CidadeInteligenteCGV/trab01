@@ -70,12 +70,37 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
    
 
 #### 5.2 DECISÕES DE PROJETO
-    [atributo]: [descrição da decisão]
     
-    EXEMPLO:
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-    pode possuir para cada departamento mais de uma localização... 
-    b) justifique!
+Campo data_aula: um campo simples, porque vai guardar apenas o dia da aula.
+Campo horario_chegada: um campo simples, vai guardar o horário da primeira entrada que o aluno deu no sistema para a aula em questão.
+Campo horario_saida: um campo simples, guarda apenas a hora da última saída do aluno na aula em questão.
+Campo frequencia_aula: um campo simples, vai guardar a presença/ausência do aluno na aula em uma aula ou duas.
+Campo horas_frequencia_obrigatoria: um campo simples com o número de horas obrigatórias em determinada matéria.
+Campo horas_frequencia_aluno: um campo simples com o número de horas atual do aluno em determinada matéria.
+
+Campo cod_matricula: atributo chave, contém uma matrícula única e individual para o aluno no curso em que está inscrito.
+Campo nome_aluno: um campo simples com o nome do aluno.
+Campo cpf_aluno: um campo simples com o número do CPF do aluno.
+Campo data_nascimento_aluno: um campo simples com a data de nascimento do aluno.
+Campo sexo_aluno: um campo simples com o sexo do aluno.
+
+Campo cod_curso: atributo chave, contém o código único do curso, independente dele aparecer em mais de um campus.
+Campo nome_curso: um campo simples com o nome do curso.
+
+Campo cod_campus: atributo chave, contém o código único do campus.
+Campo campus: um campo simples com o nome/localidade do campus.
+
+Campo cod_servidor: atributo chave, contém o código único e individual do servidor que exerce alguma função na instituição.
+Campo nome_professor: um campo simples, contém apenas o nome do professor.
+Campo cpf_professor: um campo simples com o número do CPF do professor.
+
+Campo cod_disciplina: atributo chave, contém o código da disciplina, uma disciplina pode aparecer em mais de um curso que ainda terá o mesmo código registrado na instituição.
+Campo nome_disciplina: um campo simples, guarda apenas o nome da disciplina.
+Campo horas_disciplina: um campo simples com o total de horas da disciplina.
+
+Campo horario_inicio: um campo simples, é o registro do horário em que determinada aula começa.
+Campo horario_fim: um campo simples, é o registro do horário em que determinada aula acaba.
+
 
 >## Marco de Entrega 02 em: (17/09/2018)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
