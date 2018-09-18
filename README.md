@@ -66,7 +66,7 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 #### 5.1 VALIDAÇÃO DO MODELO CONCEITUAL
    * [Piscicultura](https://github.com/pisciculturainteligente/trab01): Marcelo Mendes.
    
-   * [Pulseira Saúde](https://github.com/pulseirasaude/trab01): Leonardo Sena e Walace Silva.  
+   * [Carga Pesada] (https://github.com/cargapesada/trab01): Leonardo Sena e Walace Silva.  
    
 
 #### 5.2 DECISÕES DE PROJETO
