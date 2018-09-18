@@ -60,7 +60,7 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 ### 5.MODELO CONCEITUAL<br>
     
            
-![Alt text](https://github.com/CidadeInteligenteCGV/trab01/blob/master/images/mod_conceitual2.png)
+![Alt text](https://github.com/CidadeInteligenteCGV/trab01/blob/master/images/mod_conceitual.png)
     
       
 #### 5.1 VALIDAÇÃO DO MODELO CONCEITUAL
