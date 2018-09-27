@@ -54,6 +54,7 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 #### 4.2 TABELA DE DADOS DO SISTEMA:
  
 [Tabela](https://github.com/ControleFrequencia/trab01/blob/master/tabela_frequencia3%20(2).xlsx)
+
     
 >## Marco de Entrega 01 em: (06/09/2018)<br>
 
@@ -106,7 +107,7 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 >## Marco de Entrega 02 em: (17/09/2018)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
     
-<b> Historico_Frequencia:</b> tabela que armazena as informações relativas às aulas frequentadas pelo aluno.<br>
+<u>  Historico_Frequencia:</u> tabela que armazena as informações relativas às aulas frequentadas pelo aluno.<br>
 * data_aula: campo para o registro do dia em que a aula ocorreu.<br>
 * horario_chegada: campo que armazena o horário em que o aluno registrou sua primeira presença do dia em determinada aula, por meio do * QRCode ou carteirinha.<br>
 * horario_saida: campo que armazena o horário em que o aluno registrou sua última saída da sala em determinada aula, por meio do QRCode ou carteirinha.<br>
