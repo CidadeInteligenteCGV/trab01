@@ -153,9 +153,8 @@ horas_frequencia_aluno: campo com o número de horas presente que o aluno teve a
 
 
 ### 6	MODELO LÓGICO<br>
-        a) inclusão do modelo lógico do banco de dados
-        b) verificação de correspondencia com o modelo conceitual 
-        (não serão aceitos modelos que não estejam em conformidade)
+ 
+ https://github.com/ControleFrequencia/trab01/blob/master/Model_L%C3%B3gico_frequencia.png
 
 ### 7	MODELO FÍSICO<br>
   [Script SQL 7](https://github.com/ControleFrequencia/trab01/blob/master/bd1.sql) 
