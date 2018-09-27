@@ -158,8 +158,7 @@ horas_frequencia_aluno: campo com o número de horas presente que o aluno teve a
         (não serão aceitos modelos que não estejam em conformidade)
 
 ### 7	MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas DDL 
-        (criação de tabelas, alterações, etc..)          
+        [Script SQL 7](https://github.com/ControleFrequencia/trab01/blob/master/bd1.sql)         
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
