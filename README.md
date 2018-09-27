@@ -33,7 +33,7 @@ As informações obtidas serão salvas localmente caso a rede esteja off-line, a
 
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/controle.png)
+
 https://github.com/ControleFrequencia/trab01/blob/master/Controle%20de%20Frequ%C3%AAncia%20de%20Aulas.pdf
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
 
