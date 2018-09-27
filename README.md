@@ -169,8 +169,7 @@ horas_frequencia_aluno: campo com o número de horas presente que o aluno teve a
   b) Criar um novo banco de dados para testar a restauracao 
     (em caso de falha na restauração o grupo não pontuará neste quesito)
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
-        a) Junção dos scripts anteriores em um único script
-        (Drop para exclusão de tabelas + create para tabelas e estruturas de dados + dados a serem inseridos)
+  [Script SQL 8.3](https://github.com/ControleFrequencia/trab01/blob/master/drop.sql) 
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
