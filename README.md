@@ -107,13 +107,13 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 >## Marco de Entrega 02 em: (17/09/2018)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
     
-<u>  Historico_Frequencia:</u> tabela que armazena as informações relativas às aulas frequentadas pelo aluno.<br>
-* data_aula: campo para o registro do dia em que a aula ocorreu.<br>
-* horario_chegada: campo que armazena o horário em que o aluno registrou sua primeira presença do dia em determinada aula, por meio do * QRCode ou carteirinha.<br>
-* horario_saida: campo que armazena o horário em que o aluno registrou sua última saída da sala em determinada aula, por meio do QRCode ou carteirinha.<br>
-* frequencia_aula: campo que guarda se o aluno esteve ausente da aula ou presente nela.<br>
-* horas_frequencia_obrigatoria: campo com o número de horas presente que o aluno deve ter em determinada matéria para não ser reprovado por falta.<br>
-* horas_frequencia_aluno: campo com o número de horas presente que o aluno teve até o momento em determinada matéria.<br>
+* Historico_Frequencia: tabela que armazena as informações relativas às aulas frequentadas pelo aluno.<br>
+data_aula: campo para o registro do dia em que a aula ocorreu.<br>
+horario_chegada: campo que armazena o horário em que o aluno registrou sua primeira presença do dia em determinada aula, por meio do * QRCode ou carteirinha.<br>
+horario_saida: campo que armazena o horário em que o aluno registrou sua última saída da sala em determinada aula, por meio do QRCode ou carteirinha.<br>
+frequencia_aula: campo que guarda se o aluno esteve ausente da aula ou presente nela.<br>
+horas_frequencia_obrigatoria: campo com o número de horas presente que o aluno deve ter em determinada matéria para não ser reprovado por falta.<br>
+horas_frequencia_aluno: campo com o número de horas presente que o aluno teve até o momento em determinada matéria.<br>
 
 * Aluno: tabela que armazena as informações relativas ao aluno.<br>
 cod_matricula: campo com o código único e individual que representa a matrícula do aluno no curso.<br>
