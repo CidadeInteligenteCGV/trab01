@@ -173,6 +173,12 @@ horas_frequencia_aluno: campo com o número de horas presente que o aluno teve a
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
+        
+ #### 8.4 Principais fluxos de informação e principais tabelas do sistema
+    a) Quais os principais fluxos de dados de informação no sistema em densenvolvimento (mínimo 3)
+    b) Quais as tabelas que conterão mais dados no sistema em densenvolvimento (mínimo 3)
+    c) informe quais as 5 principais tabelas do sistema em densenvolvimento.
+    
 >## Marco de Entrega 03 em: (27/09/18) <br>
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
