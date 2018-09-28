@@ -107,7 +107,7 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 >## Marco de Entrega 02 em: (17/09/2018)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
     
-* #### Historico_Frequencia: tabela que armazena as informações relativas às aulas frequentadas pelo aluno.<br>
+* #### Historico_Frequencia:<b> tabela que armazena as informações relativas às aulas frequentadas pelo aluno.<br>
 data_aula: campo para o registro do dia em que a aula ocorreu.<br>
 horario_chegada: campo que armazena o horário em que o aluno registrou sua primeira presença do dia em determinada aula, por meio do * QRCode ou carteirinha.<br>
 horario_saida: campo que armazena o horário em que o aluno registrou sua última saída da sala em determinada aula, por meio do QRCode ou carteirinha.<br>
