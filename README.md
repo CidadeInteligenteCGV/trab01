@@ -107,7 +107,7 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 >## Marco de Entrega 02 em: (17/09/2018)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
     
-* Historico_Frequencia: tabela que armazena as informações relativas às aulas frequentadas pelo aluno.<br>
+* ###Historico_Frequencia: tabela que armazena as informações relativas às aulas frequentadas pelo aluno.<br>
 data_aula: campo para o registro do dia em que a aula ocorreu.<br>
 horario_chegada: campo que armazena o horário em que o aluno registrou sua primeira presença do dia em determinada aula, por meio do * QRCode ou carteirinha.<br>
 horario_saida: campo que armazena o horário em que o aluno registrou sua última saída da sala em determinada aula, por meio do QRCode ou carteirinha.<br>
@@ -115,7 +115,7 @@ frequencia_aula: campo que guarda se o aluno esteve ausente da aula ou presente 
 horas_frequencia_obrigatoria: campo com o número de horas presente que o aluno deve ter em determinada matéria para não ser reprovado por falta.<br>
 horas_frequencia_aluno: campo com o número de horas presente que o aluno teve até o momento em determinada matéria.<br>
 
-* Aluno: tabela que armazena as informações relativas ao aluno.<br>
+* ###Aluno: tabela que armazena as informações relativas ao aluno.<br>
 cod_matricula: campo com o código único e individual que representa a matrícula do aluno no curso.<br>
 nome_aluno: campo que guarda o nome do aluno.<br>
 cpf_aluno: campo que armazena o número do CPF do aluno.<br>
@@ -124,26 +124,26 @@ sexo_aluno: campo que guarda o sexo do aluno.<br>
 campus: campo com o campus da instituição onde o aluno está matriculado.<br>
 nome_curso: campo com o nome do curso em que o aluno está matriculado. <br>
 
-* Curso: tabela que armazena os cursos da instituição.<br>
+* ###Curso: tabela que armazena os cursos da instituição.<br>
 cod_curso: campo com o código do curso.<br>
 nome_curso: campo com o nome do curso.<br>
 
-* Campus: tabela que armazena os campus da instituição.<br>
+* ###Campus: tabela que armazena os campus da instituição.<br>
 cod_campus: campo com o código do campus.<br>
 campus: campo com o nome campus.<br>
 
-* Professor: tabela que armazena as informações relativas aos professores.<br>
+* ###Professor: tabela que armazena as informações relativas aos professores.<br>
 cod_servidor: campo com o código único e individual do professor.<br>
 nome_professor: campo que guarda o nome do professor.<br>
 nome_disciplina: campo com o nome da disciplina lecionada pelo professor.<br>
 cpf_professor: campo com o número do CPF do professor.<br>
 
-* Disciplina: tabela que armazena as disciplinas aplicadas dentro da instituição.<br>
+* ###Disciplina: tabela que armazena as disciplinas aplicadas dentro da instituição.<br>
 cod_disciplina: campo com o código da disciplina.<br>
 nome_disciplina: campo com o nome da disciplina.<br>
 horas_disciplina: campo com o número de horas total da disciplina.<br>
 
-* Historico_Aula: tabela que armazena as informações relativas às aulas dadas pelos professores.<br>
+* ###Historico_Aula: tabela que armazena as informações relativas às aulas dadas pelos professores.<br>
 data_aula: campo para o registro do dia em que a aula ocorreu.<br>
 horario_inicio: campo com o horário em que a aula começou.<br>
 horario_fim: campo com o horário em que a aula terminou.<br>
