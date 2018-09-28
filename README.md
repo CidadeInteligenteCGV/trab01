@@ -169,9 +169,7 @@ horas_frequencia_aluno: campo com o número de horas presente que o aluno teve a
   [Backup](https://github.com/ControleFrequencia/trab01/blob/master/trab.sql)
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
   [Script SQL 8.3](https://github.com/ControleFrequencia/trab01/blob/master/drop.sql) 
-        b) Criar um novo banco de dados para testar a restauracao 
-        (em caso de falha na restauração o grupo não pontuará neste quesito)
-        c) formato .SQL
+  [Backup](https://github.com/ControleFrequencia/trab01/blob/master/trabalho.sql)
 
     
 >## Marco de Entrega 03 em: (27/09/18) <br>
