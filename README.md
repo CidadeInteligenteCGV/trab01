@@ -124,7 +124,7 @@ sexo_aluno: campo que guarda o sexo do aluno.<br>
 campus: campo com o campus da instituição onde o aluno está matriculado.<br>
 nome_curso: campo com o nome do curso em que o aluno está matriculado. <br>
 
-* #### Curso: tabela que armazena os cursos da instituição.<br>
+* Curso: tabela que armazena os cursos da instituição.<br>
 cod_curso: campo com o código do curso.<br>
 nome_curso: campo com o nome do curso.<br>
 
