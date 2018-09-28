@@ -168,7 +168,7 @@ horas_frequencia_aluno: campo com o número de horas presente que o aluno teve a
   [Script SQL 8.2](https://github.com/ControleFrequencia/trab01/blob/master/todo.sql)  
   [Backup](https://github.com/ControleFrequencia/trab01/blob/master/trab.sql)
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
-  [Script SQL 8.3](https://github.com/ControleFrequencia/trab01/blob/master/drop.sql) 
+  [Script SQL 8.3](https://github.com/ControleFrequencia/trab01/blob/master/drop.sql) <br>
   [Backup](https://github.com/ControleFrequencia/trab01/blob/master/trabalho.sql)
 
     
