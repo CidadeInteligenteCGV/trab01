@@ -6,6 +6,7 @@ DROP TABLE IF EXISTS professor CASCADE;
 DROP TABLE IF EXISTS disciplina CASCADE;
 DROP TABLE IF EXISTS historico_aula CASCADE;
 
+
 CREATE TABLE historico_frequencia (
 	data_aula DATE,
 	horario_chegada TIME,
@@ -25,23 +26,23 @@ CREATE TABLE aluno(
 	sexo_aluno CHAR(1),
 	campus VARCHAR (50),
 	nome_curso VARCHAR(50),
-	PRIMARY KEY(cod_matricula),
-	FOREIGN KEY(campus) REFERENCES campus(campus),
-	FOREIGN KEY(nome_curso) REFERENCES curso(nome_curso)
+	PRIMARY KEY(cod_matricula)
+	
 );
 
 CREATE TABLE curso(
 	cod_curso INT,
 	nome_curso VARCHAR(50),
 	PRIMARY KEY(cod_curso),
-	FOREIGN KEY(nome_curso) REFERENCES aluno(nome_curso)
+	
 );
 
 CREATE TABLE campus(
 	cod_campus CHAR(8),
 	campus VARCHAR(50),
 	PRIMARY KEY(cod_campus),
-	FOREIGN KEY(campus) REFERENCES aluno(campus)
+	
+
 );
 
 
@@ -50,8 +51,7 @@ CREATE TABLE professor(
 	nome_professor VARCHAR(50),
 	nome_disciplina VARCHAR(50),
 	cpf_professor CHAR(11),
-	PRIMARY KEY(cod_servidor),
-	FOREIGN KEY(nome_disciplina) REFERENCES disciplina(nome_disciplina)
+	PRIMARY KEY(cod_servidor)	
 	
 );
 
@@ -71,6 +71,7 @@ CREATE TABLE historico_aula(
 	horas_frequencia_aluno FLOAT,
 	PRIMARY KEY(data_aula)
 );
+
 
 INSERT INTO curso (cod_curso, nome_curso)
 VALUES (74024, 'Licenciatura em Matemática'),
@@ -111,3 +112,19 @@ VALUES ('20162MAT003', 'Leonardo Ribeiro',28260389231, '1997-01-23', 'M', 'Vitór
 ('20181FIS015','Sofia Costa',12821736770, '1989-01-02','F', 'Cariacica','Bacharelado em Física'),
 ('20162QUI041', 'Lucas Almeida',32650442115, '1991-09-29', 'M', 'Aracruz', 'Química Industrial'),
 ('20151ADM873', 'Camila Cavalcanti',30377170178, '1987-09-28','F','Colatina','Administraçao' );
+
+
+INSERT INTO historico_aula (data_aula,horario_inicio, horario_fim, frequencia_aula, horas_frequencia_obrigatoria, horas_frequencia_aluno)
+VALUES( '2018-08-20', '07:50:00', '09:30:00', 'P', '67.5', 10), ( '2018-08-21', '08:20:00', '10:00:00', 'P', '45', 50),
+( '2018-08-22', '09:50:00', '11:30:00', 'F', '45', 45), ( '2018-08-23', '16:10:00', '19:00:00', 'P', '45', 5),
+( '2018-08-24', '20:00:00', '22:10:00', 'F', '67.5', 70), ( '2018-08-25', '09:50:00', '11:30:00', 'P', '22.5', 23),
+( '2018-08-26', '08:20:00', '10:00:00', 'P', '45', 44), ( '2018-08-27', '20:00:00', '22:10:00', 'F', '67.5', 68),
+( '2018-08-28', '08:20:00', '10:00:00', 'P', '45', 60), ( '2018-08-29', '18:00:00', '19:30:00', 'F', '22.5', 5);
+
+
+INSERT INTO historico_frequencia (data_aula,horario_chegada, horario_saida, frequencia_aula, horas_frequencia_obrigatoria, horas_frequencia_aluno)
+VALUES( '2018-08-20', '07:50:00', '09:30:00', 'P', '67.5', 10), ( '2018-08-21', '08:50:00', '10:00:00', 'P', '45', 50),
+( '2018-08-22', '00:00:00', '00:00:00', 'F', '45', 45), ( '2018-08-23', '17:00:00', '19:00:00', 'P', '45', 5),
+( '2018-08-24', '00:00:00', '00:00:00', 'F', '67.5', 70), ( '2018-08-25', '09:50:00', '11:20:00', 'P', '22.5', 23),
+( '2018-08-26', '08:20:00', '10:00:00', 'P', '45', 44), ( '2018-08-27', '00:00:00', '00:00:00', 'F', '67.5', 68),
+( '2018-08-28', '08:35:00', '09:40:00', 'P', '45', 60), ( '2018-08-29', '00:00:00', '00:00:00', 'F', '22.5', 5);
