@@ -162,7 +162,7 @@ horas_frequencia_aluno: campo com o número de horas presente que o aluno teve a
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-  [Script SQL 8.1](https://github.com/ControleFrequencia/trab01/blob/master/insert.sql)   
+  [Script SQL 8.1](https://github.com/ControleFrequencia/trab01/blob/master/insert1.sql)   
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS
   [Script SQL 8.2](https://github.com/ControleFrequencia/trab01/blob/master/create%20e%20insert.sql)  
