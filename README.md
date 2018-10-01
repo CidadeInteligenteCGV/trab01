@@ -157,7 +157,7 @@ horas_frequencia_aluno: campo com o número de horas presente que o aluno teve a
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/Model_L%C3%B3gico_frequencia.png)
 
 ### 7	MODELO FÍSICO<br>
-  [Script SQL 7](https://github.com/ControleFrequencia/trab01/blob/master/create.sql) 
+  [Script SQL 7](https://github.com/ControleFrequencia/trab01/blob/master/create1.sql) 
        
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
