@@ -233,27 +233,27 @@ Consultas que envolvam os operadores lógicos AND, OR e Not
 
 1ª Consulta:
 
-SELECT * FROM historico_aula WHERE data_aula > '2018-08-21' AND horario_inicio = '09:50:00'; 
+SELECT * FROM historico_aula WHERE data_aula > '2018-08-21' AND horario_inicio = '09:50:00';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/histo%20where%20and.PNG)
 
 2ª Consulta:
 
-SELECT * FROM historico_frequencia WHERE horario_chegada < '08:00:00' OR horario_saida > '17:00:00' ;
+SELECT * FROM historico_frequencia WHERE horario_chegada < '08:00:00' OR horario_saida > '17:00:00' ;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/histo%20freq%20where%20or.PNG)
 
 3ª Consulta:
 
-SELECT * FROM disciplina WHERE NOT horas_disciplina > 40;
+SELECT * FROM disciplina WHERE NOT horas_disciplina > 40;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/disciplina%20where%20not.PNG)
 
 4ª Consulta:
 
-SELECT * FROM professor WHERE cod_servidor = '2007IFES023' OR nome_professor = 'Mariana Rocha';
+SELECT * FROM professor WHERE cod_servidor = '2007IFES023' OR nome_professor = 'Mariana Rocha';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/professor%20where%20or.PNG)
 
 5ª Consulta:
 
-SELECT * FROM campus WHERE cod_campus = 'IFES0005' AND campus = 'Colatina';
+SELECT * FROM campus WHERE cod_campus = 'IFES0005' AND campus = 'Colatina';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/campus%20where%20and.PNG)
 
 
