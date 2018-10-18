@@ -149,7 +149,7 @@ horario_fim: campo com o horário em que a aula terminou.<br>
 
 ### 6	MODELO LÓGICO<br>
  
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/Model_L%C3%B3gico_frequencia.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/logico2.png)
 
 ### 7	MODELO FÍSICO<br>
   [Script SQL 7](https://github.com/ControleFrequencia/trab01/blob/master/create1.sql) 
