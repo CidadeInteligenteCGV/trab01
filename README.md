@@ -177,6 +177,35 @@ horas_frequencia_aluno: campo com o número de horas presente que o aluno teve a
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+
+SELECT * FROM aluno;
+
+https://github.com/ControleFrequencia/trab01/blob/master/select%20aluno.PNG
+
+SELECT * FROM campus;
+
+https://github.com/ControleFrequencia/trab01/blob/master/select%20campus.PNG
+
+SELECT * FROM curso;
+
+https://github.com/ControleFrequencia/trab01/blob/master/select%20curso.PNG
+
+SELECT * FROM disciplina;
+
+https://github.com/ControleFrequencia/trab01/blob/master/select%20disciplina.PNG
+
+SELECT * FROM professor;
+
+https://github.com/ControleFrequencia/trab01/blob/master/select%20professor.PNG
+
+SELECT * FROM historico_aula;
+
+https://github.com/ControleFrequencia/trab01/blob/master/select%20historico%20aula.PNG
+
+SELECT * FROM historico_frequencia;
+
+
+
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11).
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
