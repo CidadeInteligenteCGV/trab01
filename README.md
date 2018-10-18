@@ -180,27 +180,27 @@ horas_frequencia_aluno: campo com o número de horas presente que o aluno teve a
 
 SELECT * FROM aluno;
 
-https://github.com/ControleFrequencia/trab01/blob/master/select%20aluno.PNG
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20aluno.PNG)
 
 SELECT * FROM campus;
 
-https://github.com/ControleFrequencia/trab01/blob/master/select%20campus.PNG
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20campus.PNG)
 
 SELECT * FROM curso;
 
-https://github.com/ControleFrequencia/trab01/blob/master/select%20curso.PNG
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20curso.PNG)
 
 SELECT * FROM disciplina;
 
-https://github.com/ControleFrequencia/trab01/blob/master/select%20disciplina.PNG
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20disciplina.PNG)
 
 SELECT * FROM professor;
 
-https://github.com/ControleFrequencia/trab01/blob/master/select%20professor.PNG
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20professor.PNG)
 
 SELECT * FROM historico_aula;
 
-https://github.com/ControleFrequencia/trab01/blob/master/select%20historico%20aula.PNG
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20historico%20aula.PNG)
 
 SELECT * FROM historico_frequencia;
 
