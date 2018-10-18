@@ -179,27 +179,21 @@ horas_frequencia_aluno: campo com o número de horas presente que o aluno teve a
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
 SELECT * FROM aluno;
-
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20aluno.PNG)
 
 SELECT * FROM campus;
-
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20campus.PNG)
 
 SELECT * FROM curso;
-
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20curso.PNG)
 
 SELECT * FROM disciplina;
-
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20disciplina.PNG)
 
 SELECT * FROM professor;
-
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20professor.PNG)
 
 SELECT * FROM historico_aula;
-
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20historico%20aula.PNG)
 
 SELECT * FROM historico_frequencia;
@@ -207,6 +201,28 @@ SELECT * FROM historico_frequencia;
 
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
+
+1ª Consulta:
+
+SELECT * FROM aluno WHERE cod_matricula = '20162QUI041';
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/aluno%20where%20cod%20matricula.PNG)
+
+2ª Consulta:
+
+SELECT * FROM historico_aula WHERE data_aula > '2018-08-25';
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/histo%20aula%20where%20maior2.PNG)
+
+3ª Consulta:
+
+SELECT * FROM curso WHERE cod_curso = 20013;
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/curso%20where%20codigo.PNG)
+
+4ª Consulta:
+
+SELECT * FROM disciplina WHERE horas_disciplina < 50;
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/disciplina%20where%20horas.PNG)
+
+
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11).
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
     b) Criar no mínimo 3 consultas com operadores aritméticos 
