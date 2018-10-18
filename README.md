@@ -228,6 +228,35 @@ SELECT * FROM historico_frequencia WHERE horario_saida = '10:00:00';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/hist%20freq%20where%20horario.PNG)
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11).
+
+Consultas que envolvam os operadores lógicos AND, OR e Not
+
+1ª Consulta:
+
+SELECT * FROM historico_aula WHERE data_aula > '2018-08-21' AND horario_inicio = '09:50:00'; 
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/histo%20where%20and.PNG)
+
+2ª Consulta:
+
+SELECT * FROM historico_frequencia WHERE horario_chegada < '08:00:00' OR horario_saida > '17:00:00' ;
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/histo%20freq%20where%20or.PNG)
+
+3ª Consulta:
+
+SELECT * FROM disciplina WHERE NOT horas_disciplina > 40;
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/disciplina%20where%20not.PNG)
+
+4ª Consulta:
+
+SELECT * FROM professor WHERE cod_servidor = '2007IFES023' OR nome_professor = 'Mariana Rocha';
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/professor%20where%20or.PNG)
+
+5ª Consulta:
+
+SELECT * FROM campus WHERE cod_campus = 'IFES0005' AND campus = 'Colatina';
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/campus%20where%20and.PNG)
+
+
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
     b) Criar no mínimo 3 consultas com operadores aritméticos 
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
