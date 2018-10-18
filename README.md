@@ -258,6 +258,33 @@ SELECT * FROM professor WHERE cod_servidor = '2007IFES023' OR nome_professor = '
 SELECT * FROM campus WHERE cod_campus = 'IFES0005' AND campus = 'Colatina';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/campus%20where%20and.PNG)
 
+Consultas com operadores aritméticos
+
+1ª Consulta:
+
+2ª Consulta:
+
+3ª Consulta:
+
+Consultas com operação de renomear nomes de campos ou tabelas
+
+1ª Consulta:
+
+ALTER TABLE aluno RENAME COLUMN data_nascimento_aluno TO data_nascimento;<br>
+SELECT * FROM aluno;<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/alter%20aluno%20data.PNG)
+
+2ª Consulta:
+
+ALTER TABLE campus RENAME TO campi;<br>
+SELECT * FROM campi;<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/alter%20campus%20rename.PNG)
+
+3ª Consulta:
+
+
+![Alt text]()
+
 
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
     b) Criar no mínimo 3 consultas com operadores aritméticos 
