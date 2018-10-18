@@ -23,7 +23,7 @@ O Sistema de Controle de Frequência de Aulas tem como objetivo gerenciar todas 
 
 ### 3.MINI-MUNDO <br>
 
-Sobre as informações presentes no Sistema de Controle de Frequência de Alunos. Dos alunos serão armazenados os seguintes dados: código de matrícula, nome, CPF, data de nascimento, sexo e imei (identidade do celular).  Dos campi: código individual de cada campus e o campus. Dos cursos: código do curso e nome do curso. Das disciplinas ofertadas: código da disciplina, nome e carga horária. Cada disciplina gera um histórico de aula único, no qual a de constar: data da aula, hora de início e hora de fim. Os dados relativos aos professores que serão armazenados são: código de matrícula do servidor, nome e CPF. Com relação ao histórico de frequência individual do aluno, as informações armazenadas são: data da aula, hora de chegada e hora de saída do aluno nas aulas.
+Sobre as informações presentes no Sistema de Controle de Frequência de Alunos. Dos alunos serão armazenados os seguintes dados: código de matrícula, nome, CPF, data de nascimento, sexo e imei (identificador do celular).  Dos campi: código individual de cada campus e o campus. Dos cursos: código do curso e nome do curso. Das disciplinas ofertadas: código da disciplina, nome e carga horária. Cada disciplina gera um histórico de aula único, no qual a de constar: id do histórico gerado da aula, data da aula, hora de início e hora de fim. Os dados relativos aos professores que serão armazenados são: código de matrícula do servidor, nome e CPF. Com relação ao histórico de frequência individual do aluno, as informações armazenadas são: id do histórico de frequência gerado do aluno, data da aula, hora de chegada e hora de saída do aluno nas aulas.
 
 As principais funções do sistema são de controle da entrada e saída do aluno nas salas de aula, e gerar relatórios de frequências e médias de evasão, este último para análise da instituição. Ao realizar sua matrícula no Ifes, o aluno será orientado a baixar o aplicativo que dá acesso a suas informações acadêmicas e assim conseguir a liberação do seu QRCode. O aluno mais tarde receberá ainda sua carteirinha de estudante que terá um micro chip embutido, e assim como o QRCode, esta poderá ser utilizada para registro de presença nas aulas ao ser posicionada no leitor localizados nas portas das salas. A sinalização de falta ou presença respeitará o limite de 15 minutos do horário de início e fim da aula, podendo o aluno sair da sala quantas vezes achar necessário e precisar desde que no sistema não conste um período de ausência demasiado longo.
 
@@ -78,15 +78,14 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 * Campo data_aula: um campo simples, porque vai guardar apenas o dia da aula.<br>
 * Campo horario_chegada: um campo simples, vai guardar o horário da primeira entrada que o aluno deu no sistema para a aula em questão.<br>
 * Campo horario_saida: um campo simples, guarda apenas a hora da última saída do aluno na aula em questão.<br>
-* Campo frequencia_aula: um campo simples, vai guardar a presença/ausência do aluno na aula em uma aula ou duas.<br>
-* Campo horas_frequencia_obrigatoria: um campo simples com o número de horas obrigatórias em determinada matéria.<br>
-* Campo horas_frequencia_aluno: um campo simples com o número de horas atual do aluno em determinada matéria.<br>
+* Campo id_historico_frequencia: um campo simples, contém o identificador do histórico de frequência do aluno.<br>
 
 * Campo cod_matricula: atributo chave, contém uma matrícula única e individual para o aluno no curso em que está inscrito.<br>
 * Campo nome_aluno: um campo simples com o nome do aluno.<br>
 * Campo cpf_aluno: um campo simples com o número do CPF do aluno.<br>
 * Campo data_nascimento_aluno: um campo simples com a data de nascimento do aluno.<br>
 * Campo sexo_aluno: um campo simples com o sexo do aluno.<br>
+* Campo imei: um campo simples que armazenará o identificador do celular do aluno.<br>
 
 * Campo cod_curso: atributo chave, contém o código único do curso, independente dele aparecer em mais de um campus.<br>
 * Campo nome_curso: um campo simples com o nome do curso.<br>
@@ -104,18 +103,17 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 
 * Campo horario_inicio: um campo simples, é o registro do horário em que determinada aula começa.<br>
 * Campo horario_fim: um campo simples, é o registro do horário em que determinada aula acaba.<br>
+* Campo id_historico_aula: um campo simples, contém o identificador do histórico da aula.<br>
 
 
 >## Marco de Entrega 02 em: (17/09/2018)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
     
 * Historico_Frequencia: tabela que armazena as informações relativas às aulas frequentadas pelo aluno.<br>
+id_historico_frequencia: campo que armazena o identificador do histórico de frequência gerado do aluno.<br>
 data_aula: campo para o registro do dia em que a aula ocorreu.<br>
 horario_chegada: campo que armazena o horário em que o aluno registrou sua primeira presença do dia em determinada aula, por meio do * QRCode ou carteirinha.<br>
 horario_saida: campo que armazena o horário em que o aluno registrou sua última saída da sala em determinada aula, por meio do QRCode ou carteirinha.<br>
-frequencia_aula: campo que guarda se o aluno esteve ausente da aula ou presente nela.<br>
-horas_frequencia_obrigatoria: campo com o número de horas presente que o aluno deve ter em determinada matéria para não ser reprovado por falta.<br>
-horas_frequencia_aluno: campo com o número de horas presente que o aluno teve até o momento em determinada matéria.<br>
 
 * Aluno: tabela que armazena as informações relativas ao aluno.<br>
 cod_matricula: campo com o código único e individual que representa a matrícula do aluno no curso.<br>
@@ -123,8 +121,7 @@ nome_aluno: campo que guarda o nome do aluno.<br>
 cpf_aluno: campo que armazena o número do CPF do aluno.<br>
 data_nascimento_aluno: campo com a data de nascimento do aluno.<br>
 sexo_aluno: campo que guarda o sexo do aluno.<br>
-campus: campo com o campus da instituição onde o aluno está matriculado.<br>
-nome_curso: campo com o nome do curso em que o aluno está matriculado. <br>
+imei: campo que armazena o número identificador do celular do aluno.<br>
 
 * Curso: tabela que armazena os cursos da instituição.<br>
 cod_curso: campo com o código do curso.<br>
@@ -137,7 +134,6 @@ campus: campo com o nome campus.<br>
 * Professor: tabela que armazena as informações relativas aos professores.<br>
 cod_servidor: campo com o código único e individual do professor.<br>
 nome_professor: campo que guarda o nome do professor.<br>
-nome_disciplina: campo com o nome da disciplina lecionada pelo professor.<br>
 cpf_professor: campo com o número do CPF do professor.<br>
 
 * Disciplina: tabela que armazena as disciplinas aplicadas dentro da instituição.<br>
@@ -146,12 +142,10 @@ nome_disciplina: campo com o nome da disciplina.<br>
 horas_disciplina: campo com o número de horas total da disciplina.<br>
 
 * Historico_Aula: tabela que armazena as informações relativas às aulas dadas pelos professores.<br>
+id_historico_aula: campo que armazena o identificador do histórico gerado da aula.<br>
 data_aula: campo para o registro do dia em que a aula ocorreu.<br>
 horario_inicio: campo com o horário em que a aula começou.<br>
 horario_fim: campo com o horário em que a aula terminou.<br>
-frequencia_aula: campo que guarda se o aluno esteve ausente da aula ou presente nela.<br>
-horas_frequencia_obrigatoria: campo com o número de horas presente que o aluno deve ter em determinada matéria para não ser reprovado por falta.<br>
-horas_frequencia_aluno: campo com o número de horas presente que o aluno teve até o momento em determinada matéria.<br>
 
 
 ### 6	MODELO LÓGICO<br>
