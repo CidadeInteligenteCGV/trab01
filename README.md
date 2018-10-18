@@ -289,26 +289,50 @@ SELECT * FROM professor;<br>
 
 1ª Consulta:
 
+Antes:<br>
+![Alt text]()
+
+Depois:<br>
 ![Alt text]()
 
 2ª Consulta:
 
+Antes:<br>
+![Alt text]()
+
+Depois:<br>
 ![Alt text]()
 
 3ª Consulta:
 
+Antes:<br>
+![Alt text]()
+
+Depois:<br>
 ![Alt text]()
 
 4ª Consulta:
 
+Antes:<br>
+![Alt text]()
+
+Depois:<br>
 ![Alt text]()
 
 5ª Consulta:
 
+Antes:<br>
+![Alt text]()
+
+Depois:<br>
 ![Alt text]()
 
 6ª Consulta:
 
+Antes:<br>
+![Alt text]()
+
+Depois:<br>
 ![Alt text]()
 
 >## Marco de Entrega 04 em: (18/10/2017)<br>
