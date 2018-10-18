@@ -275,18 +275,41 @@ SELECT * FROM campi;<br>
 
 3ª Consulta:
 
-
+ALTER TABLE professor RENAME COLUMN cod_servidor TO cod_professor;<br>
+SELECT * FROM professor;<br>
 ![Alt text]()
 
 
-    a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
-    b) Criar no mínimo 3 consultas com operadores aritméticos 
-    c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
+    
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
     b) Criar uma consulta para cada tipo de função data apresentada.
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+
+1ª Consulta:
+
+![Alt text]()
+
+2ª Consulta:
+
+![Alt text]()
+
+3ª Consulta:
+
+![Alt text]()
+
+4ª Consulta:
+
+![Alt text]()
+
+5ª Consulta:
+
+![Alt text]()
+
+6ª Consulta:
+
+![Alt text]()
 
 >## Marco de Entrega 04 em: (18/10/2017)<br>
 
