@@ -178,25 +178,25 @@ horas_frequencia_aluno: campo com o número de horas presente que o aluno teve a
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
-SELECT * FROM aluno;
+SELECT * FROM aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20aluno.PNG)
 
-SELECT * FROM campus;
+SELECT * FROM campus;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20campus.PNG)
 
-SELECT * FROM curso;
+SELECT * FROM curso;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20curso.PNG)
 
-SELECT * FROM disciplina;
+SELECT * FROM disciplina;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20disciplina.PNG)
 
-SELECT * FROM professor;
+SELECT * FROM professor;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20professor.PNG)
 
-SELECT * FROM historico_aula;
+SELECT * FROM historico_aula;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20historico%20aula.PNG)
 
-SELECT * FROM historico_frequencia;
+SELECT * FROM historico_frequencia;<br>
 
 
 
@@ -204,22 +204,22 @@ SELECT * FROM historico_frequencia;
 
 1ª Consulta:
 
-SELECT * FROM aluno WHERE cod_matricula = '20162QUI041';
+SELECT * FROM aluno WHERE cod_matricula = '20162QUI041';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/aluno%20where%20cod%20matricula.PNG)
 
 2ª Consulta:
 
-SELECT * FROM historico_aula WHERE data_aula > '2018-08-25';
+SELECT * FROM historico_aula WHERE data_aula > '2018-08-25';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/histo%20aula%20where%20maior2.PNG)
 
 3ª Consulta:
 
-SELECT * FROM curso WHERE cod_curso = 20013;
+SELECT * FROM curso WHERE cod_curso = 20013;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/curso%20where%20codigo.PNG)
 
 4ª Consulta:
 
-SELECT * FROM disciplina WHERE horas_disciplina < 50;
+SELECT * FROM disciplina WHERE horas_disciplina < 50;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/disciplina%20where%20horas.PNG)
 
 
