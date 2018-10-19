@@ -73,7 +73,7 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
    
    * [CargaPesada](https://github.com/pulseirasaude/trab01): Leonardo Sena e Walace Silva.  
    
-   * [Managua](https://github.com/Earth-Aid/Managua)
+   * [Managua](https://github.com/Earth-Aid/Managua): Anne Caroline Silva.
    
 
 #### 5.2 DECISÕES DE PROJETO
