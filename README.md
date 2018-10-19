@@ -309,7 +309,7 @@ Depois:<br>
 UPDATE curso SET cod_curso =53000, nome_curso ='Engenharia Civil' WHERE cod_curso=30157;
 
 Antes:<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/antes%20curso.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20curso.PNG)
 
 Depois:<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/depois%20curso.PNG)
