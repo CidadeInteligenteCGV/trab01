@@ -264,20 +264,17 @@ Consultas com operação de renomear nomes de campos ou tabelas
 1ª Consulta:
 
 ALTER TABLE aluno RENAME COLUMN data_nascimento_aluno TO data_nascimento;<br>
-SELECT * FROM aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/alter%20aluno%20data.PNG)
 
 2ª Consulta:
 
 ALTER TABLE campus RENAME TO campi;<br>
-SELECT * FROM campi;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/alter%20campus%20rename.PNG)
 
 3ª Consulta:
 
 ALTER TABLE professor RENAME COLUMN cod_servidor TO cod_professor;<br>
-SELECT * FROM professor;<br>
-![Alt text]()
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/Capturar.PNG)
 
 
     
@@ -292,7 +289,7 @@ SELECT * FROM professor;<br>
 DELETE FROM disciplina WHERE cod_disciplina = 229 OR cod_disciplina = 8;
 
 Antes:<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/antes%20disciplina.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20disciplina.PNG)
 
 Depois:<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/depois%20disciplina.PNG)
