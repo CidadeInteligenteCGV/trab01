@@ -78,7 +78,7 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 
 #### 5.2 DECISÕES DE PROJETO
     
-* _Campo data_aula:_ um campo simples, porque vai guardar apenas o dia da aula.<br>
+* *Campo data_aula:* um campo simples, porque vai guardar apenas o dia da aula.<br>
 * Campo horario_chegada: um campo simples, vai guardar o horário da primeira entrada que o aluno deu no sistema para a aula em questão.<br>
 * Campo horario_saida: um campo simples, guarda apenas a hora da última saída do aluno na aula em questão.<br>
 * Campo id_historico_frequencia: um campo simples, contém o identificador do histórico de frequência do aluno.<br>
