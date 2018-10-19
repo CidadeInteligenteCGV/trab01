@@ -317,10 +317,10 @@ Depois:<br>
 4ª Consulta:
 
 Antes:<br>
-![Alt text]()
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20historico%20frequencia.PNG)
 
 Depois:<br>
-![Alt text]()
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/histo%20depois.PNG)
 
 5ª Consulta:
 
