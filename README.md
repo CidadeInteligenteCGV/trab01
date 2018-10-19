@@ -78,35 +78,35 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 
 #### 5.2 DECISÕES DE PROJETO
     
-* *Campo data_aula:* um campo simples, porque vai guardar apenas o dia da aula.<br>
-* Campo horario_chegada: um campo simples, vai guardar o horário da primeira entrada que o aluno deu no sistema para a aula em questão.<br>
-* Campo horario_saida: um campo simples, guarda apenas a hora da última saída do aluno na aula em questão.<br>
-* Campo id_historico_frequencia: um campo simples, contém o identificador do histórico de frequência do aluno.<br>
+* **Campo data_aula:** um campo simples, porque vai guardar apenas o dia da aula.<br>
+* **Campo horario_chegada:** um campo simples, vai guardar o horário da primeira entrada que o aluno deu no sistema para a aula em questão.<br>
+* **Campo horario_saida:** um campo simples, guarda apenas a hora da última saída do aluno na aula em questão.<br>
+* **Campo id_historico_frequencia:** um campo simples, contém o identificador do histórico de frequência do aluno.<br>
 
-* Campo cod_matricula: atributo chave, contém uma matrícula única e individual para o aluno no curso em que está inscrito.<br>
-* Campo nome_aluno: um campo simples com o nome do aluno.<br>
-* Campo cpf_aluno: um campo simples com o número do CPF do aluno.<br>
-* Campo data_nascimento_aluno: um campo simples com a data de nascimento do aluno.<br>
-* Campo sexo_aluno: um campo simples com o sexo do aluno.<br>
-* Campo imei: um campo simples que armazenará o identificador do celular do aluno.<br>
+* **Campo cod_matricula:** atributo chave, contém uma matrícula única e individual para o aluno no curso em que está inscrito.<br>
+* **Campo nome_aluno:** um campo simples com o nome do aluno.<br>
+* **Campo cpf_aluno:** um campo simples com o número do CPF do aluno.<br>
+* **Campo data_nascimento_aluno:** um campo simples com a data de nascimento do aluno.<br>
+* **Campo sexo_aluno:** um campo simples com o sexo do aluno.<br>
+* **Campo imei:** um campo simples que armazenará o identificador do celular do aluno.<br>
 
-* Campo cod_curso: atributo chave, contém o código único do curso, independente dele aparecer em mais de um campus.<br>
-* Campo nome_curso: um campo simples com o nome do curso.<br>
+* **Campo cod_curso:** atributo chave, contém o código único do curso, independente dele aparecer em mais de um campus.<br>
+* **Campo nome_curso:** um campo simples com o nome do curso.<br>
 
-* Campo cod_campus: atributo chave, contém o código único do campus.<br>
-* Campo campus: um campo simples com o nome/localidade do campus.<br>
+* **Campo cod_campus:** atributo chave, contém o código único do campus.<br>
+* **Campo campus:** um campo simples com o nome/localidade do campus.<br>
 
-* Campo cod_servidor: atributo chave, contém o código único e individual do servidor que exerce alguma função na instituição.<br>
-* Campo nome_professor: um campo simples, contém apenas o nome do professor.<br>
-* Campo cpf_professor: um campo simples com o número do CPF do professor.<br>
+* **Campo cod_servidor:** atributo chave, contém o código único e individual do servidor que exerce alguma função na instituição.<br>
+* **Campo nome_professor:** um campo simples, contém apenas o nome do professor.<br>
+* **Campo cpf_professor:** um campo simples com o número do CPF do professor.<br>
 
-* Campo cod_disciplina: atributo chave, contém o código da disciplina, uma disciplina pode aparecer em mais de um curso que ainda terá o mesmo código registrado na instituição.<br>
-* Campo nome_disciplina: um campo simples, guarda apenas o nome da disciplina.<br>
-* Campo horas_disciplina: um campo simples com o total de horas da disciplina.<br>
+* **Campo cod_disciplina:** atributo chave, contém o código da disciplina, uma disciplina pode aparecer em mais de um curso que ainda terá o mesmo código registrado na instituição.<br>
+* **Campo nome_disciplina:** um campo simples, guarda apenas o nome da disciplina.<br>
+* **Campo horas_disciplina:** um campo simples com o total de horas da disciplina.<br>
 
-* Campo horario_inicio: um campo simples, é o registro do horário em que determinada aula começa.<br>
-* Campo horario_fim: um campo simples, é o registro do horário em que determinada aula acaba.<br>
-* Campo id_historico_aula: um campo simples, contém o identificador do histórico da aula.<br>
+* **Campo horario_inicio:** um campo simples, é o registro do horário em que determinada aula começa.<br>
+* **Campo horario_fim:** um campo simples, é o registro do horário em que determinada aula acaba.<br>
+* **Campo id_historico_aula:** um campo simples, contém o identificador do histórico da aula.<br>
 
 
 >## Marco de Entrega 02 em: (17/09/2018)<br>
