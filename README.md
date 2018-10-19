@@ -255,9 +255,19 @@ Consultas com operadores aritméticos
 
 1ª Consulta:
 
+
+![Alt text]()
+
 2ª Consulta:
 
+
+![Alt text]()
+
 3ª Consulta:
+
+
+![Alt text]()
+
 
 Consultas com operação de renomear nomes de campos ou tabelas
 
@@ -279,8 +289,53 @@ ALTER TABLE professor RENAME COLUMN cod_servidor TO cod_professor;<br>
 
     
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
-    a) Criar outras 5 consultas que envolvam like ou ilike
-    b) Criar uma consulta para cada tipo de função data apresentada.
+
+Consultas que envolvam like ou ilike
+
+1ª Consulta:
+
+
+![Alt text]()
+
+2ª Consulta:
+
+
+![Alt text]()
+
+3ª Consulta:
+
+
+![Alt text]()
+
+4ª Consulta:
+
+
+![Alt text]()
+
+5ª Consulta:
+
+
+![Alt text]()
+
+
+Consulta para cada tipo de função data apresentada
+
+1ª Consulta:
+
+
+![Alt text]()
+
+2ª Consulta:
+
+
+![Alt text]()
+
+3ª Consulta:
+
+
+![Alt text]()
+
+    
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 
