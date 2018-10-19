@@ -316,6 +316,8 @@ Depois:<br>
 
 4ª Consulta:
 
+UPDATE historico_frequencia SET id_historico_frequencia =181018, data_aula = '2018-10-18', horario_chegada = '19:00:00', horario_saida = '21:00:00' WHERE id_historico_frequencia=210818;
+
 Antes:<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20historico%20frequencia.PNG)
 
