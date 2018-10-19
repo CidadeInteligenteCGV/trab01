@@ -114,25 +114,25 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
     
 * **Historico_Frequencia:** tabela que armazena as informações relativas às aulas frequentadas pelo aluno.<br>
     - id_historico_frequencia: campo que armazena o identificador do histórico de frequência gerado do aluno.<br>
-data_aula: campo para o registro do dia em que a aula ocorreu.<br>
-horario_chegada: campo que armazena o horário em que o aluno registrou sua primeira presença do dia em determinada aula, por meio do * QRCode ou carteirinha.<br>
-horario_saida: campo que armazena o horário em que o aluno registrou sua última saída da sala em determinada aula, por meio do QRCode ou carteirinha.<br>
+    - data_aula: campo para o registro do dia em que a aula ocorreu.<br>
+    - horario_chegada: campo que armazena o horário em que o aluno registrou sua primeira presença do dia em determinada aula, por meio do * QRCode ou carteirinha.<br>
+    - horario_saida: campo que armazena o horário em que o aluno registrou sua última saída da sala em determinada aula, por meio do QRCode ou carteirinha.<br>
 
 * **Aluno:** tabela que armazena as informações relativas ao aluno.<br>
-cod_matricula: campo com o código único e individual que representa a matrícula do aluno no curso.<br>
-nome_aluno: campo que guarda o nome do aluno.<br>
-cpf_aluno: campo que armazena o número do CPF do aluno.<br>
-data_nascimento_aluno: campo com a data de nascimento do aluno.<br>
-sexo_aluno: campo que guarda o sexo do aluno.<br>
-imei: campo que armazena o número identificador do celular do aluno.<br>
+    - cod_matricula: campo com o código único e individual que representa a matrícula do aluno no curso.<br>
+    - nome_aluno: campo que guarda o nome do aluno.<br>
+    - cpf_aluno: campo que armazena o número do CPF do aluno.<br>
+    - data_nascimento_aluno: campo com a data de nascimento do aluno.<br>
+    - sexo_aluno: campo que guarda o sexo do aluno.<br>
+    - imei: campo que armazena o número identificador do celular do aluno.<br>
 
 * **Curso:** tabela que armazena os cursos da instituição.<br>
-cod_curso: campo com o código do curso.<br>
-nome_curso: campo com o nome do curso.<br>
+    - cod_curso: campo com o código do curso.<br>
+    - nome_curso: campo com o nome do curso.<br>
 
 * **Campus:** tabela que armazena os campus da instituição.<br>
-cod_campus: campo com o código do campus.<br>
-campus: campo com o nome campus.<br>
+    - cod_campus: campo com o código do campus.<br>
+    - campus: campo com o nome campus.<br>
 
 * **Professor:** tabela que armazena as informações relativas aos professores.<br>
 cod_servidor: campo com o código único e individual do professor.<br>
