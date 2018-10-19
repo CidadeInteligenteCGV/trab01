@@ -135,20 +135,20 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
     - campus: campo com o nome campus.<br>
 
 * **Professor:** tabela que armazena as informações relativas aos professores.<br>
-cod_servidor: campo com o código único e individual do professor.<br>
-nome_professor: campo que guarda o nome do professor.<br>
-cpf_professor: campo com o número do CPF do professor.<br>
+    - cod_servidor: campo com o código único e individual do professor.<br>
+    - nome_professor: campo que guarda o nome do professor.<br>
+    - cpf_professor: campo com o número do CPF do professor.<br>
 
 * **Disciplina:** tabela que armazena as disciplinas aplicadas dentro da instituição.<br>
-cod_disciplina: campo com o código da disciplina.<br>
-nome_disciplina: campo com o nome da disciplina.<br>
-horas_disciplina: campo com o número de horas total da disciplina.<br>
+    - cod_disciplina: campo com o código da disciplina.<br>
+    - nome_disciplina: campo com o nome da disciplina.<br>
+    - horas_disciplina: campo com o número de horas total da disciplina.<br>
 
 * **Historico_Aula:** tabela que armazena as informações relativas às aulas dadas pelos professores.<br>
-id_historico_aula: campo que armazena o identificador do histórico gerado da aula.<br>
-data_aula: campo para o registro do dia em que a aula ocorreu.<br>
-horario_inicio: campo com o horário em que a aula começou.<br>
-horario_fim: campo com o horário em que a aula terminou.<br>
+    - id_historico_aula: campo que armazena o identificador do histórico gerado da aula.<br>
+    - data_aula: campo para o registro do dia em que a aula ocorreu.<br>
+    - horario_inicio: campo com o horário em que a aula começou.<br>
+    - horario_fim: campo com o horário em que a aula terminou.<br>
 
 
 ### 6	MODELO LÓGICO<br>
