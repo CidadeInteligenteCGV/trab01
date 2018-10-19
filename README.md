@@ -255,18 +255,24 @@ Consultas com operadores aritméticos
 
 1ª Consulta:
 
-
-![Alt text]()
+select horario_inicio, horario_fim, 
+	(horario_fim - horario_inicio) as duracao_aula
+	from historico_aula;<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/aritmetica1.png)
 
 2ª Consulta:
 
-
-![Alt text]()
+select nome_aluno, cod_matricula, data_nascimento_aluno,
+	(cast(substring(cod_matricula, 0, 5) as int) - extract(year from aluno.data_nascimento_aluno)) as idade_ingresso
+	from aluno;<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/aritmetica2.png)
 
 3ª Consulta:
 
-
-![Alt text]()
+select data_aula, horario_chegada, horario_saida,
+	(horario_saida - horario_chegada) as tempo_em_sala
+	from historico_frequencia;<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/aritmetica3.png)
 
 
 Consultas com operação de renomear nomes de campos ou tabelas
@@ -294,46 +300,72 @@ Consultas que envolvam like ou ilike
 
 1ª Consulta:
 
-
-![Alt text]()
+select * from campus where campus ilike '%c%';
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/ilike1.png)
 
 2ª Consulta:
 
-
-![Alt text]()
+select * from aluno as al where al.nome_aluno ilike '%f%' and al.cod_matricula ilike '%f%';
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/ilike2.png)
 
 3ª Consulta:
 
-
-![Alt text]()
+select * from curso where nome_curso ilike '%l%' and nome_curso like '%em%';
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/ilikelike1.png)
 
 4ª Consulta:
 
-
-![Alt text]()
+select * from campus where campus ilike '%a%' and campus like '%a';
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/ilikelike2.png)
 
 5ª Consulta:
 
+select * from aluno where nome_aluno like '%Ribeiro%' and campus = 'Vitória';
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/like1.png)
 
-![Alt text]()
+6ª Consulta:
 
+select * from professor where nome_professor like '_ar%';
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/like2.png)
+
+7ª Consulta:
+
+select * from disciplina where nome_disciplina like 'M%';
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/like3.png)
+
+8ª Consulta:
+
+select * from curso where nome_curso like '%o';	
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/like4.png)
+
+9ª Consulta:
+
+select * from professor where nome_disciplina not like '%o';
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/notlike.png)
 
 Consulta para cada tipo de função data apresentada
 
 1ª Consulta:
 
-
-![Alt text]()
+select nome_aluno, 
+	age('2018-10-1', data_nascimento_aluno) as idade
+	from aluno;<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/dataAge.png)
 
 2ª Consulta:
 
-
-![Alt text]()
+select nome_aluno, data_nascimento_aluno,
+	date_part('month', data_nascimento_aluno) as nasceu_mes_primeiro_semestre_ano
+	from aluno
+	where date_part('month', data_nascimento_aluno) < 7;<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/dataDatePart.png)
 
 3ª Consulta:
 
-
-![Alt text]()
+select nome_aluno, 
+	extract('year' from data_nascimento_aluno) as ano_nascimento
+	from aluno;<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/dataExtract.png)
 
     
 
