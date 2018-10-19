@@ -300,47 +300,47 @@ Consultas que envolvam like ou ilike
 
 1ª Consulta:
 
-select * from campus where campus ilike '%c%';
+select * from campus where campus ilike '%c%';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/ilike1.png)
 
 2ª Consulta:
 
-select * from aluno as al where al.nome_aluno ilike '%f%' and al.cod_matricula ilike '%f%';
+select * from aluno as al where al.nome_aluno ilike '%f%' and al.cod_matricula ilike '%f%';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/ilike2.png)
 
 3ª Consulta:
 
-select * from curso where nome_curso ilike '%l%' and nome_curso like '%em%';
+select * from curso where nome_curso ilike '%l%' and nome_curso like '%em%';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/ilikelike1.png)
 
 4ª Consulta:
 
-select * from campus where campus ilike '%a%' and campus like '%a';
+select * from campus where campus ilike '%a%' and campus like '%a';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/ilikelike2.png)
 
 5ª Consulta:
 
-select * from aluno where nome_aluno like '%Ribeiro%' and campus = 'Vitória';
+select * from aluno where nome_aluno like '%Ribeiro%' and campus = 'Vitória';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/like1.png)
 
 6ª Consulta:
 
-select * from professor where nome_professor like '_ar%';
+select * from professor where nome_professor like '_ar%';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/like2.png)
 
 7ª Consulta:
 
-select * from disciplina where nome_disciplina like 'M%';
+select * from disciplina where nome_disciplina like 'M%';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/like3.png)
 
 8ª Consulta:
 
-select * from curso where nome_curso like '%o';	
+select * from curso where nome_curso like '%o';<br>	
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/like4.png)
 
 9ª Consulta:
 
-select * from professor where nome_disciplina not like '%o';
+select * from professor where nome_disciplina not like '%o';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/notlike.png)
 
 Consulta para cada tipo de função data apresentada
