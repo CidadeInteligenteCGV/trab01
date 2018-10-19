@@ -289,27 +289,33 @@ SELECT * FROM professor;<br>
 
 1ª Consulta:
 
+DELETE FROM disciplina WHERE cod_disciplina = 229 OR cod_disciplina = 8;
+
 Antes:<br>
-![Alt text]()
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/antes%20disciplina.PNG)
 
 Depois:<br>
-![Alt text]()
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/depois%20disciplina.PNG)
 
 2ª Consulta:
 
+DELETE FROM professor WHERE cpf_professor = '67053106349' AND nome_professor = 'Leonardo Souza';
+
 Antes:<br>
-![Alt text]()
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/antes%20professor.PNG)
 
 Depois:<br>
-![Alt text]()
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/depois%20professor.PNG)
 
 3ª Consulta:
 
+UPDATE curso SET cod_curso =53000, nome_curso ='Engenharia Civil' WHERE cod_curso=30157;
+
 Antes:<br>
-![Alt text]()
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/antes%20curso.PNG)
 
 Depois:<br>
-![Alt text]()
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/depois%20curso.PNG)
 
 4ª Consulta:
 
