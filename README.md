@@ -36,9 +36,9 @@ As informações obtidas serão salvas localmente caso a rede esteja off-line, a
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
-[Mockups - Desktop](https://github.com/ControleFrequencia/trab01/blob/master/Controle%20de%20Frequ%C3%AAncia%20de%20Aulas%20-%20Telas%20Desktop.pdf)
+[Mockups - Desktop](https://github.com/ControleFrequencia/trab01/blob/master/mockups/Controle%20de%20Frequ%C3%AAncia%20de%20Aulas%20-%20Telas%20Desktop.pdf)
 
-[Mockups - Mobile](https://github.com/ControleFrequencia/trab01/blob/master/Controle%20de%20Frequ%C3%AAncia%20de%20Aulas%20-%20Telas%20Mobile.pdf)
+[Mockups - Mobile](https://github.com/ControleFrequencia/trab01/blob/master/mockups/Controle%20de%20Frequ%C3%AAncia%20de%20Aulas%20-%20Telas%20Mobile.pdf)
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
 
@@ -57,7 +57,7 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
  
-[Tabela](https://github.com/ControleFrequencia/trab01/blob/master/tabela3.xlsx)
+[Tabela](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/tabela3.xlsx)
 
     
 >## Marco de Entrega 01 em: (06/09/2018)<br>
@@ -161,14 +161,14 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-  [Script SQL 8.1](https://github.com/ControleFrequencia/trab01/blob/master/insert1.sql)   
+  [Script SQL 8.1](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/insert1.sql)   
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS
-  [Script SQL 8.2](https://github.com/ControleFrequencia/trab01/blob/master/create%20e%20insert.sql)  
-  [Backup](https://github.com/ControleFrequencia/trab01/blob/master/insertcreate.sql)
+  [Script SQL 8.2](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/create%20e%20insert.sql)  
+  [Backup](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/insertcreate.sql)
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
-  [Script SQL 8.3](https://github.com/ControleFrequencia/trab01/blob/master/drop1.sql) <br>
-  [Backup](https://github.com/ControleFrequencia/trab01/blob/master/dropbackup.sql)
+  [Script SQL 8.3](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/drop1.sql) <br>
+  [Backup](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/dropbackup.sql)
 
     
 >## Marco de Entrega 03 em: (27/09/18) <br>
@@ -178,25 +178,25 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
 SELECT * FROM aluno;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20aluno.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20aluno.PNG)
 
 SELECT * FROM campus;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20campus.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20campus.PNG)
 
 SELECT * FROM curso;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20curso.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20curso.PNG)
 
 SELECT * FROM disciplina;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20disciplina.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20disciplina.PNG)
 
 SELECT * FROM professor;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20professor.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20professor.PNG)
 
 SELECT * FROM historico_aula;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20historico%20aula.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20historico%20aula.PNG)
 
 SELECT * FROM historico_frequencia;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20historico%20frequencia.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20historico%20frequencia.PNG)
 
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
@@ -204,27 +204,27 @@ SELECT * FROM historico_frequencia;<br>
 1ª Consulta:
 
 SELECT * FROM aluno WHERE cod_matricula = '20162QUI041';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/aluno%20where%20cod%20matricula.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/aluno%20where%20cod%20matricula.PNG)
 
 2ª Consulta:
 
 SELECT * FROM historico_aula WHERE data_aula > '2018-08-25';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/histo%20aula%20where%20maior2.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/histo%20aula%20where%20maior2.PNG)
 
 3ª Consulta:
 
 SELECT * FROM curso WHERE cod_curso = 20013;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/curso%20where%20codigo.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/curso%20where%20codigo.PNG)
 
 4ª Consulta:
 
 SELECT * FROM disciplina WHERE horas_disciplina < 50;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/disciplina%20where%20horas.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/disciplina%20where%20horas.PNG)
 
 5ª Consulta:
 
 SELECT * FROM historico_frequencia WHERE horario_saida = '10:00:00';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/hist%20freq%20where%20horario.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/hist%20freq%20where%20horario.PNG)
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11).
 
@@ -233,27 +233,27 @@ Consultas que envolvam os operadores lógicos AND, OR e Not
 1ª Consulta:
 
 SELECT * FROM historico_aula WHERE data_aula > '2018-08-21' AND horario_inicio = '09:50:00';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/histo%20where%20and.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/histo%20where%20and.PNG)
 
 2ª Consulta:
 
 SELECT * FROM historico_frequencia WHERE horario_chegada < '08:00:00' OR horario_saida > '17:00:00' ;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/histo%20freq%20where%20or.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/histo%20freq%20where%20or.PNG)
 
 3ª Consulta:
 
 SELECT * FROM disciplina WHERE NOT horas_disciplina > 40;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/disciplina%20where%20not.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/disciplina%20where%20not.PNG)
 
 4ª Consulta:
 
 SELECT * FROM professor WHERE cod_servidor = '2007IFES023' OR nome_professor = 'Mariana Rocha';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/professor%20where%20or.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/professor%20where%20or.PNG)
 
 5ª Consulta:
 
 SELECT * FROM campus WHERE cod_campus = 'IFES0005' AND campus = 'Colatina';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/campus%20where%20and.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/campus%20where%20and.PNG)
 
 Consultas com operadores aritméticos
 
@@ -262,21 +262,21 @@ Consultas com operadores aritméticos
 select horario_inicio, horario_fim, 
 	(horario_fim - horario_inicio) as duracao_aula
 	from historico_aula;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/aritmetica1.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/aritmetica1.png)
 
 2ª Consulta:
 
 select nome_aluno, cod_matricula, data_nascimento_aluno,
 	(cast(substring(cod_matricula, 0, 5) as int) - extract(year from aluno.data_nascimento_aluno)) as idade_ingresso
 	from aluno;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/aritmetica2.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/aritmetica2.png)
 
 3ª Consulta:
 
 select data_aula, horario_chegada, horario_saida,
 	(horario_saida - horario_chegada) as tempo_em_sala
 	from historico_frequencia;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/aritmetica3.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/aritmetica3.png)
 
 
 Consultas com operação de renomear nomes de campos ou tabelas
@@ -284,17 +284,17 @@ Consultas com operação de renomear nomes de campos ou tabelas
 1ª Consulta:
 
 ALTER TABLE aluno RENAME COLUMN data_nascimento_aluno TO data_nascimento;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/alter%20aluno%20data.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/alter%20aluno%20data.PNG)
 
 2ª Consulta:
 
 ALTER TABLE campus RENAME TO campi;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/alter%20campus%20rename.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/alter%20campus%20rename.PNG)
 
 3ª Consulta:
 
 ALTER TABLE professor RENAME COLUMN cod_servidor TO cod_professor;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/Capturar.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/Capturar.PNG)
 
 
     
@@ -305,47 +305,47 @@ Consultas que envolvam like ou ilike
 1ª Consulta:
 
 select * from campus where campus ilike '%c%';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/ilike1.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/ilike1.png)
 
 2ª Consulta:
 
 select * from aluno as al where al.nome_aluno ilike '%f%' and al.cod_matricula ilike '%f%';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/ilike2.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/ilike2.png)
 
 3ª Consulta:
 
 select * from curso where nome_curso ilike '%l%' and nome_curso like '%em%';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/ilikelike1.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/ilikelike1.png)
 
 4ª Consulta:
 
 select * from campus where campus ilike '%a%' and campus like '%a';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/ilikelike2.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/ilikelike2.png)
 
 5ª Consulta:
 
 select * from aluno where nome_aluno like '%Ribeiro%' and campus = 'Vitória';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/like1.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/like1.png)
 
 6ª Consulta:
 
 select * from professor where nome_professor like '_ar%';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/like2.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/like2.png)
 
 7ª Consulta:
 
 select * from disciplina where nome_disciplina like 'M%';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/like3.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/like3.png)
 
 8ª Consulta:
 
 select * from curso where nome_curso like '%o';<br>	
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/like4.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/like4.png)
 
 9ª Consulta:
 
 select * from professor where nome_disciplina not like '%o';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/notlike.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/notlike.png)
 
 Consulta para cada tipo de função data apresentada
 
@@ -354,7 +354,7 @@ Consulta para cada tipo de função data apresentada
 select nome_aluno, 
 	age('2018-10-1', data_nascimento_aluno) as idade
 	from aluno;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/dataAge.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/dataAge.png)
 
 2ª Consulta:
 
@@ -362,14 +362,14 @@ select nome_aluno, data_nascimento_aluno,
 	date_part('month', data_nascimento_aluno) as nasceu_mes_primeiro_semestre_ano
 	from aluno
 	where date_part('month', data_nascimento_aluno) < 7;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/dataDatePart.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/dataDatePart.png)
 
 3ª Consulta:
 
 select nome_aluno, 
 	extract('year' from data_nascimento_aluno) as ano_nascimento
 	from aluno;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/dataExtract.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/dataExtract.png)
 
     
 
@@ -380,60 +380,60 @@ select nome_aluno,
 DELETE FROM disciplina WHERE cod_disciplina = 229 OR cod_disciplina = 8;
 
 Antes:<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20disciplina.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20disciplina.PNG)
 
 Depois:<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/depois%20disciplina.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20disciplina.PNG)
 
 2ª Consulta:
 
 DELETE FROM professor WHERE cpf_professor = '67053106349' AND nome_professor = 'Leonardo Souza';
 
 Antes:<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/antes%20professor.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/antes%20professor.PNG)
 
 Depois:<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/depois%20professor.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20professor.PNG)
 
 3ª Consulta:
 
 UPDATE curso SET cod_curso =53000, nome_curso ='Engenharia Civil' WHERE cod_curso=30157;
 
 Antes:<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20curso.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20curso.PNG)
 
 Depois:<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/depois%20curso.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20curso.PNG)
 
 4ª Consulta:
 
 UPDATE historico_frequencia SET id_historico_frequencia =181018, data_aula = '2018-10-18', horario_chegada = '19:00:00', horario_saida = '21:00:00' WHERE id_historico_frequencia=210818;
 
 Antes:<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20historico%20frequencia.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20historico%20frequencia.PNG)
 
 Depois:<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/histo%20depois.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/histo%20depois.PNG)
 
 5ª Consulta:
 
 DELETE FROM campus WHERE cod_campus = 'IFES0003';
 
 Antes:<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20campus.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20campus.PNG)
 
 Depois:<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/depois%20campus.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20campus.PNG)
 
 6ª Consulta:
 
 UPDATE historico_aula SET data_aula = '2018-10-17' WHERE id_historico_aula=48;
 
 Antes:<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/select%20historico%20aula.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20historico%20aula.PNG)
 
 Depois:<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/depois%20hist%20aula.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20hist%20aula.PNG)
 
 >## Marco de Entrega 04 em: (18/10/2017)<br>
 
