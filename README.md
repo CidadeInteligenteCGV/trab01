@@ -36,9 +36,9 @@ As informações obtidas serão salvas localmente caso a rede esteja off-line, a
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
-[Mockups - Desktop](https://github.com/ControleFrequencia/trab01/blob/master/arquivos/Controle%20de%20Frequ%C3%AAncia%20de%20Aulas%20-%20Telas%20Desktop.pdf)
+[Mockups - Desktop](https://github.com/ControleFrequencia/trab01/blob/master/Controle%20de%20Frequ%C3%AAncia%20de%20Aulas%20-%20Telas%20Desktop.pdf)
 
-[Mockups - Mobile](https://github.com/ControleFrequencia/trab01/blob/master/arquivos/Controle%20de%20Frequ%C3%AAncia%20de%20Aulas%20-%20Telas%20Mobile.pdf)
+[Mockups - Mobile](https://github.com/ControleFrequencia/trab01/blob/master/Controle%20de%20Frequ%C3%AAncia%20de%20Aulas%20-%20Telas%20Mobile.pdf)
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
 
@@ -57,7 +57,7 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
  
-[Tabela](https://github.com/ControleFrequencia/trab01/blob/master/arquivos/tabela3.xlsx)
+[Tabela](https://github.com/ControleFrequencia/trab01/blob/master/tabela3.xlsx)
 
     
 >## Marco de Entrega 01 em: (06/09/2018)<br>
