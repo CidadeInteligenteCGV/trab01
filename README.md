@@ -36,7 +36,7 @@ As informações obtidas serão salvas localmente caso a rede esteja off-line, a
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
-[Mockups - Desktop](https://github.com/ControleFrequencia/trab01/blob/master/mockups/Controle%20de%20Frequ%C3%AAncia%20de%20Aulas%20-%20Telas%20Desktop.pdf)
+[Mockups - Desktop](https://github.com/ControleFrequencia/trab01/blob/master/mockups/Controle%20de%20Freque%CC%82ncia%20de%20Aulas%20-%20Desktop.pdf)
 
 [Mockups - Mobile](https://github.com/ControleFrequencia/trab01/blob/master/mockups/Controle%20de%20Frequ%C3%AAncia%20de%20Aulas%20-%20Telas%20Mobile.pdf)
 
