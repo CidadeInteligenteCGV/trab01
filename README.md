@@ -449,18 +449,18 @@ Depois:<br>
 
 1ª Consulta:
 
-SELECT * FROM historico_aula WHERE horario_inicio IN( SELECT horario_inicio FROM historico_aula WHERE horario_fim > '11:40:00');
+SELECT * FROM historico_aula WHERE horario_inicio IN( SELECT horario_inicio FROM historico_aula WHERE horario_fim > '11:40:00');<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/subc1.PNG)
 
 2ª Consulta:
 
 
-SELECT nome_disciplina, cod_disciplina from disciplina WHERE cod_disciplina IN( SELECT cod_disciplina from disciplina WHERE nome_disciplina ILIKE '%m%');
+SELECT nome_disciplina, cod_disciplina from disciplina WHERE cod_disciplina IN( SELECT cod_disciplina from disciplina WHERE nome_disciplina ILIKE '%m%');<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/subc2.PNG)
 
 3ª Consulta:
 
-SELECT nome_aluno, sexo_aluno from aluno WHERE data_nascimento_aluno IN( SELECT data_nascimento_aluno from aluno WHERE sexo_aluno = 'M');
+SELECT nome_aluno, sexo_aluno from aluno WHERE data_nascimento_aluno IN( SELECT data_nascimento_aluno from aluno WHERE sexo_aluno = 'M');<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/subc3.PNG)
 
 
