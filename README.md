@@ -446,6 +446,24 @@ Depois:<br>
         a) Uma junção que envolva Self Join
         b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
+
+1ª Consulta:
+
+SELECT * FROM historico_aula WHERE horario_inicio IN( SELECT horario_inicio FROM historico_aula WHERE horario_fim > '11:40:00');
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/subc1.PNG)
+
+2ª Consulta:
+
+
+SELECT nome_disciplina, cod_disciplina from disciplina WHERE cod_disciplina IN( SELECT cod_disciplina from disciplina WHERE nome_disciplina ILIKE '%m%');
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/subc2.PNG)
+
+3ª Consulta:
+
+SELECT nome_aluno, sexo_aluno from aluno WHERE data_nascimento_aluno IN( SELECT data_nascimento_aluno from aluno WHERE sexo_aluno = 'M');
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/subc3.PNG)
+
+
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 
 ### 11 Backup completo do banco de dados postgres 
