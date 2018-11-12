@@ -441,10 +441,93 @@ Depois:<br>
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
         b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
+
+1ª Consulta:
+
+SELECT nome_aluno, data_nascimento_aluno FROM aluno WHERE UPPER(nome_aluno) LIKE UPPER('%r%') GROUP BY nome_aluno, data_nascimento_aluno;<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/group1.PNG)
+
+2ª Consulta:
+
+SELECT nome_professor, cpf_professor FROM professor WHERE UPPER(nome_professor) LIKE UPPER('%a%') AND UPPER(cod_professor) LIKE UPPER('%00%') GROUP BY nome_professor, cpf_professor;<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/group2.PNG)
+
+3ª Consulta:
+
+
+![Alt text]()
+
+4ª Consulta:
+
+
+![Alt text]()
+
+5ª Consulta:
+
+
+![Alt text]()
+
+6ª Consulta:
+
+
+![Alt text]()
+
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
+
+1ª Consulta:
+
+
+![Alt text]()
+
+2ª Consulta:
+
+
+![Alt text]()
+
+3ª Consulta:
+
+
+![Alt text]()
+
+4ª Consulta:
+
+
+![Alt text]()
+
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
         a) Uma junção que envolva Self Join
         b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
+	
+1ª Consulta:
+
+
+![Alt text]()
+
+2ª Consulta:
+
+
+![Alt text]()
+
+3ª Consulta:
+
+
+![Alt text]()
+
+4ª Consulta:
+
+
+![Alt text]()
+
+5ª Consulta:
+
+
+![Alt text]()
+
+6ª Consulta:
+
+
+![Alt text]()
+
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
 
 1ª Consulta:
