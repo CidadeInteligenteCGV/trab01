@@ -125,7 +125,7 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 
 * **Campus:** tabela que armazena os campus da instituição.<br>
     - **cod_campus:** campo com o código do campus.<br>
-    - **campus:** campo com o nome campus.<br>
+    - **campus:** campo com o nome do campus.<br>
 
 * **Professor:** tabela que armazena as informações relativas aos professores.<br>
     - **cod_servidor:** campo com o código único e individual do professor.<br>
@@ -140,8 +140,8 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 * **Historico_Aula:** tabela que armazena as informações relativas às aulas dadas pelos professores.<br>
     - **id_historico_aula:** campo que armazena o identificador do histórico gerado da aula.<br>
     - **data_aula:** campo para o registro do dia em que a aula ocorreu.<br>
-    - **horario_inicio:** campo com o horário em que a aula começou.<br>
-    - **horario_fim:** campo com o horário em que a aula terminou.<br>
+    - **presenca:** campo com a informação se o aluno estava ou não presente da sala de aula.<br>
+   
 
 
 ### 6	MODELO LÓGICO<br>
