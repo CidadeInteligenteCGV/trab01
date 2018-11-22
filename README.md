@@ -78,10 +78,9 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 
 #### 5.2 DECISÕES DE PROJETO
     
+* **Campo id_historico_aula:** um campo simples, contém o identificador do histórico da aula.<br>    
 * **Campo data_aula:** um campo simples, porque vai guardar apenas o dia da aula.<br>
-* **Campo horario_chegada:** um campo simples, vai guardar o horário da primeira entrada que o aluno deu no sistema para a aula em questão.<br>
-* **Campo horario_saida:** um campo simples, guarda apenas a hora da última saída do aluno na aula em questão.<br>
-* **Campo id_historico_frequencia:** um campo simples, contém o identificador do histórico de frequência do aluno.<br>
+* **Campo presença:** um campo simples que armazena presença ou falta do aluno.<br>
 
 * **Campo cod_matricula:** atributo chave, contém uma matrícula única e individual para o aluno no curso em que está inscrito.<br>
 * **Campo nome_aluno:** um campo simples com o nome do aluno.<br>
@@ -106,7 +105,7 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 
 * **Campo horario_inicio:** um campo simples, é o registro do horário em que determinada aula começa.<br>
 * **Campo horario_fim:** um campo simples, é o registro do horário em que determinada aula acaba.<br>
-* **Campo id_historico_aula:** um campo simples, contém o identificador do histórico da aula.<br>
+
 
 
 >## Marco de Entrega 02 em: (17/09/2018)<br>
