@@ -46,7 +46,8 @@ OBS.: Sistema de Controle de Frquência usando o Ifes como exemplo, mas podendo 
 
 Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 
-*  **Relatório da frequência geral dos alunos por disciplina, incluindo as seguintes informações:** código da disciplina, nome da disciplina, carga horária da disciplina, nome do professor, nome do aluno, matrícula do aluno, data da aula, frequência do aluno na disciplina.
+*  **Relatório da frequência geral dos alunos por disciplina, incluindo as seguintes informações:** código da disciplina, nome da disciplina, carga horária da disciplina, nome do professor, nome do aluno, matrícula do aluno, data da aula, frequência do aluno na disciplina. 
+(*)precisa ser retirado
     
 * **Relatório da frequência individual do aluno por disciplina, incluindo as seguintes informações:** código da disciplina, nome da disciplina, carga horária da disciplina, nome do professor, nome do aluno, Código de matrícula do aluno, frequência do aluno na disciplina, data da aula, horas disciplina, hora de entrada e saída do aluno.
 
