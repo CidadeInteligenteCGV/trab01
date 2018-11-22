@@ -44,8 +44,6 @@ As informações obtidas serão salvas localmente caso a rede esteja off-line, a
 
 Principais Relatórios do Sistema de Controle de Frequência de Aulas:
     
-* **Relatório da frequência geral dos alunos por disciplina, incluindo as seguintes informações:** código da disciplina, nome da disciplina, carga horária da disciplina, nome do professor, nome do aluno, matrícula do aluno, data da aula, frequência do aluno na disciplina.
-
 * **Relatório da frequência individual do aluno por disciplina, incluindo as seguintes informações:** código da disciplina, nome da disciplina, carga horária da disciplina, nome do professor, nome do aluno, matrícula do aluno, frequência do aluno na disciplina, data da aula, hora de início e fim da aula, hora de entrada e saída do aluno.
 
 * **Relatório com os dados dos alunos por disciplina, incluindo as seguintes informações:** código da disciplina, nome da disciplina, carga horária da disciplina, nome do professor, campus onde a disciplina é ofertada, curso da disciplina ofertada, nome do aluno, matrícula do aluno, curso do aluno.
