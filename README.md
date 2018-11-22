@@ -153,7 +153,7 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 
 ### 6	MODELO LÓGICO<br>
  
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/modelos/logico2.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/L%C3%B3gico_1.png)
 
 ### 7	MODELO FÍSICO<br>
   [Script SQL 7](https://github.com/ControleFrequencia/trab01/blob/master/modelos/create1.sql) 
