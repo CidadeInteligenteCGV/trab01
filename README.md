@@ -16,24 +16,22 @@ Integrantes do grupo:
 ### Controle de Frequência de Aulas <br>
 O Sistema de Controle de Frequência de Aulas (CFA) visa colaborar com o professor no ato de realizar
 a chamada dos alunos em sala. 
-Sabendo-se dos contratempos na realização das chamadas manualmente e pretendendo otimizar essa tarefa, unindo informações relativas a alunos, disciplinas, campus, professor e frequência em um mesmo banco. 
-O sistema contará com sensores localizados nas portas de cada sala de aula, que registrarão a entrada e a saída do aluno através de um microchip na carteirinha do estudante e/ou checagem de qrcode através de um aplicativo instalado no smartphone do aluno.
-O Sistema de Controle de Frequência de Aulas tem como objetivo gerenciar todas as informações referentes a frequência de alunos em diversos campus do Ifes. Para controlar adequadamente essas informações, o sistema deverá armazenar as informações relativa aos alunos, campus, disciplinas e professores, além dos dados sobre frequência, podendo ao final gerar um relatório para análise tanto dos alunos quanto da instituição.
+Sabendo-se dos contratempos na realização das chamadas manualmente e pretendendo otimizar tal tarefa, unindo informações relativas a alunos, disciplinas, campus, professor e frequência em um mesmo banco. 
+O sistema contará com sensores localizados nas portas de cada sala de aula, que registrarão a entrada e a saída do aluno através de um microchip na carteirinha do estudante e/ou checagem de qrcode por um aplicativo instalado no smartphone do aluno.
+O Sistema de Controle de Frequência de Aulas tem como objetivo gerenciar todas informações referentes a frequência de alunos em diversos campus do Ifes. Para controlar adequadamente essas informações, o sistema deverá armazenar as informações relativas aos alunos, campus, disciplinas e professores, além dos dados sobre frequência, podendo ao final gerar um conjunto de relatórios para análise tanto dos alunos quanto da instituição.
 
 
 ### 3.MINI-MUNDO <br>
 
-Sobre as informações presentes no Sistema de Controle de Frequência de Alunos. Dos alunos serão armazenados os seguintes dados: código de matrícula, nome, CPF, data de nascimento, sexo e imei (identificador do celular).  Do campus: código único para cada campus e o nome do campus. Dos cursos: código do curso e nome do curso. Das disciplinas ofertadas: código da disciplina, nome, carga horária e o horário de início e fim das aulas. Cada disciplina irá possui um histórico de aula único, no qual estará constando: id do histórico gerado da aula, data da aula e presença do aluno. Os dados relativos aos professores que serão armazenados são: código único do professor, nome e CPF. 
+Sobre as informações presentes no Sistema de Controle de Frequência de Alunos. Dos alunos serão armazenados os seguintes dados: código de matrícula, nome, CPF, data de nascimento, sexo e imei (identificador do celular).  Do campus: código individual de cada campus e o campus. Dos cursos: código do curso e nome do curso. Das disciplinas ofertadas: código da disciplina, nome e carga horária. Cada disciplina gera um histórico de aula único, no qual a de constar: id do histórico gerado da aula, data da aula, hora de início e hora de fim. Os dados relativos aos professores que serão armazenados são: código de matrícula do servidor, nome e CPF. Com relação ao histórico de frequência individual do aluno, as informações armazenadas são: id do histórico de frequência gerado do aluno, data da aula, hora de chegada e hora de saída do aluno nas aulas.
 
-As principais funções do sistema são de controle da entrada e saída do aluno nas salas de aula, e gerar relatório de frequência dos alunos e realizar a chamada em sala de aula de uma forma mais prática. Ao realizar sua matrícula no Ifes, o aluno será orientado a baixar o aplicativo que dá acesso a suas informações acadêmicas e assim conseguir a liberação do seu QRCode. O aluno mais tarde receberá ainda sua carteirinha de estudante que terá um micro chip embutido, e assim como o QRCode, esta poderá ser utilizada para registro de presença nas aulas ao ser posicionada no leitor localizado nas portas das salas. A sinalização de falta ou presença respeitará o limite de 15 minutos do horário de início e fim da aula, podendo o aluno sair da sala quantas vezes achar necessário e precisar desde que no sistema não conste um período de ausência demasiadamente longo.
+As principais funções do sistema são de controle da entrada e saída do aluno nas salas de aula, e gerar relatórios de frequências e médias de evasão, este último para análise da instituição. Ao realizar sua matrícula no Ifes, o aluno será orientado a baixar o aplicativo que dá acesso a suas informações acadêmicas e assim conseguir a liberação do seu QRCode. O aluno mais tarde receberá ainda sua carteirinha de estudante que terá um micro chip embutido, e assim como o QRCode, esta poderá ser utilizada para registro de presença nas aulas ao ser posicionada no leitor localizados nas portas das salas. A sinalização de falta ou presença respeitará o limite de 15 minutos do horário de início e fim da aula, podendo o aluno sair da sala quantas vezes achar necessário e precisar desde que no sistema não conste um período de ausência demasiado longo.
 
-Para evitar casos onde o aluno registre sua entrada, mas permanece fora de sala durante o período da aula e só retorne ao final da mesma para conseguir a presença, os alunos serão notificados ao decorrer da aula para fazer um check in de permanência. Essa comprovação será por meio de um QRCode localizado na parede da porta, dentro da sala.
+Para evitar casos onde o aluno registra sua entrada, mas permanece fora de sala durante o período da aula e só retornan ao final da mesma para conseguir a presença, os alunos serão notificados ao decorrer da aula para fazer um check in de permanência. Essa comprovação será por meio de um QRCode localizado na parede da porta, dentro da sala.
 
 Se o aluno for desligado do seu curso por qualquer motivo, seu QRCode será automaticamente desativado. E em caso de extravio do smartphone com o acesso do aluno, este deverá requerer na instituição o bloqueio da IMEI do aparelho e uma nova liberação.
 
-As informações obtidas serão salvas localmente caso a rede esteja off-line, até que seja possível realizar seu envio para o sistema on-line, através do qual será possível a visualização e download do relatório de frequência.  
-
-OBS.: Sistema de Controle de Frquência usando o Ifes como exemplo, mas podendo ser adquirido por qualquer instituicão.
+As informações obtidas serão salvas localmente caso a rede esteja off-line, até que seja possível realizar seu envio para o sistema on-line, através do qual será possível a visualização e download dos relatórios de frequência. 
 
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
@@ -46,7 +44,7 @@ OBS.: Sistema de Controle de Frquência usando o Ifes como exemplo, mas podendo 
 
 Principais Relatórios do Sistema de Controle de Frequência de Aulas:
     
-* **Relatório da frequência individual do aluno por disciplina, incluindo as seguintes informações:** código da disciplina, nome da disciplina, carga horária da disciplina, nome do professor, nome do aluno, matrícula do aluno, frequência do aluno na disciplina, data da aula, hora de início e fim da aula, hora de entrada e saída do aluno.
+* **Relatório da frequência individual do aluno por disciplina, incluindo as seguintes informações:** código da disciplina, nome da disciplina, carga horária da disciplina, nome do professor, nome do aluno, Código de matrícula do aluno, frequência do aluno na disciplina, data da aula, horas disciplina, hora de entrada e saída do aluno.
 
 * **Relatório com os dados dos alunos por disciplina, incluindo as seguintes informações:** código da disciplina, nome da disciplina, carga horária da disciplina, nome do professor, campus onde a disciplina é ofertada, curso da disciplina ofertada, nome do aluno, matrícula do aluno, curso do aluno.
 
@@ -65,7 +63,7 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 
 ### 5.MODELO CONCEITUAL<br>
     
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/modelos/Modelo3.jpeg)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/modelos/modelo2.png)
     
       
 #### 5.1 VALIDAÇÃO DO MODELO CONCEITUAL
@@ -96,7 +94,7 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 * **Campo cod_campus:** atributo chave, contém o código único do campus.<br>
 * **Campo campus:** um campo simples com o nome/localidade do campus.<br>
 
-* **Campo cod_servidor:** atributo chave, contém o código único e individual do servidor que exerce alguma função na instituição.<br>
+* **Campo cod_professor:** atributo chave, contém o código único e individual do professor que leciona a disciplina.<br>
 * **Campo nome_professor:** um campo simples, contém apenas o nome do professor.<br>
 * **Campo cpf_professor:** um campo simples com o número do CPF do professor.<br>
 
