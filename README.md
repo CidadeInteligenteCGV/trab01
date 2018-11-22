@@ -136,6 +136,8 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
     - **cod_disciplina:** campo com o código da disciplina.<br>
     - **nome_disciplina:** campo com o nome da disciplina.<br>
     - **horas_disciplina:** campo com o número de horas total da disciplina.<br>
+    - **horario_inicio:** campo com o horário de início da disciplina.<br>
+    - **horario_saida:** campo com o horário de fim da disciplina.<br>
 
 * **Historico_Aula:** tabela que armazena as informações relativas às aulas dadas pelos professores.<br>
     - **id_historico_aula:** campo que armazena o identificador do histórico gerado da aula.<br>
