@@ -57,6 +57,8 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 
 * **Relatório de frequência nas disciplinas ofertadas por professor, incluindo as seguintes informações:** código do servidor, nome do professor, código da disciplina, nome da disciplina, carga horária da disciplina, campus onde a disciplina foi ofertada, média de frequência dos alunos, média de reprovação por falta. 
 
+* **Relatório de frequência nas disciplinas ofertadas em todos os campus, incluindo as seguintes informações:**  código da disciplina, nome da disciplina, carga horária da disciplina, nome do professor, curso onde a disciplina está alocada, campus onde a disciplina foi ofertada, matriculas dos alunos, curso dos alunos e carga horária da frequência do aluno.
+
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
  
