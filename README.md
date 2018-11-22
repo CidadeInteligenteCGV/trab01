@@ -33,7 +33,7 @@ Se o aluno for desligado do seu curso por qualquer motivo, seu QRCode será auto
 
 As informações obtidas serão salvas localmente caso a rede esteja off-line, até que seja possível realizar seu envio para o sistema on-line, através do qual será possível a visualização e download do relatório de frequência.  
 
-OBS.: Sistema de Controle de Frquência usando o Ifes como exemplo, mas podendo implementar o sistema em qualquer instituicão.
+OBS.: Sistema de Controle de Frquência usando o Ifes como exemplo, mas podendo ser adquirido por qualquer instituicão.
 
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
