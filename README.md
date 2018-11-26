@@ -69,7 +69,7 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 
 ### 5.MODELO CONCEITUAL<br>
     
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/modelo4.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/modelos/modelo4.png)
     
       
 #### 5.1 VALIDAÇÃO DO MODELO CONCEITUAL
