@@ -69,7 +69,7 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 
 ### 5.MODELO CONCEITUAL<br>
     
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/modelos/Modelo3.jpeg)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/modelos/modelo4.png)
     
       
 #### 5.1 VALIDAÇÃO DO MODELO CONCEITUAL
@@ -154,7 +154,7 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/L%C3%B3gico_1.png)
 
 ### 7	MODELO FÍSICO<br>
-  [Script SQL 7](https://github.com/ControleFrequencia/trab01/blob/master/modelos/create1.sql) 
+  [Script SQL 7](https://github.com/ControleFrequencia/trab01/blob/master/modelos/create3.sql) 
        
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
