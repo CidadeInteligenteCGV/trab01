@@ -404,7 +404,7 @@ Depois:<br>
 DELETE FROM campus WHERE cod_campus = 'IFES0003';
 
 Antes:<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select_campus.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select_campus.png)
 
 Depois:<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20campus.PNG)
@@ -414,7 +414,7 @@ Depois:<br>
 UPDATE historico_aula SET data_aula = '2018-10-17' WHERE id_historico_aula=48;
 
 Antes:<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select_historico_aula.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select_historico_aula.png)
 
 Depois:<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20hist%20aula.PNG)
@@ -422,12 +422,6 @@ Depois:<br>
 6ª Consulta:
 
 
-
-Antes:<br>
-![Alt text]()
-
-Depois:<br>
-![Alt text]()
 
 >## Marco de Entrega 04 em: (18/10/2017)<br>
 
