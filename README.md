@@ -179,25 +179,22 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
 SELECT * FROM aluno;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20aluno.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select_aluno.PNG)
 
 SELECT * FROM campus;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20campus.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select_campus.PNG)
 
 SELECT * FROM curso;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20curso.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select_curso.PNG)
 
 SELECT * FROM disciplina;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20disciplina.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select_disciplina.PNG)
 
 SELECT * FROM professor;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20professor.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select_professor.PNG)
 
 SELECT * FROM historico_aula;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20historico%20aula.PNG)
-
-SELECT * FROM historico_frequencia;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20historico%20frequencia.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select_historico_aula.PNG)
 
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
