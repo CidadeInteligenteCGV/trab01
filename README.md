@@ -161,7 +161,7 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
   [Script SQL 8.1](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/insert2.sql)   
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS
-  [Script SQL 8.2](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/create%20e%20insert.sql)  
+  [Script SQL 8.2](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/create%20e%20insert2.sql)  
   [Backup](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/insertcreate.sql)
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
   [Script SQL 8.3](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/drop1.sql) <br>
