@@ -61,7 +61,7 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
  
-[Tabela](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/tabela_frequencia3.xlsx)
+[Tabela](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/tabela_frequencia4.xlsx)
 
     
 >## Marco de Entrega 01 em: (06/09/2018)<br>
