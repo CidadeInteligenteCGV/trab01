@@ -23,7 +23,7 @@ O Sistema de Controle de Frequência de Aulas tem como objetivo gerenciar todas 
 
 ### 3.MINI-MUNDO <br>
 
-Sobre as informações presentes no Sistema de Controle de Frequência de Alunos. Dos alunos serão armazenados os seguintes dados: código de matrícula, nome, CPF, data de nascimento, sexo e imei (identificador do celular).  Do campus: código único para cada campus e nome do campus. Dos cursos: código do curso e nome do curso. Das disciplinas ofertadas: código da disciplina, nome, carga horária e horário de início e fim das aulas. Cada disciplina irá possuir um histórico de aula único, no qual constará: id do histórico gerado da aula, data da aula e presença do aluno. Os dados relativos aos professores que serão armazenados são: código único do servidor, nome e CPF. 
+Sobre as informações presentes no Sistema de Controle de Frequência de Alunos. Dos alunos serão armazenados os seguintes dados: código de matrícula, nome, CPF, data de nascimento, sexo e imei (identificador do celular).  Do campus: código único para cada campus e nome do campus. Dos cursos: código do curso e nome do curso. Das disciplinas ofertadas: código da disciplina, nome, carga horária. Cada disciplina irá possuir um histórico de aula único, no qual constará: id do histórico gerado da aula, data da aula, presença do aluno e horário de início e saída das aulas. Os dados relativos aos professores que serão armazenados são: código único do servidor, nome e CPF. 
 
 As principais funções do sistema são de controle da entrada e saída do aluno nas salas de aula, e gerar relatório de frequência dos alunos e realizar a chamada em sala de aula de uma forma mais prática. Ao realizar sua matrícula no Ifes, o aluno será orientado a baixar o aplicativo que dá acesso a suas informações acadêmicas e assim conseguir a liberação do seu QRCode. O aluno mais tarde receberá ainda sua carteirinha de estudante que terá um micro chip embutido, e assim como o QRCode, esta poderá ser utilizada para registro de presença nas aulas ao ser posicionada no leitor localizado nas portas das salas. A sinalização de falta ou presença respeitará o limite de 15 minutos do horário de início e fim da aula, podendo o aluno sair da sala quantas vezes achar necessário e precisar desde que no sistema não conste um período de ausência demasiadamente longo.
 
@@ -139,14 +139,13 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
     - **cod_disciplina:** campo com o código da disciplina.<br>
     - **nome_disciplina:** campo com o nome da disciplina.<br>
     - **horas_disciplina:** campo com o número de horas total da disciplina.<br>
-    - **horario_inicio:** campo com o horário de início da disciplina.<br>
-    - **horario_saida:** campo com o horário de fim da disciplina.<br>
 
 * **Historico_Aula:** tabela que armazena as informações relativas às aulas dadas pelos professores.<br>
     - **id_historico_aula:** campo que armazena o identificador do histórico gerado da aula.<br>
     - **data_aula:** campo para o registro do dia em que a aula ocorreu.<br>
     - **presenca:** campo com a informação se o aluno estava ou não presente da sala de aula.<br>
-   
+    - **horario_inicio:** campo com o horário de início da disciplina.<br>
+    - **horario_saida:** campo com o horário de fim da disciplina.<br>
 
 
 ### 6	MODELO LÓGICO<br>
