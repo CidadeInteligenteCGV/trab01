@@ -83,7 +83,7 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
     
 * **Campo id_historico_aula:** um campo simples, contém o identificador do histórico da aula.<br>    
 * **Campo data_aula:** um campo simples, porque vai guardar apenas o dia da aula.<br>
-* **Campo presença:** um campo simples que armazena presença ou falta do aluno.<br>
+* **Campo presenca:** um campo simples que armazena presença ou falta do aluno.<br>
 
 * **Campo cod_matricula:** atributo chave, contém uma matrícula única e individual para o aluno no curso em que está inscrito.<br>
 * **Campo nome_aluno:** um campo simples com o nome do aluno.<br>
