@@ -107,7 +107,7 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 * **Campo horas_disciplina:** um campo simples com o total de horas da disciplina.<br>
 
 * **Campo horario_inicio:** um campo simples, é o registro do horário em que determinada aula começa.<br>
-* **Campo horario_fim:** um campo simples, é o registro do horário em que determinada aula acaba.<br>
+* **Campo horario_saida:** um campo simples, é o registro do horário em que determinada aula acaba.<br>
 
 
 
