@@ -231,7 +231,7 @@ SELECT * FROM historico_aula WHERE data_aula > '2018-08-21' AND horario_inicio =
 
 2ª Consulta:
 
-SELECT * FROM historico_frequencia WHERE horario_chegada < '08:00:00' OR horario_saida > '17:00:00' ;<br>
+SELECT * FROM historico_aula WHERE horario_inicio < '08:00:00' OR horario_saida > '17:00:00';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/histo%20freq%20where%20or.PNG)
 
 3ª Consulta:
@@ -253,24 +253,18 @@ Consultas com operadores aritméticos
 
 1ª Consulta:
 
-select horario_inicio, horario_fim, 
-	(horario_fim - horario_inicio) as duracao_aula
-	from historico_aula;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/aritmetica1.png)
+select horario_inicio, horario_saida, (horario_saida - horario_inicio) as duracao_aula from historico_aula;<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/aritmetica1.PNG)
 
 2ª Consulta:
 
 select nome_aluno, cod_matricula, data_nascimento_aluno,
 	(cast(substring(cod_matricula, 0, 5) as int) - extract(year from aluno.data_nascimento_aluno)) as idade_ingresso
 	from aluno;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/aritmetica2.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/aritmetica2.PNG)
 
 3ª Consulta:
 
-select data_aula, horario_chegada, horario_saida,
-	(horario_saida - horario_chegada) as tempo_em_sala
-	from historico_frequencia;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/aritmetica3.png)
 
 
 Consultas com operação de renomear nomes de campos ou tabelas
@@ -283,12 +277,13 @@ ALTER TABLE aluno RENAME COLUMN data_nascimento_aluno TO data_nascimento;<br>
 2ª Consulta:
 
 ALTER TABLE campus RENAME TO campi;<br>
+select * from campi;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/alter%20campus%20rename.PNG)
 
 3ª Consulta:
 
 ALTER TABLE professor RENAME COLUMN cod_servidor TO cod_professor;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/Capturar.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/alter%20professor%20cod.PNG)
 
 
     
