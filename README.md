@@ -294,22 +294,22 @@ Consultas que envolvam like ou ilike
 1ª Consulta:
 
 select * from campus where campus ilike '%c%';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/ilike1.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/ilike1.PNG)
 
 2ª Consulta:
 
 select * from aluno as al where al.nome_aluno ilike '%f%' and al.cod_matricula ilike '%f%';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/ilike2.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/ilike2.PNG)
 
 3ª Consulta:
 
 select * from curso where nome_curso ilike '%l%' and nome_curso like '%em%';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/ilikelike1.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/ilikelike1.PNG)
 
 4ª Consulta:
 
 select * from campus where campus ilike '%a%' and campus like '%a';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/ilikelike2.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/ilikelike2.PNG)
 
 5ª Consulta:
 
@@ -318,7 +318,7 @@ select * from campus where campus ilike '%a%' and campus like '%a';<br>
 6ª Consulta:
 
 select * from professor where nome_professor like '_ar%';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/like2.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/like2.PNG)
 
 7ª Consulta:
 
