@@ -343,8 +343,8 @@ select nome_aluno, age('2018-10-1', data_nascimento) as idade from aluno;<br>
 
 2ª Consulta:
 
-select nome_aluno, data_nascimento_aluno, date_part('month', data_nascimento_aluno) as nasceu_mes_primeiro_semestre_ano from aluno where date_part('month', data_nascimento_aluno) < 7;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/dataDatePart.png)
+select nome_aluno, data_nascimento, date_part('month', data_nascimento) as nasceu_mes_primeiro_semestre_ano from aluno where date_part('month', data_nascimento) < 7;<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/dataDatePart.PNG)
 
 3ª Consulta:
 
