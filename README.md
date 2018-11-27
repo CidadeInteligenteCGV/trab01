@@ -273,6 +273,7 @@ Consultas com operação de renomear nomes de campos ou tabelas
 1ª Consulta:
 
 ALTER TABLE aluno RENAME COLUMN data_nascimento_aluno TO data_nascimento;<br>
+select * from aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/alter%20aluno%20data.PNG)
 
 2ª Consulta:
@@ -284,6 +285,7 @@ select * from campi;<br>
 3ª Consulta:
 
 ALTER TABLE professor RENAME COLUMN cod_servidor TO cod_professor;<br>
+select * from professor;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/alter%20professor%20cod.PNG)
 
 
@@ -361,31 +363,37 @@ select nome_aluno, extract('year' from data_nascimento) as ano_nascimento from a
 1ª Consulta:
 
 DELETE FROM disciplina WHERE cod_disciplina = 229 OR cod_disciplina = 8;<br>
+select * from disciplina;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20disciplina.PNG)
 
 2ª Consulta:
 
 DELETE FROM professor WHERE cpf_professor = '67053106349' AND nome_professor = 'Leonardo Souza';<br>
+select * from professor;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20professor.PNG)
 
 3ª Consulta:
 
 UPDATE curso SET cod_curso =53000, nome_curso ='Engenharia Civil' WHERE cod_curso=30157;<br>
+select * from curso;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20curso.PNG)
 
 4ª Consulta:
 
 DELETE FROM campi WHERE cod_campus = 'IFES0003';<br>
+select * from campi;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20campus.PNG)
 
 5ª Consulta:
 
 UPDATE historico_aula SET data_aula = '2018-10-17' WHERE id_historico_aula=48;<br>
+select * from historico_aula;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20hist%20aula.PNG)
 
 6ª Consulta:
 
 UPDATE aluno SET nome_aluno = 'Matilde Ferreira Santos' WHERE nome_aluno = 'Matilde Ferreira';<br>
+select * from aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20aluno.PNG)
 
 >## Marco de Entrega 04 em: (18/10/2017)<br>
