@@ -335,7 +335,7 @@ select * from curso where nome_curso like '%o';<br>
 9ª Consulta:
 
 select * from aluno where cast (imei as varchar) not like '4%';<br>	
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/notlike.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/notlike.PNG)
 
 Consulta para cada tipo de função data apresentada
 
