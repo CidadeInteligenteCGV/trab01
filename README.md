@@ -265,7 +265,8 @@ select nome_aluno, cod_matricula, data_nascimento_aluno,
 
 3ª Consulta:
 
-
+select cod_matricula, nome_aluno, data_nascimento_aluno, (2018 - extract(year from aluno.data_nascimento_aluno)) as idade_aluno_2018 from aluno;
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/aritmetica3.PNG)
 
 Consultas com operação de renomear nomes de campos ou tabelas
 
@@ -313,7 +314,8 @@ select * from campi where campi ilike '%a%' and campi like '%a';<br>
 
 5ª Consulta:
 
-
+select * from historico_aula where cast (horario_inicio as varchar) like '%50%';<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/like1.PNG)
 
 6ª Consulta:
 
@@ -332,7 +334,8 @@ select * from curso where nome_curso like '%o';<br>
 
 9ª Consulta:
 
-
+select * from aluno where cast (imei as varchar) not like '4%';<br>	
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/notlike.png)
 
 Consulta para cada tipo de função data apresentada
 
@@ -407,7 +410,13 @@ Depois:<br>
 
 6ª Consulta:
 
+UPDATE aluno SET nome_aluno = 'Matilde Ferreira Santos' WHERE nome_aluno = 'Matilde Ferreira';
 
+Antes:<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select_aluno.png)
+
+Depois:<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20aluno.PNG)
 
 >## Marco de Entrega 04 em: (18/10/2017)<br>
 
