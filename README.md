@@ -317,7 +317,7 @@ select * from campi where campi ilike '%a%' and campi like '%a';<br>
 5ª Consulta:
 
 select * from historico_aula where cast (horario_inicio as varchar) like '%50%';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/like1.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/like.PNG)
 
 6ª Consulta:
 
