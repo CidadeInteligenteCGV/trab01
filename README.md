@@ -313,8 +313,7 @@ select * from campus where campus ilike '%a%' and campus like '%a';<br>
 
 5ª Consulta:
 
-select * from aluno where nome_aluno like '%Ribeiro%' and campus = 'Vitória';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/like1.png)
+
 
 6ª Consulta:
 
@@ -333,31 +332,23 @@ select * from curso where nome_curso like '%o';<br>
 
 9ª Consulta:
 
-select * from professor where nome_disciplina not like '%o';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/notlike.png)
+
 
 Consulta para cada tipo de função data apresentada
 
 1ª Consulta:
 
-select nome_aluno, 
-	age('2018-10-1', data_nascimento_aluno) as idade
-	from aluno;<br>
+select nome_aluno, age('2018-10-1', data_nascimento) as idade from aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/dataAge.png)
 
 2ª Consulta:
 
-select nome_aluno, data_nascimento_aluno,
-	date_part('month', data_nascimento_aluno) as nasceu_mes_primeiro_semestre_ano
-	from aluno
-	where date_part('month', data_nascimento_aluno) < 7;<br>
+select nome_aluno, data_nascimento_aluno, date_part('month', data_nascimento_aluno) as nasceu_mes_primeiro_semestre_ano from aluno where date_part('month', data_nascimento_aluno) < 7;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/dataDatePart.png)
 
 3ª Consulta:
 
-select nome_aluno, 
-	extract('year' from data_nascimento_aluno) as ano_nascimento
-	from aluno;<br>
+select nome_aluno, extract('year' from data_nascimento) as ano_nascimento from aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/dataExtract.png)
 
     
