@@ -360,62 +360,32 @@ select nome_aluno, extract('year' from data_nascimento) as ano_nascimento from a
 
 1ª Consulta:
 
-DELETE FROM disciplina WHERE cod_disciplina = 229 OR cod_disciplina = 8;
-
-Antes:<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select_disciplina.png)
-
-Depois:<br>
+DELETE FROM disciplina WHERE cod_disciplina = 229 OR cod_disciplina = 8;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20disciplina.PNG)
 
 2ª Consulta:
 
-DELETE FROM professor WHERE cpf_professor = '67053106349' AND nome_professor = 'Leonardo Souza';
-
-Antes:<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select_professor.png)
-
-Depois:<br>
+DELETE FROM professor WHERE cpf_professor = '67053106349' AND nome_professor = 'Leonardo Souza';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20professor.PNG)
 
 3ª Consulta:
 
-UPDATE curso SET cod_curso =53000, nome_curso ='Engenharia Civil' WHERE cod_curso=30157;
-
-Antes:<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select_curso.png)
-
-Depois:<br>
+UPDATE curso SET cod_curso =53000, nome_curso ='Engenharia Civil' WHERE cod_curso=30157;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20curso.PNG)
 
 4ª Consulta:
 
-DELETE FROM campi WHERE cod_campus = 'IFES0003';
-
-Antes:<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select_campus.png)
-
-Depois:<br>
+DELETE FROM campi WHERE cod_campus = 'IFES0003';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20campus.PNG)
 
 5ª Consulta:
 
-UPDATE historico_aula SET data_aula = '2018-10-17' WHERE id_historico_aula=48;
-
-Antes:<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select_historico_aula.png)
-
-Depois:<br>
+UPDATE historico_aula SET data_aula = '2018-10-17' WHERE id_historico_aula=48;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20hist%20aula.PNG)
 
 6ª Consulta:
 
-UPDATE aluno SET nome_aluno = 'Matilde Ferreira Santos' WHERE nome_aluno = 'Matilde Ferreira';
-
-Antes:<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select_aluno.png)
-
-Depois:<br>
+UPDATE aluno SET nome_aluno = 'Matilde Ferreira Santos' WHERE nome_aluno = 'Matilde Ferreira';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20aluno.PNG)
 
 >## Marco de Entrega 04 em: (18/10/2017)<br>
