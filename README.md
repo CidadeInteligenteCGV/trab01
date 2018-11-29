@@ -153,18 +153,18 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/modelos/mod_logico%2027-11.png)
 
 ### 7	MODELO FÍSICO<br>
-  [Script SQL 7](https://github.com/ControleFrequencia/trab01/blob/master/modelos/create3.sql) 
+  [Script SQL 7](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/Create.sql) 
        
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-  [Script SQL 8.1](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/insert2.sql)   
+  [Script SQL 8.1](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/Insert.sql)   
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS
-  [Script SQL 8.2](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/create%20e%20insert2.sql)  
+  [Script SQL 8.2](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/Create%20e%20insert.sql)  
   [Backup](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/insertcreate.sql)
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
-  [Script SQL 8.3](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/drop2.sql) <br>
+  [Script SQL 8.3](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/Create%2C%20insert%20e%20drop.sql) <br>
   [Backup](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/dropbackup.sql)
 
 #### 8.4 PRINCIPAIS FLUXOS DE INFORMAÇÃO E PRINCIPAIS TABELAS DO SISTEMA
