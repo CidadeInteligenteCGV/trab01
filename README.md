@@ -497,7 +497,10 @@ order by nome_professor;<br>
 
 4ª Consulta:
 
-<br>
+select (cast(substring(cod_matricula, 0, 5) as int)) as ano_ingresso, count(cod_matricula) as quantidade_aluno
+from aluno
+group by ano_ingresso
+order by ano_ingresso;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group4.PNG)
 
 5ª Consulta:
