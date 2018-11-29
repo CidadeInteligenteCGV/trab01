@@ -170,20 +170,20 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 #### 8.4 PRINCIPAIS FLUXOS DE INFORMAÇÃO E PRINCIPAIS TABELAS DO SISTEMA
    * Principais fluxos de dados de informação no sistema em densenvolvimento (mínimo 3)<br>
         - Aluno gera Histório de Aula;<br>
-	- Histórico de Aula registrado pelo Professor;<br>
-	- Disciplina possui Histórico de Aula.<br>
+        - Histórico de Aula registrado pelo Professor;<br>
+        - Disciplina possui Histórico de Aula.<br>
 
    * Tabelas que conterão mais dados no sistema em densenvolvimento (mínimo 3)<br>
         - Tabela Alunos;<br>
-	- Tabela Historico_Aula;<br>
-	- Tabela Disciplina.<br>
+        - Tabela Historico_Aula;<br>
+        - Tabela Disciplina.<br>
 
    * 5 principais tabelas do sistema em densenvolvimento<br>
         - Aluno;<br>
-	- Historico_Aula;<br>
-	- Disciplina;<br>
-	- Professor;<br>
-	- Curso.<br>
+        - Historico_Aula;<br>
+        - Disciplina;<br>
+        - Professor;<br>
+        - Curso.<br>
      
 >## Marco de Entrega 03 em: (27/09/18) <br>
 
