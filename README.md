@@ -553,28 +553,51 @@ ON a.fk_disciplina_cod_disciplina = c.cod_disciplina  ORDER BY C.nome_disciplina
 	
 1ª Consulta:
 
+CREATE VIEW alunos_matriculados AS
+SELECT nome_aluno AS Alunos,
+       cod_matricula AS Matriculas
+FROM aluno
 
-![Alt text]()
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%201.PNG)
 
 2ª Consulta:
+CREATE VIEW disciplinas_curso AS
+SELECT a.nome_disciplina AS disciplina,
+       c.nome_curso AS curso
+FROM disciplina a, curso c
+WHERE a.fk_curso_cod_curso = c.cod_curso
 
 
-![Alt text]()
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%202.PNG)
 
 3ª Consulta:
+CREATE VIEW cargaHoraria_professores_90 AS
+SELECT a.nome_professor AS professor,
+       c.nome_disciplina AS disciplina,
+	   c.horas_disciplina AS carga_horaria
+FROM professor a, disciplina c
 
 
-![Alt text]()
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%203.PNG)
 
 4ª Consulta:
+CREATE VIEW imei_smartphone_aluno AS
+SELECT nome_aluno AS aluno,
+       cod_matricula AS matricula,
+       imei
+FROM aluno
 
-
-![Alt text]()
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%204.PNG)
 
 5ª Consulta:
+CREATE VIEW curso_do_campus AS
+SELECT a.nome_curso AS curso,
+	   c.campus AS campus      
+FROM curso a, campus c
+WHERE  a.fk_campus_cod_campus = c.cod_campus
 
 
-![Alt text]()
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%205.PNG)
 
 6ª Consulta:
 
