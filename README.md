@@ -63,10 +63,6 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
  
 [Tabela](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/tabela_frequencia4.xlsx)
 
-    
->## Marco de Entrega 01 em: (06/09/2018)<br>
-
-
 ### 5.MODELO CONCEITUAL<br>
     
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/modelos/modelo4.png)
@@ -148,15 +144,15 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
     - **horario_saida:** campo com o horário de fim da disciplina.<br>
 
 
-### 6	MODELO LÓGICO<br>
+### 6. MODELO LÓGICO<br>
  
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/modelos/mod_logico%2027-11.png)
 
-### 7	MODELO FÍSICO<br>
+### 7. MODELO FÍSICO<br>
   [Script SQL 7](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/Create.sql) 
        
         
-### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
+### 8. INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
   [Script SQL 8.1](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/Insert.sql)   
 
@@ -187,7 +183,7 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
      
 >## Marco de Entrega 03 em: (27/09/18) <br>
 
-### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
+### 9. TABELAS E PRINCIPAIS CONSULTAS<br>
     
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
@@ -306,7 +302,7 @@ select * from professor;<br>
 
 
     
-#### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
+#### 9.4 CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
 
 Consultas que envolvam like ou ilike
 
@@ -374,7 +370,7 @@ select nome_aluno, extract('year' from data_nascimento) as ano_nascimento from a
 
     
 
-#### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+#### 9.5 ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 
 1ª Consulta:
 
@@ -414,7 +410,7 @@ select * from aluno;<br>
 
 >## Marco de Entrega 04 em: (18/10/2017)<br>
 
-#### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
+#### 9.6 CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
 
 1ª Consulta:
 
@@ -473,7 +469,7 @@ select * from aluno
 order by (cast(substring(cod_matricula, 0, 5) as int)) desc;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/order2.PNG)
 
-#### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
+#### 9.7 CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
 
 1ª Consulta:
 
@@ -513,7 +509,7 @@ order by ano_ingresso;<br>
 <br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group6.PNG)
 
-#### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
+#### 9.8 CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 
 1ª Consulta:
 
@@ -547,10 +543,8 @@ ON a.fk_disciplina_cod_disciplina = c.cod_disciplina  ORDER BY C.nome_disciplina
 
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/consulta%204-%20LEFT%20RIGTH.PNG)
 
-#### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
-        a) Uma junção que envolva Self Join
-        b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
-	
+#### 9.9 CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
+      
 1ª Consulta:
 
 CREATE VIEW alunos_matriculados AS
@@ -561,6 +555,7 @@ FROM aluno
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%201.PNG)
 
 2ª Consulta:
+
 CREATE VIEW disciplinas_curso AS
 SELECT a.nome_disciplina AS disciplina,
        c.nome_curso AS curso
@@ -571,6 +566,7 @@ WHERE a.fk_curso_cod_curso = c.cod_curso
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%202.PNG)
 
 3ª Consulta:
+
 CREATE VIEW cargaHoraria_professores_90 AS
 SELECT a.nome_professor AS professor,
        c.nome_disciplina AS disciplina,
@@ -581,6 +577,7 @@ FROM professor a, disciplina c
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%203.PNG)
 
 4ª Consulta:
+
 CREATE VIEW imei_smartphone_aluno AS
 SELECT nome_aluno AS aluno,
        cod_matricula AS matricula,
@@ -590,6 +587,7 @@ FROM aluno
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%204.PNG)
 
 5ª Consulta:
+
 CREATE VIEW curso_do_campus AS
 SELECT a.nome_curso AS curso,
 	   c.campus AS campus      
@@ -601,10 +599,15 @@ WHERE  a.fk_campus_cod_campus = c.cod_campus
 
 6ª Consulta:
 
+SELECT DISTINCT ha1.data_aula, ha1.horario_inicio, (ha2.horario_saida - '00:50:00') AS hora_aula_50min
+FROM historico_aula AS ha1
+INNER JOIN historico_aula AS ha2 ON (ha2.horario_saida = ha1.horario_inicio + '01:40:00')
+ORDER BY ha1.data_aula;
 
-![Alt text]()
 
-#### 9.10	SUBCONSULTAS (Mínimo 3)<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%206.PNG)
+
+#### 9.10 SUBCONSULTAS (Mínimo 3)<br>
 
 1ª Consulta:
 
@@ -623,30 +626,28 @@ SELECT nome_aluno, sexo_aluno from aluno WHERE data_nascimento_aluno IN( SELECT 
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/subc3.PNG)
 
 
-### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
+### 10. ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 
-### 11 Backup completo do banco de dados postgres 
+### 11. Backup completo do banco de dados postgres 
     a) deve ser realizado no formato "backup" 
         (Em Dump Options #1 Habilitar opções Don't Save Owner e Privilege)
     b) antes de postar o arquivo no git o mesmo deve ser testado/restaurado por outro grupo de alunos/dupla
     c) informar aqui o grupo de alunos/dupla que realizou o teste.
 
-### 12	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
+### 12.	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
         a) Outros grupos deverão ser capazes de restaurar o banco 
         b) executar todas as consultas presentes no trabalho
         c) executar códigos que tenham sido construídos para o trabalho 
         d) realizar qualquer procedimento executado pelo grupo que desenvolveu o trabalho
         
-### 13   DIFICULDADES ENCONTRADAS PELO GRUPO<br>
+### 13. DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 
    * Algumas das dificuldades encontradas foram:<br>
         - A aplicação do que foi aprendido em sala na construção do mapa conceitual "mais certo";<br>
         - Tempo para revisar e ajeitar o trabalho sempre que ocorria uma mudança em algum tópico;<br>
         - Contruir os mockups com as informações necessárias, levando em consideração as diferenças entre o aplicativo de celular, acessado só pelo aluno, e o site no desktop, de uso exclusivo da instituição e dos professores;<br>
-
->## Marco de Entrega Final em: (08/11/2018)<br>
-        
-### 14  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
+  
+### 14. FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 <comentario no git>
     
 ##### About Formatting
