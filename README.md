@@ -441,12 +441,22 @@ order by cod_matricula;<br>
 
 3ª Consulta:
 
-<br>
+select cod_campus, campus, count(cod_disciplina) as quantidade_disciplinas
+from campus
+inner join curso on (curso.fk_campus_cod_campus = campus.cod_campus)
+inner join disciplina on (disciplina.fk_curso_cod_curso = curso.cod_curso)
+group by cod_campus
+order by campus;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/join3.PNG)
 
 4ª Consulta:
 
-<br>
+select cod_disciplina, nome_disciplina, count(distinct cod_servidor) as quantidade_professores
+from disciplina
+inner join historico_aula on (historico_aula.fk_disciplina_cod_disciplina = disciplina.cod_disciplina)
+inner join professor on (professor.cod_servidor = historico_aula.fk_professor_cod_servidor)
+group by cod_disciplina
+order by nome_disciplina;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/join4.PNG)
 
 5ª Consulta:
@@ -483,12 +493,7 @@ order by nome_professor;<br>
 
 4ª Consulta:
 
-select cod_disciplina, nome_disciplina, count(distinct cod_servidor) as quantidade_professores
-from disciplina
-inner join historico_aula on (historico_aula.fk_disciplina_cod_disciplina = disciplina.cod_disciplina)
-inner join professor on (professor.cod_servidor = historico_aula.fk_professor_cod_servidor)
-group by cod_disciplina
-order by nome_disciplina;<br>
+<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group4.PNG)
 
 5ª Consulta:
