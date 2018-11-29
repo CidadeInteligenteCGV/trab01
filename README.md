@@ -464,32 +464,42 @@ order by cod_matricula;<br>
 1ª Consulta:
 
 SELECT nome_aluno, data_nascimento_aluno FROM aluno WHERE UPPER(nome_aluno) LIKE UPPER('%r%') GROUP BY nome_aluno, data_nascimento_aluno;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/group1.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group1.PNG)
 
 2ª Consulta:
 
 SELECT nome_professor, cpf_professor FROM professor WHERE UPPER(nome_professor) LIKE UPPER('%a%') AND UPPER(cod_professor) LIKE UPPER('%00%') GROUP BY nome_professor, cpf_professor;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/group2.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group2.PNG)
 
 3ª Consulta:
 
-
-![Alt text]()
+select cod_servidor, nome_professor, cod_disciplina, nome_disciplina
+from professor
+inner join historico_aula on (historico_aula.fk_professor_cod_servidor = professor.cod_servidor)
+inner join disciplina on (disciplina.cod_disciplina = historico_aula.fk_disciplina_cod_disciplina)
+group by cod_servidor, cod_disciplina
+order by nome_professor;<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group3.PNG)
 
 4ª Consulta:
 
-
-![Alt text]()
+select cod_disciplina, nome_disciplina, count(distinct cod_servidor) as quantidade_professores
+from disciplina
+inner join historico_aula on (historico_aula.fk_disciplina_cod_disciplina = disciplina.cod_disciplina)
+inner join professor on (professor.cod_servidor = historico_aula.fk_professor_cod_servidor)
+group by cod_disciplina
+order by nome_disciplina;<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group4.PNG)
 
 5ª Consulta:
 
-
-![Alt text]()
+<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group5.PNG)
 
 6ª Consulta:
 
-
-![Alt text]()
+<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group6.PNG)
 
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 
