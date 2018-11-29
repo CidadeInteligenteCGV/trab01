@@ -445,23 +445,35 @@ SELECT nome_professor, cpf_professor FROM professor WHERE UPPER(nome_professor) 
 
 1ª Consulta:
 
+SELECT a.nome_curso, c.campus
+FROM curso a RIGHT JOIN campus c
+ON a.fk_campus_cod_campus = c.cod_campus  ORDER BY c.cod_campus;
 
-![Alt text]()
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/consulta%201-%20LEFT%20RIGTH.PNG)
 
 2ª Consulta:
 
+SELECT a.nome_curso, c.nome_disciplina
+FROM curso a LEFT JOIN disciplina c
+ON a.cod_curso = c.fk_curso_cod_curso  ORDER BY c.nome_disciplina;
 
-![Alt text]()
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/consulta%202-%20LEFT%20RIGTH.PNG)
 
 3ª Consulta:
 
+SELECT a.data_aula, c.nome_professor
+FROM historico_aula a LEFT JOIN professor c
+ON a.fk_professor_cod_servidor = c.cod_servidor  ORDER BY a.data_aula;
 
-![Alt text]()
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/consulta%203-%20LEFT%20RIGTH.PNG)
 
 4ª Consulta:
 
+SELECT c.nome_disciplina, a.data_aula, a.horario_inicio, a.horario_saida
+FROM historico_aula a RIGHT JOIN disciplina c
+ON a.fk_disciplina_cod_disciplina = c.cod_disciplina  ORDER BY C.nome_disciplina;
 
-![Alt text]()
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/consulta%204-%20LEFT%20RIGTH.PNG)
 
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
         a) Uma junção que envolva Self Join
