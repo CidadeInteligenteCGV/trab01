@@ -40,7 +40,7 @@ OBS.: Sistema de Controle de Frquência usando o Ifes como exemplo, mas podendo 
 
 [Mockups - Desktop](https://github.com/ControleFrequencia/trab01/blob/master/mockups/Controle%20de%20Freque%CC%82ncia%20de%20Aulas%20-%20Desktop.pdf)
 
-[Mockups - Mobile](https://github.com/ControleFrequencia/trab01/blob/master/mockups/Controle%20de%20Frequ%C3%AAncia%20de%20Aulas%20-%20Telas%20Mobile.pdf)
+[Mockups - Mobile](https://github.com/ControleFrequencia/trab01/blob/master/mockups/Telas%20-%20Mobile.pdf)
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
 
