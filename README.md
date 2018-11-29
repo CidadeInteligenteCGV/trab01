@@ -50,13 +50,13 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
     
 * **Relatório da frequência individual do aluno por disciplina, incluindo as seguintes informações:** código da disciplina, nome da disciplina, nome do professor, nome do aluno, código de matrícula do aluno, frequência do aluno na disciplina, data da aula, horas disciplina, hora de entrada e saída do aluno.
 
-* **Relatório geral de dados dos alunos por disciplina, incluindo as seguintes informações:** código da disciplina, nome da disciplina, nome do professor, campus onde a disciplina é ofertada, curso da disciplina ofertada, nome do aluno, matrícula do aluno, curso do aluno.
+* **Relatório geral de dados dos alunos por disciplina, incluindo as seguintes informações:** código da disciplina, nome da disciplina, horas disciplina, nome do professor, campus onde a disciplina é ofertada, curso da disciplina ofertada, nome do aluno, matrícula do aluno, curso do aluno.
 
-* **Relatório de reprovação por falta na disciplina, incluindo as seguintes informações:** código da disciplina, nome da disciplina, nome do professor, campus onde a disciplina foi ofertada, matrícula do aluno, frequência do aluno que reprovou por falta na disciplina.
+* **Relatório de reprovação por falta na disciplina, incluindo as seguintes informações:** código da disciplina, nome da disciplina, horas disciplina, nome do professor, campus onde a disciplina foi ofertada, matrícula do aluno, frequência do aluno que reprovou por falta na disciplina.
 
-* **Relatório de frequência nas disciplinas ofertadas por professor, incluindo as seguintes informações:** código do servidor, nome do professor, código da disciplina, nome da disciplina, campus onde a disciplina foi ofertada, média de frequência dos alunos, média de reprovação por falta. 
+* **Relatório de frequência nas disciplinas ofertadas por professor, incluindo as seguintes informações:** código do servidor, nome do professor, código da disciplina, nome da disciplina, horas disciplina, campus onde a disciplina foi ofertada, média de frequência dos alunos, média de reprovação por falta. 
 
-* **Relatório de todas as disciplinas ofertadas por campus, incluindo as seguintes informações:**  código da disciplina, nome da disciplina, nome do professor, curso onde a disciplina está alocada, campus onde a disciplina é ofertada.
+* **Relatório de todas as disciplinas ofertadas por campus, incluindo as seguintes informações:**  código da disciplina, nome da disciplina, horas disciplina, nome do professor, curso onde a disciplina está alocada, campus onde a disciplina é ofertada.
 
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
