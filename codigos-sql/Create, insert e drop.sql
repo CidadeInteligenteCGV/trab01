@@ -96,24 +96,24 @@ VALUES ('IFES0001', 'Vitoria'), ('IFES0003', 'Serra'),
 
 	
 INSERT INTO Curso (cod_curso, nome_curso, FK_Campus_cod_campus)
-VALUES (74024, 'Licenciatura em Matem·tica', 'IFES0001'),
-(21111, 'Sistemas de InformaÁ„o', 'IFES0003'), (30157, 'Arquitetura e Urbanismo', 'IFES0005'),
-(16412, 'Engenharia Mec‚nica', 'IFES0002'), (20013, 'Bacharelado em FÌsica','IFES0004' ),
-(33152, 'Licenciatura em Letras/PortuguÍs','IFES0001'), (91500, 'Engenharia de Controle e AutomaÁ„o', 'IFES0003'),
-(48991, 'Quimica Indistrial','IFES0002'),(78422, 'AdministraÁ„o', 'IFES0005');
+VALUES (74024, 'Licenciatura em Matem√°tica', 'IFES0001'),
+(21111, 'Sistemas de Informa√ß√£o', 'IFES0003'), (30157, 'Arquitetura e Urbanismo', 'IFES0005'),
+(16412, 'Engenharia Mec√¢nica', 'IFES0002'), (20013, 'Bacharelado em F√≠sica','IFES0004' ),
+(33152, 'Licenciatura em Letras/Portugu√™s','IFES0001'), (91500, 'Engenharia de Controle e Automa√ß√£o', 'IFES0003'),
+(48991, 'Quimica Indistrial','IFES0002'),(78422, 'Administra√ß√£o', 'IFES0005');
 
 
 INSERT INTO Disciplina (cod_disciplina, nome_disciplina, horas_disciplina, fk_curso_cod_curso)
 VALUES (8, 'Calculo 1', 90, 91500), (23, 'Matematica Discreta', 60,21111), (12, 'Maquinas de Fluxo', 60, 16412),
-(207, 'Arquitetura e OrganizaÁao de Computadores', 60, 21111), (229, 'Filosofia', 30, 33152),
-(1275, 'Estatistica', 60, 78422), (1908, 'Historia da educaÁao', 30, 33152), (501, 'Urbanismo IV', 60, 30157);
+(207, 'Arquitetura e Organiza√ßao de Computadores', 60, 21111), (229, 'Filosofia', 30, 33152),
+(1275, 'Estatistica', 60, 78422), (1908, 'Historia da educa√ßao', 30, 33152), (501, 'Urbanismo IV', 60, 30157);
 
 
 INSERT INTO Professor (cod_servidor, nome_professor, cpf_professor)
 VALUES ('2014IFES001', 'Lara Dias', 60905521358), ('2000IFES128', 'Marcos Cavalcanti', 37782702062),
 ('1997IFES341', 'Mariana Rocha', 48615592276), ('2002IFES653', 'Leonardo Souza', 67053106349),
 ('2007IFES023', 'Marisa Castro', 75113441198), ('1995IFES325', 'Diego Almeida', 48054961340),
-('2005IFES140', 'Cau„ Souza', 62836439653), ('1999IFES005', 'Emilly Ribeiro', 15750910970);
+('2005IFES140', 'Cau√£ Souza', 62836439653), ('1999IFES005', 'Emilly Ribeiro', 15750910970);
 
 
 INSERT INTO Aluno (cod_matricula, nome_aluno, cpf_aluno, data_nascimento_aluno, imei, sexo_aluno)
@@ -137,10 +137,12 @@ VALUES(1, '2018-08-20', 'P', '07:50:00', '09:30:00', '2014IFES001',23 ), (12, '2
 (5, '2018-08-28', 'P', '08:20:00', '09:40:00', '2002IFES653', 207), (6, '2018-08-29', 'F', '18:00:00', '21:00:00', '2007IFES023', 8);
 
 
-INSERT INTO Gera (FK_Historico_Aula_id_historico_aula, FK_Aluno_cod_matricula)
-VALUES (13, '20151ADM873' ), (22,'20182LET914' ),
-(1,'20171BSI012' ), (4,'20182FIS237' ), 
-(3,'20171AUT552' );
+INSERT INTO Gera (fk_historico_aula_id_historico_aula, fk_aluno_cod_matricula)
+VALUES (1, '20162MAT003'), (12, '20171AUT552'),
+(3, '20142AUR222'), (22, '20151ADM873'),
+(42, '20181FIS015'), (2, '20142MEC188'),
+(13, '20151ADM873'), (4, '20162MAT003'),
+(5, '20182FIS237'), (6, '20151ADM873');
 
 
 DROP TABLE IF EXISTS Curso CASCADE;
