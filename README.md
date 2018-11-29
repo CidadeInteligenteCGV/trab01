@@ -46,7 +46,7 @@ OBS.: Sistema de Controle de Frquência usando o Ifes como exemplo, mas podendo 
 
 Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 
-*  **Relatório da frequência geral dos alunos por disciplina, incluindo as seguintes informações:** campus onde a disciplina é ofertada, curso a qual a disciplina pertence, código da disciplina, nome da disciplina, carga horária da disciplina, nome do professor, nome do aluno, matrícula do aluno, data da aula, frequência do aluno na disciplina. 
+* **Relatório da frequência geral dos alunos por disciplina, incluindo as seguintes informações:** campus onde a disciplina é ofertada, curso a qual a disciplina pertence, código da disciplina, nome da disciplina, carga horária da disciplina, nome do professor, nome do aluno, matrícula do aluno, data da aula, frequência do aluno na disciplina. 
     
 * **Relatório da frequência individual do aluno por disciplina, incluindo as seguintes informações:** código da disciplina, nome da disciplina, carga horária da disciplina, nome do professor, nome do aluno, código de matrícula do aluno, frequência do aluno na disciplina, data da aula, horas disciplina, hora de entrada e saída do aluno.
 
@@ -461,7 +461,10 @@ order by nome_disciplina;<br>
 
 5ª Consulta:
 
-<br>
+select cod_matricula, nome_aluno, extract(year from aluno.data_nascimento_aluno) as aluno_mais_velho
+from aluno
+order by extract(year from aluno.data_nascimento_aluno)
+limit 1;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/join5.PNG)
 
 6ª Consulta:
@@ -608,6 +611,12 @@ SELECT nome_aluno, sexo_aluno from aluno WHERE data_nascimento_aluno IN( SELECT 
         d) realizar qualquer procedimento executado pelo grupo que desenvolveu o trabalho
         
 ### 13   DIFICULDADES ENCONTRADAS PELO GRUPO<br>
+
+   * Algumas das dificuldades encontradas foram:<br>
+        - A aplicação do que foi aprendido em sala na construção do mapa conceitual "mais certo";<br>
+        - Tempo para revisar e ajeitar o trabalho sempre que ocorria uma mudança em algum tópico;<br>
+        - Contruir os mockups com as informações necessárias, levando em consideração as diferenças entre o aplicativo de celular, acessado só pelo aluno, e o site no desktop, de uso exclusivo da instituição e dos professores;<br>
+
 >## Marco de Entrega Final em: (08/11/2018)<br>
         
 ### 14  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
