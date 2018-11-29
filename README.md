@@ -415,8 +415,50 @@ select * from aluno;<br>
 >## Marco de Entrega 04 em: (18/10/2017)<br>
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
-        a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
-        b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
+
+1ª Consulta:
+
+select cod_matricula, nome_aluno, nome_disciplina, nome_professor, presenca, nome_curso, campus
+from aluno
+inner join gera on (gera.fk_aluno_cod_matricula = aluno.cod_matricula)
+inner join historico_aula on (historico_aula.id_historico_aula = gera.fk_historico_aula_id_historico_aula)
+inner join disciplina on (disciplina.cod_disciplina = historico_aula.fk_disciplina_cod_disciplina)
+inner join professor on (professor.cod_servidor = historico_aula.fk_professor_cod_servidor)
+inner join curso on (curso.cod_curso = disciplina.fk_curso_cod_curso)
+inner join campus on (campus.cod_campus = curso.fk_campus_cod_campus)
+order by cod_matricula;<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/join1.PNG)
+
+2ª Consulta:
+
+select cod_matricula, nome_aluno, nome_disciplina
+from aluno
+inner join gera on (gera.fk_aluno_cod_matricula = aluno.cod_matricula)
+inner join historico_aula on (historico_aula.id_historico_aula = gera.fk_historico_aula_id_historico_aula)
+inner join disciplina on (disciplina.cod_disciplina = historico_aula.fk_disciplina_cod_disciplina)
+order by cod_matricula;<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/join2.PNG)
+
+3ª Consulta:
+
+<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/join3.PNG)
+
+4ª Consulta:
+
+<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/join4.PNG)
+
+5ª Consulta:
+
+<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/join5.PNG)
+
+6ª Consulta:
+
+<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/join6.PNG)
+
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
 
 1ª Consulta:
