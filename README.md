@@ -215,17 +215,17 @@ SELECT * FROM aluno WHERE cod_matricula = '20162QUI041';<br>
 2ª Consulta:
 
 SELECT * FROM historico_aula WHERE data_aula > '2018-08-25';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/histo%20aula%20where%20maior.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20hist%20aula%20where.PNG)
 
 3ª Consulta:
 
 SELECT * FROM curso WHERE cod_curso = 20013;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/curso%20where%20codigo.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20curso%20where.PNG)
 
 4ª Consulta:
 
 SELECT * FROM disciplina WHERE horas_disciplina < 50;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/disciplina%20where%20horas.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20disciplina%20where.PNG)
 
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11).
