@@ -465,12 +465,13 @@ select cod_matricula, nome_aluno, extract(year from aluno.data_nascimento_aluno)
 from aluno
 order by extract(year from aluno.data_nascimento_aluno)
 limit 1;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/join5.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/order1.PNG)
 
 6ª Consulta:
 
-<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/join6.PNG)
+select * from aluno
+order by (cast(substring(cod_matricula, 0, 5) as int)) desc;<br>
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/order2.PNG)
 
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
 
