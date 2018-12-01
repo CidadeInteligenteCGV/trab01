@@ -208,6 +208,8 @@ SELECT * FROM historico_aula;<br>
 SELECT * FROM gera;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20gera.PNG)
 
+<br>
+[Script SQL Atualizado 9.1](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta1.sql)
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
@@ -231,6 +233,8 @@ SELECT * FROM curso WHERE cod_curso = 20013;<br>
 SELECT * FROM disciplina WHERE horas_disciplina < 50;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20disciplina%20where.PNG)
 
+<br>
+[Script SQL Atualizado 9.2](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta2.sql)
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11).
 
@@ -300,7 +304,8 @@ ALTER TABLE professor RENAME COLUMN cod_servidor TO cod_professor;<br>
 select * from professor;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/alter%20professor%20cod.PNG)
 
-
+<br>
+[Script SQL Atualizado 9.3](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta3.sql)
     
 #### 9.4 CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
 
@@ -368,7 +373,8 @@ select nome_aluno, data_nascimento, date_part('month', data_nascimento) as nasce
 select nome_aluno, extract('year' from data_nascimento) as ano_nascimento from aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/dataExtract.png)
 
-    
+<br>
+[Script SQL Atualizado 9.4](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta4.sql)    
 
 #### 9.5 ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 
@@ -407,6 +413,9 @@ select * from historico_aula;<br>
 UPDATE aluno SET nome_aluno = 'Matilde Ferreira Santos' WHERE nome_aluno = 'Matilde Ferreira';<br>
 select * from aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20aluno.PNG)
+
+<br>
+[Script SQL Atualizado 9.5](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta5.sql)
 
 >## Marco de Entrega 04 em: (18/10/2017)<br>
 
@@ -469,6 +478,9 @@ select * from aluno
 order by (cast(substring(cod_matricula, 0, 5) as int)) desc;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/order2.PNG)
 
+<br>
+[Script SQL Atualizado 9.6](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta6.sql)
+
 #### 9.7 CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
 
 1ª Consulta:
@@ -512,39 +524,41 @@ as media_idade_ingresso_alunos
 from aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group6.PNG)
 
+<br>
+[Script SQL Atualizado 9.7](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta7.sql)
+
 #### 9.8 CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 
 1ª Consulta:
 
 SELECT a.nome_curso, c.campus
 FROM curso a RIGHT JOIN campus c
-ON a.fk_campus_cod_campus = c.cod_campus  ORDER BY c.cod_campus;
-
+ON a.fk_campus_cod_campus = c.cod_campus  ORDER BY c.cod_campus;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/consulta%201-%20LEFT%20RIGTH.PNG)
 
 2ª Consulta:
 
 SELECT a.nome_curso, c.nome_disciplina
 FROM curso a LEFT JOIN disciplina c
-ON a.cod_curso = c.fk_curso_cod_curso  ORDER BY c.nome_disciplina;
-
+ON a.cod_curso = c.fk_curso_cod_curso  ORDER BY c.nome_disciplina;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/consulta%202-%20LEFT%20RIGTH.PNG)
 
 3ª Consulta:
 
 SELECT a.data_aula, c.nome_professor
 FROM historico_aula a LEFT JOIN professor c
-ON a.fk_professor_cod_servidor = c.cod_servidor  ORDER BY a.data_aula;
-
+ON a.fk_professor_cod_servidor = c.cod_servidor  ORDER BY a.data_aula;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/consulta%203-%20LEFT%20RIGTH.PNG)
 
 4ª Consulta:
 
 SELECT c.nome_disciplina, a.data_aula, a.horario_inicio, a.horario_saida
 FROM historico_aula a RIGHT JOIN disciplina c
-ON a.fk_disciplina_cod_disciplina = c.cod_disciplina  ORDER BY C.nome_disciplina;
-
+ON a.fk_disciplina_cod_disciplina = c.cod_disciplina  ORDER BY C.nome_disciplina;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/consulta%204-%20LEFT%20RIGTH.PNG)
+
+<br>
+[Script SQL Atualizado 9.8](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta8.sql)
 
 #### 9.9 CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
       
@@ -553,8 +567,7 @@ ON a.fk_disciplina_cod_disciplina = c.cod_disciplina  ORDER BY C.nome_disciplina
 CREATE VIEW alunos_matriculados AS
 SELECT nome_aluno AS Alunos,
        cod_matricula AS Matriculas
-FROM aluno
-
+FROM aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%201.PNG)
 
 2ª Consulta:
@@ -563,9 +576,7 @@ CREATE VIEW disciplinas_curso AS
 SELECT a.nome_disciplina AS disciplina,
        c.nome_curso AS curso
 FROM disciplina a, curso c
-WHERE a.fk_curso_cod_curso = c.cod_curso
-
-
+WHERE a.fk_curso_cod_curso = c.cod_curso;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%202.PNG)
 
 3ª Consulta:
@@ -574,9 +585,7 @@ CREATE VIEW cargaHoraria_professores_90 AS
 SELECT a.nome_professor AS professor,
        c.nome_disciplina AS disciplina,
 	   c.horas_disciplina AS carga_horaria
-FROM professor a, disciplina c
-
-
+FROM professor a, disciplina c;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%203.PNG)
 
 4ª Consulta:
@@ -585,8 +594,7 @@ CREATE VIEW imei_smartphone_aluno AS
 SELECT nome_aluno AS aluno,
        cod_matricula AS matricula,
        imei
-FROM aluno
-
+FROM aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%204.PNG)
 
 5ª Consulta:
@@ -595,9 +603,7 @@ CREATE VIEW curso_do_campus AS
 SELECT a.nome_curso AS curso,
 	   c.campus AS campus      
 FROM curso a, campus c
-WHERE  a.fk_campus_cod_campus = c.cod_campus
-
-
+WHERE  a.fk_campus_cod_campus = c.cod_campus;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%205.PNG)
 
 6ª Consulta:
@@ -605,10 +611,11 @@ WHERE  a.fk_campus_cod_campus = c.cod_campus
 SELECT DISTINCT ha1.data_aula, ha1.horario_inicio, (ha2.horario_saida - '00:50:00') AS hora_aula_50min
 FROM historico_aula AS ha1
 INNER JOIN historico_aula AS ha2 ON (ha2.horario_saida = ha1.horario_inicio + '01:40:00')
-ORDER BY ha1.data_aula;
-
-
+ORDER BY ha1.data_aula;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%206.PNG)
+
+<br>
+[Script SQL Atualizado 9.9](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta9.sql)
 
 #### 9.10 SUBCONSULTAS (Mínimo 3)<br>
 
@@ -619,7 +626,6 @@ SELECT * FROM historico_aula WHERE horario_inicio IN( SELECT horario_inicio FROM
 
 2ª Consulta:
 
-
 SELECT nome_disciplina, cod_disciplina from disciplina WHERE cod_disciplina IN( SELECT cod_disciplina from disciplina WHERE nome_disciplina ILIKE '%m%');<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/subc2.PNG)
 
@@ -628,6 +634,8 @@ SELECT nome_disciplina, cod_disciplina from disciplina WHERE cod_disciplina IN( 
 SELECT nome_aluno, sexo_aluno from aluno WHERE data_nascimento_aluno IN( SELECT data_nascimento_aluno from aluno WHERE sexo_aluno = 'M');<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/subc3.PNG)
 
+<br>
+[Script SQL Atualizado 9.10](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta10.sql)
 
 ### 10. ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 
