@@ -501,12 +501,15 @@ order by ano_ingresso;<br>
 
 5ª Consulta:
 
-<br>
+select min(cast(substring(cod_matricula, 0, 6) as int)) as periodo_ingresso_aluno_mais_antigo
+from aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group5.PNG)
 
 6ª Consulta:
 
-<br>
+select avg(cast(substring(cod_matricula, 0, 5) as int) - extract(year from aluno.data_nascimento_aluno))
+as media_idade_ingresso_alunos
+from aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group6.PNG)
 
 #### 9.8 CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
