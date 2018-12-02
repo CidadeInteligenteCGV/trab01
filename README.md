@@ -660,7 +660,7 @@ SELECT nome_aluno, sexo_aluno from aluno WHERE data_nascimento_aluno IN( SELECT 
         - Tempo para revisar e ajeitar o trabalho sempre que ocorria uma mudança em algum tópico;<br>
         - Contruir os mockups com as informações necessárias, levando em consideração as diferenças entre o aplicativo de celular, acessado só pelo aluno, e o site no desktop, de uso exclusivo da instituição e dos professores;<br>
         - Um pouco de falha de comunicação entre os membros do grupo, mas dando certo no final.<br>
-	- Alguns problemas com os programas que foram pedidos para serem usados;<br>
+        - Alguns problemas com os programas que foram pedidos para serem usados; Como o brModelo, que depois de criamos o modelo não conseguiamos mais abrir e isso demandou bastante tempo, mas também deu certo no final.<br>
   
 ### 14. FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 <comentario no git>
