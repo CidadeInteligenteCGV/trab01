@@ -571,53 +571,59 @@ ORDER BY C.nome_disciplina;<br>
       
 1ª Consulta:
 
-CREATE VIEW alunos_matriculados AS
-SELECT nome_aluno AS Alunos,
-       cod_matricula AS Matriculas
-FROM aluno;<br>
+CREATE VIEW alunos_matriculados AS 
+SELECT nome_aluno AS Alunos, 
+cod_matricula AS Matriculas 
+FROM aluno;
+select * from alunos_matriculados;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%201.PNG)
 
 2ª Consulta:
 
-CREATE VIEW disciplinas_curso AS
-SELECT a.nome_disciplina AS disciplina,
-       c.nome_curso AS curso
-FROM disciplina a, curso c
-WHERE a.fk_curso_cod_curso = c.cod_curso;<br>
+CREATE VIEW disciplinas_curso AS 
+SELECT a.nome_disciplina AS disciplina, 
+c.nome_curso AS curso 
+FROM disciplina a, curso c 
+WHERE a.fk_curso_cod_curso = c.cod_curso;
+select * from disciplinas_curso;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%202.PNG)
 
 3ª Consulta:
 
-CREATE VIEW cargaHoraria_professores_90 AS
-SELECT a.nome_professor AS professor,
-       c.nome_disciplina AS disciplina,
-	   c.horas_disciplina AS carga_horaria
-FROM professor a, disciplina c;<br>
+CREATE VIEW cargaHoraria_materia_professor AS 
+SELECT a.nome_professor AS professor, 
+c.nome_disciplina AS disciplina, 
+c.horas_disciplina AS carga_horaria 
+FROM professor a
+inner join historico_aula on (historico_aula.fk_professor_cod_servidor = a.cod_professor) 
+inner join disciplina c on (c.cod_disciplina = historico_aula.fk_disciplina_cod_disciplina);
+select * from cargaHoraria_materia_professor;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%203.PNG)
 
 4ª Consulta:
 
-CREATE VIEW imei_smartphone_aluno AS
-SELECT nome_aluno AS aluno,
-       cod_matricula AS matricula,
-       imei
-FROM aluno;<br>
+CREATE VIEW imei_smartphone_aluno AS 
+SELECT nome_aluno AS aluno, 
+cod_matricula AS matricula, imei 
+FROM aluno;
+select * from imei_smartphone_aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%204.PNG)
 
 5ª Consulta:
 
-CREATE VIEW curso_do_campus AS
-SELECT a.nome_curso AS curso,
-	   c.campus AS campus      
-FROM curso a, campus c
-WHERE  a.fk_campus_cod_campus = c.cod_campus;<br>
+CREATE VIEW curso_do_campus AS 
+SELECT a.nome_curso AS curso, 
+c.campus AS campus
+FROM curso a, campi c 
+WHERE a.fk_campus_cod_campus = c.cod_campus;
+select * from curso_do_campus;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%205.PNG)
 
 6ª Consulta:
 
-SELECT DISTINCT ha1.data_aula, ha1.horario_inicio, (ha2.horario_saida - '00:50:00') AS hora_aula_50min
-FROM historico_aula AS ha1
-INNER JOIN historico_aula AS ha2 ON (ha2.horario_saida = ha1.horario_inicio + '01:40:00')
+SELECT DISTINCT ha1.data_aula, ha1.horario_inicio, (ha2.horario_saida - '00:50:00') AS hora_aula_50min 
+FROM historico_aula AS ha1 
+INNER JOIN historico_aula AS ha2 ON (ha2.horario_saida = ha1.horario_inicio + '01:40:00') 
 ORDER BY ha1.data_aula;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%206.PNG)
 
