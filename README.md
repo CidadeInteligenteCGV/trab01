@@ -161,7 +161,7 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
   [Backup](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/backup_82.txt)
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
   [Script SQL 8.3](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/Create%2C%20insert%20e%20drop.sql) <br>
-  [Backup](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/dropbackup.sql)
+  [Backup](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/backup_83.txt)
 
 #### 8.4 PRINCIPAIS FLUXOS DE INFORMAÇÃO E PRINCIPAIS TABELAS DO SISTEMA
    * Principais fluxos de dados de informação no sistema em densenvolvimento (mínimo 3)<br>
