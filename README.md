@@ -639,7 +639,7 @@ SELECT nome_aluno, sexo_aluno from aluno WHERE data_nascimento_aluno IN( SELECT 
 
 ### 10. ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 
-[Apresentação em PDF](https://github.com/ControleFrequencia/trab01/blob/master/Controle%20de%20frequencias.pdf)
+* [Apresentação em PDF](https://github.com/ControleFrequencia/trab01/blob/master/Controle%20de%20frequencias.pdf)
 
 ### 11. Backup completo do banco de dados postgres 
     a) deve ser realizado no formato "backup" 
@@ -656,9 +656,10 @@ SELECT nome_aluno, sexo_aluno from aluno WHERE data_nascimento_aluno IN( SELECT 
 ### 13. DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 
    * Algumas das dificuldades encontradas foram:<br>
-        - A aplicação do que foi aprendido em sala na construção do mapa conceitual "mais certo";<br>
+        - A aplicação do que foi aprendido em sala na construção do mapa conceitual "mais certo"; Demandou muito tempo, pois o mapa seria o prelúdio de todo o projeto.<br>
         - Tempo para revisar e ajeitar o trabalho sempre que ocorria uma mudança em algum tópico;<br>
         - Contruir os mockups com as informações necessárias, levando em consideração as diferenças entre o aplicativo de celular, acessado só pelo aluno, e o site no desktop, de uso exclusivo da instituição e dos professores;<br>
+	- Um pouco de falha de comunicação entre os membros do grupo, mas dando certo no final.
   
 ### 14. FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 <comentario no git>
