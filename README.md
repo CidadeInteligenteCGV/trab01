@@ -535,7 +535,7 @@ SELECT a.nome_curso, c.campus
 FROM curso a 
 RIGHT JOIN campi c ON a.fk_campus_cod_campus = c.cod_campus 
 ORDER BY c.cod_campus;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/consulta%201-%20LEFT%20RIGTH.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/consulta_LEFT_RIGTH1.PNG)
 
 2ª Consulta:
 
@@ -543,7 +543,7 @@ SELECT a.nome_curso, c.nome_disciplina
 FROM curso a 
 LEFT JOIN disciplina c ON a.cod_curso = c.fk_curso_cod_curso 
 ORDER BY c.nome_disciplina;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/consulta%202-%20LEFT%20RIGTH.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/consulta_LEFT_RIGTH2.PNG)
 
 3ª Consulta:
 
@@ -551,7 +551,7 @@ SELECT a.data_aula, c.nome_professor
 FROM historico_aula a 
 LEFT JOIN professor c ON a.fk_professor_cod_servidor = c.cod_professor 
 ORDER BY a.data_aula;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/consulta%203-%20LEFT%20RIGTH.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/consulta_LEFT_RIGTH3.PNG)
 
 4ª Consulta:
 
@@ -559,7 +559,7 @@ SELECT c.nome_disciplina, a.data_aula, a.horario_inicio, a.horario_saida
 FROM historico_aula a 
 RIGHT JOIN disciplina c ON a.fk_disciplina_cod_disciplina = c.cod_disciplina 
 ORDER BY C.nome_disciplina;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/consulta%204-%20LEFT%20RIGTH.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/consulta_LEFT_RIGTH4.PNG)
 
 
 [Script SQL Atualizado 9.8](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta8.sql)
