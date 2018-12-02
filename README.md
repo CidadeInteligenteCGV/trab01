@@ -639,7 +639,7 @@ SELECT nome_aluno, sexo_aluno from aluno WHERE data_nascimento_aluno IN( SELECT 
 
 ### 10. ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 
-![Apresentação em PDF](https://github.com/ControleFrequencia/trab01/blob/master/Controle%20de%20frequencias.pdf)
+[Apresentação em PDF](https://github.com/ControleFrequencia/trab01/blob/master/Controle%20de%20frequencias.pdf)
 
 ### 11. Backup completo do banco de dados postgres 
     a) deve ser realizado no formato "backup" 
