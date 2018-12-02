@@ -382,37 +382,37 @@ select nome_aluno, extract('year' from data_nascimento) as ano_nascimento from a
 
 DELETE FROM disciplina WHERE cod_disciplina = 229 OR cod_disciplina = 8;
 select * from disciplina;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20disciplina.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois_disciplina.PNG)
 
 2ª Consulta:
 
 DELETE FROM professor WHERE cpf_professor = '67053106349' AND nome_professor = 'Leonardo Souza';
 select * from professor;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20professor.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois_professor.PNG)
 
 3ª Consulta:
 
 UPDATE curso SET cod_curso =53000, nome_curso ='Engenharia Civil' WHERE cod_curso=30157;
 select * from curso;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20curso.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois_curso.PNG)
 
 4ª Consulta:
 
 DELETE FROM campi WHERE cod_campus = 'IFES0003';
 select * from campi;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20campus.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois_campus.PNG)
 
 5ª Consulta:
 
 UPDATE historico_aula SET data_aula = '2018-10-17' WHERE id_historico_aula=48;
 select * from historico_aula;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20hist%20aula.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois_historico.PNG)
 
 6ª Consulta:
 
 UPDATE aluno SET nome_aluno = 'Matilde Ferreira Santos' WHERE nome_aluno = 'Matilde Ferreira';
 select * from aluno;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20aluno.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois_aluno.PNG)
 
 <br>
 [Script SQL Atualizado 9.5](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta5.sql)
