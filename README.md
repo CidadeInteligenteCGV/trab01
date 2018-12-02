@@ -377,37 +377,37 @@ select nome_aluno, extract('year' from data_nascimento) as ano_nascimento from a
 
 1ª Consulta:
 
-DELETE FROM disciplina WHERE cod_disciplina = 229 OR cod_disciplina = 8;
+DELETE FROM disciplina WHERE cod_disciplina = 229 OR cod_disciplina = 8;<br>
 select * from disciplina;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois_disciplina.PNG)
 
 2ª Consulta:
 
-DELETE FROM professor WHERE cpf_professor = '67053106349' AND nome_professor = 'Leonardo Souza';
+DELETE FROM professor WHERE cpf_professor = '67053106349' AND nome_professor = 'Leonardo Souza';<br>
 select * from professor;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois_professor.PNG)
 
 3ª Consulta:
 
-UPDATE curso SET cod_curso =53000, nome_curso ='Engenharia Civil' WHERE cod_curso=30157;
+UPDATE curso SET cod_curso =53000, nome_curso ='Engenharia Civil' WHERE cod_curso=30157;<br>
 select * from curso;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois_curso.PNG)
 
 4ª Consulta:
 
-DELETE FROM campi WHERE cod_campus = 'IFES0003';
+DELETE FROM campi WHERE cod_campus = 'IFES0003';<br>
 select * from campi;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois_campus.PNG)
 
 5ª Consulta:
 
-UPDATE historico_aula SET data_aula = '2018-10-17' WHERE id_historico_aula=48;
+UPDATE historico_aula SET data_aula = '2018-10-17' WHERE id_historico_aula=48;<br>
 select * from historico_aula;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois_historico.PNG)
 
 6ª Consulta:
 
-UPDATE aluno SET nome_aluno = 'Matilde Ferreira Santos' WHERE nome_aluno = 'Matilde Ferreira';
+UPDATE aluno SET nome_aluno = 'Matilde Ferreira Santos' WHERE nome_aluno = 'Matilde Ferreira';<br>
 select * from aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois_aluno.PNG)
 
@@ -571,7 +571,7 @@ ORDER BY C.nome_disciplina;<br>
 CREATE VIEW alunos_matriculados AS 
 SELECT nome_aluno AS Alunos, 
 cod_matricula AS Matriculas 
-FROM aluno;
+FROM aluno;<br>
 select * from alunos_matriculados;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/view1.PNG)
 
@@ -581,7 +581,7 @@ CREATE VIEW disciplinas_curso AS
 SELECT a.nome_disciplina AS disciplina, 
 c.nome_curso AS curso 
 FROM disciplina a, curso c 
-WHERE a.fk_curso_cod_curso = c.cod_curso;
+WHERE a.fk_curso_cod_curso = c.cod_curso;<br>
 select * from disciplinas_curso;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/view2.PNG)
 
@@ -593,7 +593,7 @@ c.nome_disciplina AS disciplina,
 c.horas_disciplina AS carga_horaria 
 FROM professor a
 inner join historico_aula on (historico_aula.fk_professor_cod_servidor = a.cod_professor) 
-inner join disciplina c on (c.cod_disciplina = historico_aula.fk_disciplina_cod_disciplina);
+inner join disciplina c on (c.cod_disciplina = historico_aula.fk_disciplina_cod_disciplina);<br>
 select * from cargaHoraria_materia_professor;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/view3.PNG)
 
@@ -602,7 +602,7 @@ select * from cargaHoraria_materia_professor;<br>
 CREATE VIEW imei_smartphone_aluno AS 
 SELECT nome_aluno AS aluno, 
 cod_matricula AS matricula, imei 
-FROM aluno;
+FROM aluno;<br>
 select * from imei_smartphone_aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/view4.PNG)
 
@@ -612,7 +612,7 @@ CREATE VIEW curso_do_campus AS
 SELECT a.nome_curso AS curso, 
 c.campus AS campus
 FROM curso a, campi c 
-WHERE a.fk_campus_cod_campus = c.cod_campus;
+WHERE a.fk_campus_cod_campus = c.cod_campus;<br>
 select * from curso_do_campus;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/view5.PNG)
 
@@ -633,19 +633,19 @@ ORDER BY ha1.data_aula;<br>
 
 SELECT * FROM historico_aula 
 WHERE horario_inicio IN( SELECT horario_inicio FROM historico_aula WHERE horario_saida > '11:40:00');<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/sub1.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/sub1.PNG)
 
 2ª Consulta:
 
 SELECT nome_disciplina, cod_disciplina from disciplina 
 WHERE cod_disciplina IN( SELECT cod_disciplina from disciplina WHERE nome_disciplina ILIKE '%m%');<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/sub2.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/sub1.PNG)
 
 3ª Consulta:
 
 SELECT nome_aluno, sexo_aluno from aluno 
 WHERE data_nascimento IN( SELECT data_nascimento from aluno WHERE sexo_aluno = 'M');<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/sub3.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/sub1.PNG)
 
 
 [Script SQL Atualizado 9.10](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta10.sql)
