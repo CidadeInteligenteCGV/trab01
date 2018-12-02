@@ -484,42 +484,46 @@ order by (cast(substring(cod_matricula, 0, 5) as int)) desc;<br>
 
 1ª Consulta:
 
-SELECT nome_aluno, data_nascimento_aluno FROM aluno WHERE UPPER(nome_aluno) LIKE UPPER('%r%') GROUP BY nome_aluno, data_nascimento_aluno;<br>
+SELECT nome_aluno, data_nascimento 
+FROM aluno WHERE UPPER(nome_aluno) LIKE UPPER('%r%') 
+GROUP BY nome_aluno, data_nascimento;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group1.PNG)
 
 2ª Consulta:
 
-SELECT nome_professor, cpf_professor FROM professor WHERE UPPER(nome_professor) LIKE UPPER('%a%') AND UPPER(cod_professor) LIKE UPPER('%00%') GROUP BY nome_professor, cpf_professor;<br>
+SELECT nome_professor, cpf_professor 
+FROM professor 
+WHERE UPPER(nome_professor) LIKE UPPER('%a%') AND UPPER(cod_professor) LIKE UPPER('%00%') 
+GROUP BY nome_professor, cpf_professor;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group2.PNG)
 
 3ª Consulta:
 
-select cod_servidor, nome_professor, cod_disciplina, nome_disciplina
-from professor
-inner join historico_aula on (historico_aula.fk_professor_cod_servidor = professor.cod_servidor)
-inner join disciplina on (disciplina.cod_disciplina = historico_aula.fk_disciplina_cod_disciplina)
-group by cod_servidor, cod_disciplina
+select cod_professor, nome_professor, cod_disciplina, nome_disciplina 
+from professor 
+inner join historico_aula on (historico_aula.fk_professor_cod_servidor = professor.cod_professor) 
+inner join disciplina on (disciplina.cod_disciplina = historico_aula.fk_disciplina_cod_disciplina) 
+group by cod_professor, cod_disciplina 
 order by nome_professor;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group3.PNG)
 
 4ª Consulta:
 
-select (cast(substring(cod_matricula, 0, 5) as int)) as ano_ingresso, count(cod_matricula) as quantidade_aluno
-from aluno
-group by ano_ingresso
+select (cast(substring(cod_matricula, 0, 5) as int)) as ano_ingresso, count(cod_matricula) as quantidade_aluno 
+from aluno 
+group by ano_ingresso 
 order by ano_ingresso;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group4.PNG)
 
 5ª Consulta:
 
-select min(cast(substring(cod_matricula, 0, 6) as int)) as periodo_ingresso_aluno_mais_antigo
+select min(cast(substring(cod_matricula, 0, 6) as int)) as periodo_ingresso_aluno_mais_antigo 
 from aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group5.PNG)
 
 6ª Consulta:
 
-select avg(cast(substring(cod_matricula, 0, 5) as int) - extract(year from aluno.data_nascimento_aluno))
-as media_idade_ingresso_alunos
+select avg(cast(substring(cod_matricula, 0, 5) as int) - extract(year from aluno.data_nascimento)) as media_idade_ingresso_alunos 
 from aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group6.PNG)
 
