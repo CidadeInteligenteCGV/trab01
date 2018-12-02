@@ -38,9 +38,9 @@ OBS.: Sistema de Controle de Frequência usando o Ifes como exemplo, mas podendo
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
-[Protótipo de Telas - Desktop](https://github.com/ControleFrequencia/trab01/blob/master/mockups/Prot%C3%B3tipo%20de%20Telas%20-%20Desktop.pdf)
+[Protótipos de Telas - Desktop](https://github.com/ControleFrequencia/trab01/blob/master/mockups/Prot%C3%B3tipo%20de%20Telas%20-%20Desktop.pdf)
 
-[Protótipo de Telas - Mobile](https://github.com/ControleFrequencia/trab01/blob/master/mockups/Telas%20-%20Mobile.pdf)
+[Protótipos de Telas - Mobile](https://github.com/ControleFrequencia/trab01/blob/master/mockups/Telas%20-%20Mobile.pdf)
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
 
