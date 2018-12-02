@@ -231,7 +231,6 @@ SELECT * FROM curso WHERE cod_curso = 20013;<br>
 SELECT * FROM disciplina WHERE horas_disciplina < 50;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20disciplina%20where.PNG)
 
-<br>
 [Script SQL Atualizado 9.2](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta2.sql)
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11).
@@ -302,7 +301,7 @@ ALTER TABLE professor RENAME COLUMN cod_servidor TO cod_professor;<br>
 select * from professor;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/alter%20professor%20cod.PNG)
 
-<br>
+
 [Script SQL Atualizado 9.3](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta3.sql)
     
 #### 9.4 CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
@@ -371,7 +370,7 @@ select nome_aluno, data_nascimento, date_part('month', data_nascimento) as nasce
 select nome_aluno, extract('year' from data_nascimento) as ano_nascimento from aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/dataExtract.png)
 
-<br>
+
 [Script SQL Atualizado 9.4](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta4.sql)    
 
 #### 9.5 ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
@@ -412,7 +411,7 @@ UPDATE aluno SET nome_aluno = 'Matilde Ferreira Santos' WHERE nome_aluno = 'Mati
 select * from aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois_aluno.PNG)
 
-<br>
+
 [Script SQL Atualizado 9.5](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta5.sql)
 
 >## Marco de Entrega 04 em: (18/10/2017)<br>
@@ -475,7 +474,7 @@ select * from aluno
 order by (cast(substring(cod_matricula, 0, 5) as int)) desc;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/order2.PNG)
 
-<br>
+
 [Script SQL Atualizado 9.6](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta6.sql)
 
 #### 9.7 CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
@@ -525,7 +524,7 @@ select avg(cast(substring(cod_matricula, 0, 5) as int) - extract(year from aluno
 from aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group6.PNG)
 
-<br>
+
 [Script SQL Atualizado 9.7](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta7.sql)
 
 #### 9.8 CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
@@ -562,7 +561,7 @@ RIGHT JOIN disciplina c ON a.fk_disciplina_cod_disciplina = c.cod_disciplina
 ORDER BY C.nome_disciplina;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/consulta%204-%20LEFT%20RIGTH.PNG)
 
-<br>
+
 [Script SQL Atualizado 9.8](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta8.sql)
 
 #### 9.9 CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
@@ -625,7 +624,7 @@ INNER JOIN historico_aula AS ha2 ON (ha2.horario_saida = ha1.horario_inicio + '0
 ORDER BY ha1.data_aula;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%206.PNG)
 
-<br>
+
 [Script SQL Atualizado 9.9](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta9.sql)
 
 #### 9.10 SUBCONSULTAS (Mínimo 3)<br>
@@ -648,7 +647,7 @@ SELECT nome_aluno, sexo_aluno from aluno
 WHERE data_nascimento IN( SELECT data_nascimento from aluno WHERE sexo_aluno = 'M');<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/subc3.PNG)
 
-<br>
+
 [Script SQL Atualizado 9.10](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta10.sql)
 
 ### 10. ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
