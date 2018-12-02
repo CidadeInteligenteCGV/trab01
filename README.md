@@ -573,7 +573,7 @@ SELECT nome_aluno AS Alunos,
 cod_matricula AS Matriculas 
 FROM aluno;
 select * from alunos_matriculados;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%201.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/view1.PNG)
 
 2ª Consulta:
 
@@ -583,7 +583,7 @@ c.nome_curso AS curso
 FROM disciplina a, curso c 
 WHERE a.fk_curso_cod_curso = c.cod_curso;
 select * from disciplinas_curso;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%202.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/view2.PNG)
 
 3ª Consulta:
 
@@ -595,7 +595,7 @@ FROM professor a
 inner join historico_aula on (historico_aula.fk_professor_cod_servidor = a.cod_professor) 
 inner join disciplina c on (c.cod_disciplina = historico_aula.fk_disciplina_cod_disciplina);
 select * from cargaHoraria_materia_professor;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%203.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/view3.PNG)
 
 4ª Consulta:
 
@@ -604,7 +604,7 @@ SELECT nome_aluno AS aluno,
 cod_matricula AS matricula, imei 
 FROM aluno;
 select * from imei_smartphone_aluno;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%204.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/view4.PNG)
 
 5ª Consulta:
 
@@ -614,7 +614,7 @@ c.campus AS campus
 FROM curso a, campi c 
 WHERE a.fk_campus_cod_campus = c.cod_campus;
 select * from curso_do_campus;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%205.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/view5.PNG)
 
 6ª Consulta:
 
@@ -622,7 +622,7 @@ SELECT DISTINCT ha1.data_aula, ha1.horario_inicio, (ha2.horario_saida - '00:50:0
 FROM historico_aula AS ha1 
 INNER JOIN historico_aula AS ha2 ON (ha2.horario_saida = ha1.horario_inicio + '01:40:00') 
 ORDER BY ha1.data_aula;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/View%206.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/selfjoin.PNG)
 
 
 [Script SQL Atualizado 9.9](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta9.sql)
@@ -633,19 +633,19 @@ ORDER BY ha1.data_aula;<br>
 
 SELECT * FROM historico_aula 
 WHERE horario_inicio IN( SELECT horario_inicio FROM historico_aula WHERE horario_saida > '11:40:00');<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/subc1.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/sub1.PNG)
 
 2ª Consulta:
 
 SELECT nome_disciplina, cod_disciplina from disciplina 
 WHERE cod_disciplina IN( SELECT cod_disciplina from disciplina WHERE nome_disciplina ILIKE '%m%');<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/subc2.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/sub2.PNG)
 
 3ª Consulta:
 
 SELECT nome_aluno, sexo_aluno from aluno 
 WHERE data_nascimento IN( SELECT data_nascimento from aluno WHERE sexo_aluno = 'M');<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/subc3.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/sub3.PNG)
 
 
 [Script SQL Atualizado 9.10](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta10.sql)
