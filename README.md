@@ -313,7 +313,7 @@ Consultas que envolvam like ou ilike
 
 1ª Consulta:
 
-select * from campi where campi ilike '%c%';<br>
+select * from campi where campus ilike '%c%';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/ilike1.PNG)
 
 2ª Consulta:
@@ -328,7 +328,7 @@ select * from curso where nome_curso ilike '%l%' and nome_curso like '%em%';<br>
 
 4ª Consulta:
 
-select * from campi where campi ilike '%a%' and campi like '%a';<br>
+select * from campi where campus ilike '%a%' and campus like '%a';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/ilikelike2.PNG)
 
 5ª Consulta:
