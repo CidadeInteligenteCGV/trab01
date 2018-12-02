@@ -240,17 +240,17 @@ Consultas que envolvam os operadores lógicos AND, OR e Not
 1ª Consulta:
 
 SELECT * FROM historico_aula WHERE data_aula > '2018-08-21' AND horario_inicio = '09:50:00';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/histo%20where%20and.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.3_1.PNG)
 
 2ª Consulta:
 
 SELECT * FROM historico_aula WHERE horario_inicio < '08:00:00' OR horario_saida > '17:00:00';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/histo%20freq%20where%20or.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.3_2.PNG)
 
 3ª Consulta:
 
 SELECT * FROM disciplina WHERE NOT horas_disciplina > 40;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/disciplina%20where%20not.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.3_3.PNG)
 
 4ª Consulta:
 
@@ -321,7 +321,7 @@ select * from aluno as al where al.nome_aluno ilike '%f%' and al.cod_matricula i
 3ª Consulta:
 
 select * from curso where nome_curso ilike '%l%' and nome_curso like '%em%';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/ilikelike1.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.4_3.PNG)
 
 4ª Consulta:
 
@@ -331,7 +331,7 @@ select * from campi where campus ilike '%a%' and campus like '%a';<br>
 5ª Consulta:
 
 select * from historico_aula where cast (horario_inicio as varchar) like '%50%';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/like.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.4_5.PNG)
 
 6ª Consulta:
 
@@ -341,12 +341,12 @@ select * from professor where nome_professor like '_ar%';<br>
 7ª Consulta:
 
 select * from disciplina where nome_disciplina like 'M%';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/like3.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.4_7.PNG)
 
 8ª Consulta:
 
 select * from curso where nome_curso like '%o';<br>	
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/like4.png)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.4_8.PNG)
 
 9ª Consulta:
 
@@ -379,7 +379,7 @@ select nome_aluno, extract('year' from data_nascimento) as ano_nascimento from a
 
 DELETE FROM disciplina WHERE cod_disciplina = 229 OR cod_disciplina = 8;<br>
 select * from disciplina;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois_disciplina.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.5_1.PNG)
 
 2ª Consulta:
 
@@ -403,7 +403,7 @@ select * from campi;<br>
 
 UPDATE historico_aula SET data_aula = '2018-10-17' WHERE id_historico_aula=48;<br>
 select * from historico_aula;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois_historico.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.5_5.PNG)
 
 6ª Consulta:
 
@@ -428,7 +428,7 @@ inner join disciplina on (disciplina.cod_disciplina = historico_aula.fk_discipli
 inner join professor on (professor.cod_professor = historico_aula.fk_professor_cod_servidor) 
 inner join curso on (curso.cod_curso = disciplina.fk_curso_cod_curso) 
 inner join campi on (campi.cod_campus = curso.fk_campus_cod_campus) order by cod_matricula;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/join1.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.6_1.PNG)
 
 2ª Consulta:
 
@@ -438,7 +438,7 @@ inner join gera on (gera.fk_aluno_cod_matricula = aluno.cod_matricula)
 inner join historico_aula on (historico_aula.id_historico_aula = gera.fk_historico_aula_id_historico_aula) 
 inner join disciplina on (disciplina.cod_disciplina = historico_aula.fk_disciplina_cod_disciplina) 
 order by cod_matricula;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/join2.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.6_2.PNG)
 
 3ª Consulta:
 
@@ -448,7 +448,7 @@ inner join curso on (curso.fk_campus_cod_campus = campi.cod_campus)
 inner join disciplina on (disciplina.fk_curso_cod_curso = curso.cod_curso) 
 group by cod_campus 
 order by campus;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/join3.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.6_3.PNG)
 
 4ª Consulta:
 
@@ -458,7 +458,7 @@ inner join historico_aula on (historico_aula.fk_disciplina_cod_disciplina = disc
 inner join professor on (professor.cod_professor = historico_aula.fk_professor_cod_servidor) 
 group by cod_disciplina 
 order by nome_disciplina;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/join4.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.6_4.PNG)
 
 5ª Consulta:
 
@@ -466,13 +466,13 @@ select cod_matricula, nome_aluno, extract(year from aluno.data_nascimento) as al
 from aluno 
 order by extract(year from aluno.data_nascimento) 
 limit 1;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/order1.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.6_5.PNG)
 
 6ª Consulta:
 
 select * from aluno 
 order by (cast(substring(cod_matricula, 0, 5) as int)) desc;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/order2.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.6_6.PNG)
 
 
 [Script SQL Atualizado 9.6](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta6.sql)
@@ -484,7 +484,7 @@ order by (cast(substring(cod_matricula, 0, 5) as int)) desc;<br>
 SELECT nome_aluno, data_nascimento 
 FROM aluno WHERE UPPER(nome_aluno) LIKE UPPER('%r%') 
 GROUP BY nome_aluno, data_nascimento;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group1.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.7_1.PNG)
 
 2ª Consulta:
 
@@ -492,7 +492,7 @@ SELECT nome_professor, cpf_professor
 FROM professor 
 WHERE UPPER(nome_professor) LIKE UPPER('%a%') AND UPPER(cod_professor) LIKE UPPER('%00%') 
 GROUP BY nome_professor, cpf_professor;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group2.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.7_2.PNG)
 
 3ª Consulta:
 
@@ -502,7 +502,7 @@ inner join historico_aula on (historico_aula.fk_professor_cod_servidor = profess
 inner join disciplina on (disciplina.cod_disciplina = historico_aula.fk_disciplina_cod_disciplina) 
 group by cod_professor, cod_disciplina 
 order by nome_professor;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group3.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.7_3.PNG)
 
 4ª Consulta:
 
@@ -510,13 +510,13 @@ select (cast(substring(cod_matricula, 0, 5) as int)) as ano_ingresso, count(cod_
 from aluno 
 group by ano_ingresso 
 order by ano_ingresso;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group4.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.7_4.PNG)
 
 5ª Consulta:
 
 select min(cast(substring(cod_matricula, 0, 6) as int)) as periodo_ingresso_aluno_mais_antigo 
 from aluno;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group5.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.7_5.PNG)
 
 6ª Consulta:
 
@@ -525,7 +525,7 @@ from aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group6.PNG)
 
 
-[Script SQL Atualizado 9.7](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta7.sql)
+[Script SQL Atualizado 9.7](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.7_6.PNG)
 
 #### 9.8 CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 
@@ -633,7 +633,7 @@ ORDER BY ha1.data_aula;<br>
 
 SELECT * FROM historico_aula 
 WHERE horario_inicio IN( SELECT horario_inicio FROM historico_aula WHERE horario_saida > '11:40:00');<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/sub1.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.10_1.PNG)
 
 2ª Consulta:
 
