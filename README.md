@@ -207,9 +207,8 @@ SELECT * FROM historico_aula;<br>
 SELECT * FROM gera;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20gera.PNG)
 
-<br>
-  [Script SQL 7](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta1.sql)
-[Script SQL Atualizado 9.1]
+[Script SQL Atualizado 9.1](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta1.sql)
+
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
 1ª Consulta:
