@@ -380,37 +380,37 @@ select nome_aluno, extract('year' from data_nascimento) as ano_nascimento from a
 
 1ª Consulta:
 
-DELETE FROM disciplina WHERE cod_disciplina = 229 OR cod_disciplina = 8;<br>
+DELETE FROM disciplina WHERE cod_disciplina = 229 OR cod_disciplina = 8;
 select * from disciplina;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20disciplina.PNG)
 
 2ª Consulta:
 
-DELETE FROM professor WHERE cpf_professor = '67053106349' AND nome_professor = 'Leonardo Souza';<br>
+DELETE FROM professor WHERE cpf_professor = '67053106349' AND nome_professor = 'Leonardo Souza';
 select * from professor;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20professor.PNG)
 
 3ª Consulta:
 
-UPDATE curso SET cod_curso =53000, nome_curso ='Engenharia Civil' WHERE cod_curso=30157;<br>
+UPDATE curso SET cod_curso =53000, nome_curso ='Engenharia Civil' WHERE cod_curso=30157;
 select * from curso;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20curso.PNG)
 
 4ª Consulta:
 
-DELETE FROM campi WHERE cod_campus = 'IFES0003';<br>
+DELETE FROM campi WHERE cod_campus = 'IFES0003';
 select * from campi;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20campus.PNG)
 
 5ª Consulta:
 
-UPDATE historico_aula SET data_aula = '2018-10-17' WHERE id_historico_aula=48;<br>
+UPDATE historico_aula SET data_aula = '2018-10-17' WHERE id_historico_aula=48;
 select * from historico_aula;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20hist%20aula.PNG)
 
 6ª Consulta:
 
-UPDATE aluno SET nome_aluno = 'Matilde Ferreira Santos' WHERE nome_aluno = 'Matilde Ferreira';<br>
+UPDATE aluno SET nome_aluno = 'Matilde Ferreira Santos' WHERE nome_aluno = 'Matilde Ferreira';
 select * from aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/depois%20aluno.PNG)
 
@@ -423,58 +423,57 @@ select * from aluno;<br>
 
 1ª Consulta:
 
-select cod_matricula, nome_aluno, nome_disciplina, nome_professor, presenca, nome_curso, campus
-from aluno
-inner join gera on (gera.fk_aluno_cod_matricula = aluno.cod_matricula)
-inner join historico_aula on (historico_aula.id_historico_aula = gera.fk_historico_aula_id_historico_aula)
-inner join disciplina on (disciplina.cod_disciplina = historico_aula.fk_disciplina_cod_disciplina)
-inner join professor on (professor.cod_servidor = historico_aula.fk_professor_cod_servidor)
-inner join curso on (curso.cod_curso = disciplina.fk_curso_cod_curso)
-inner join campus on (campus.cod_campus = curso.fk_campus_cod_campus)
-order by cod_matricula;<br>
+select cod_matricula, nome_aluno, nome_disciplina, nome_professor, presenca, nome_curso, campus 
+from aluno 
+inner join gera on (gera.fk_aluno_cod_matricula = aluno.cod_matricula) 
+inner join historico_aula on (historico_aula.id_historico_aula = gera.fk_historico_aula_id_historico_aula) 
+inner join disciplina on (disciplina.cod_disciplina = historico_aula.fk_disciplina_cod_disciplina) 
+inner join professor on (professor.cod_professor = historico_aula.fk_professor_cod_servidor) 
+inner join curso on (curso.cod_curso = disciplina.fk_curso_cod_curso) 
+inner join campi on (campi.cod_campus = curso.fk_campus_cod_campus) order by cod_matricula;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/join1.PNG)
 
 2ª Consulta:
 
-select cod_matricula, nome_aluno, nome_disciplina
-from aluno
-inner join gera on (gera.fk_aluno_cod_matricula = aluno.cod_matricula)
-inner join historico_aula on (historico_aula.id_historico_aula = gera.fk_historico_aula_id_historico_aula)
-inner join disciplina on (disciplina.cod_disciplina = historico_aula.fk_disciplina_cod_disciplina)
+select cod_matricula, nome_aluno, nome_disciplina 
+from aluno 
+inner join gera on (gera.fk_aluno_cod_matricula = aluno.cod_matricula) 
+inner join historico_aula on (historico_aula.id_historico_aula = gera.fk_historico_aula_id_historico_aula) 
+inner join disciplina on (disciplina.cod_disciplina = historico_aula.fk_disciplina_cod_disciplina) 
 order by cod_matricula;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/join2.PNG)
 
 3ª Consulta:
 
-select cod_campus, campus, count(cod_disciplina) as quantidade_disciplinas
-from campus
-inner join curso on (curso.fk_campus_cod_campus = campus.cod_campus)
-inner join disciplina on (disciplina.fk_curso_cod_curso = curso.cod_curso)
-group by cod_campus
+select cod_campus, campus, count(cod_disciplina) as quantidade_disciplinas 
+from campi 
+inner join curso on (curso.fk_campus_cod_campus = campi.cod_campus) 
+inner join disciplina on (disciplina.fk_curso_cod_curso = curso.cod_curso) 
+group by cod_campus 
 order by campus;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/join3.PNG)
 
 4ª Consulta:
 
-select cod_disciplina, nome_disciplina, count(distinct cod_servidor) as quantidade_professores
-from disciplina
-inner join historico_aula on (historico_aula.fk_disciplina_cod_disciplina = disciplina.cod_disciplina)
-inner join professor on (professor.cod_servidor = historico_aula.fk_professor_cod_servidor)
-group by cod_disciplina
+select cod_disciplina, nome_disciplina, count(distinct cod_professor) as quantidade_professores 
+from disciplina 
+inner join historico_aula on (historico_aula.fk_disciplina_cod_disciplina = disciplina.cod_disciplina) 
+inner join professor on (professor.cod_professor = historico_aula.fk_professor_cod_servidor) 
+group by cod_disciplina 
 order by nome_disciplina;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/join4.PNG)
 
 5ª Consulta:
 
-select cod_matricula, nome_aluno, extract(year from aluno.data_nascimento_aluno) as aluno_mais_velho
-from aluno
-order by extract(year from aluno.data_nascimento_aluno)
+select cod_matricula, nome_aluno, extract(year from aluno.data_nascimento) as aluno_mais_velho 
+from aluno 
+order by extract(year from aluno.data_nascimento) 
 limit 1;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/order1.PNG)
 
 6ª Consulta:
 
-select * from aluno
+select * from aluno 
 order by (cast(substring(cod_matricula, 0, 5) as int)) desc;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/order2.PNG)
 
