@@ -428,7 +428,7 @@ inner join disciplina on (disciplina.cod_disciplina = historico_aula.fk_discipli
 inner join professor on (professor.cod_professor = historico_aula.fk_professor_cod_servidor) 
 inner join curso on (curso.cod_curso = disciplina.fk_curso_cod_curso) 
 inner join campi on (campi.cod_campus = curso.fk_campus_cod_campus) order by cod_matricula;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.6_1.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/join1.PNG)
 
 2ª Consulta:
 
@@ -438,7 +438,7 @@ inner join gera on (gera.fk_aluno_cod_matricula = aluno.cod_matricula)
 inner join historico_aula on (historico_aula.id_historico_aula = gera.fk_historico_aula_id_historico_aula) 
 inner join disciplina on (disciplina.cod_disciplina = historico_aula.fk_disciplina_cod_disciplina) 
 order by cod_matricula;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.6_2.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/join2.PNG)
 
 3ª Consulta:
 
@@ -448,7 +448,7 @@ inner join curso on (curso.fk_campus_cod_campus = campi.cod_campus)
 inner join disciplina on (disciplina.fk_curso_cod_curso = curso.cod_curso) 
 group by cod_campus 
 order by campus;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.6_3.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/join3.PNG)
 
 4ª Consulta:
 
@@ -458,7 +458,7 @@ inner join historico_aula on (historico_aula.fk_disciplina_cod_disciplina = disc
 inner join professor on (professor.cod_professor = historico_aula.fk_professor_cod_servidor) 
 group by cod_disciplina 
 order by nome_disciplina;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.6_4.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/join4.PNG)
 
 5ª Consulta:
 
