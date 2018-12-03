@@ -663,10 +663,11 @@ WHERE data_nascimento IN( SELECT data_nascimento from aluno WHERE sexo_aluno = '
 
 ### 11. BACKUP COMPLETO DO BANCO DE DADOS POSTGRES
 
-[Backup banco de dados](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/bkp.txt)
+[Backup banco de dados](https://github.com/ControleFrequencia/trab01/blob/master/bkp.txt)
 
 Grupo que realizou o teste:
-* [CargaPesada](https://github.com/pulseirasaude/trab01): Leonardo Sena e Walace Silva.  
+* [CargaPesada](https://github.com/pulseirasaude/trab01): Leonardo Sena e Walace Silva. 
+* [QR_Bus].(https://github.com/qr-bus/trab01): Ewerson Vieira, Giuliano de Paulo, Lorran Gabriel e Marcos Antônio 
 
 ### 12.	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
        
