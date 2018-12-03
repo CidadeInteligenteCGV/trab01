@@ -58,6 +58,8 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 
 * **Relatório de todas as disciplinas ofertadas por campus, incluindo as seguintes informações:**  código da disciplina, nome da disciplina, horas disciplina, nome do professor, curso onde a disciplina está alocada, campus onde a disciplina é ofertada.
 
+* [Relatórios Jupter](https://github.com/pulseirasaude/trab01)  
+
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
  
