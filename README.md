@@ -667,7 +667,7 @@ WHERE data_nascimento IN( SELECT data_nascimento from aluno WHERE sexo_aluno = '
 
 Grupo que realizou o teste:
 * [CargaPesada](https://github.com/pulseirasaude/trab01): Leonardo Sena e Walace Silva. 
-* [QR_Bus].(https://github.com/qr-bus/trab01): Ewerson Vieira, Giuliano de Paulo, Lorran Gabriel e Marcos Antônio 
+* [QR_Bus](https://github.com/qr-bus/trab01): Ewerson Vieira, Giuliano de Paulo, Lorran Gabriel e Marcos Antônio 
 
 ### 12.	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
        
