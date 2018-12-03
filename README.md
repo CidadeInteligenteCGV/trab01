@@ -184,7 +184,7 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
 
 ### 9. TABELAS E PRINCIPAIS CONSULTAS<br>
     
-#### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+#### 9.1 CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
 SELECT * FROM aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select_aluno.PNG)
@@ -209,7 +209,7 @@ SELECT * FROM gera;<br>
 
 [Script SQL Atualizado 9.1](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta1.sql)
 
-#### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
+#### 9.2 CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
 1ª Consulta:
 
@@ -233,7 +233,7 @@ SELECT * FROM disciplina WHERE horas_disciplina < 50;<br>
 
 [Script SQL Atualizado 9.2](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta2.sql)
 
-#### 9.3CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11).
+#### 9.3 CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11).
 
 Consultas que envolvam os operadores lógicos AND, OR e Not
 
@@ -651,7 +651,7 @@ WHERE data_nascimento IN( SELECT data_nascimento from aluno WHERE sexo_aluno = '
 [Script SQL Atualizado 9.10](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta10.sql)
 <br>
 
-**SQL's do Projeto**
+### SQL's do Projeto ###
 
 * [Script SQL Criações e Alterações Realizadas](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/bd_completo_criacao_e_alteracoes.sql)<br>
 * [Script SQL Selects Utilizados](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/bd_completo_selects.sql)<br>
