@@ -321,7 +321,7 @@ select * from aluno as al where al.nome_aluno ilike '%f%' and al.cod_matricula i
 3ª Consulta:
 
 select * from curso where nome_curso ilike '%l%' and nome_curso like '%em%';<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.4_3.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select_where.PNG)
 
 4ª Consulta:
 
