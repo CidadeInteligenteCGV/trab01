@@ -656,7 +656,7 @@ WHERE data_nascimento IN( SELECT data_nascimento from aluno WHERE sexo_aluno = '
 * [Script SQL Criações e Alterações Realizadas](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/bd_completo_criacao_e_alteracoes.sql)<br>
 * [Script SQL Selects Utilizados](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/bd_completo_selects.sql)<br>
 
-<br>
+
 ### 10. ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 
 [Apresentação em PDF](https://github.com/ControleFrequencia/trab01/blob/master/Controle%20de%20frequencias.pdf)
