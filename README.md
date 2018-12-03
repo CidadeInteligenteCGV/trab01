@@ -233,7 +233,7 @@ SELECT * FROM disciplina WHERE horas_disciplina < 50;<br>
 
 [Script SQL Atualizado 9.2](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta2.sql)
 
-#### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11).
+#### 9.3CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11).
 
 Consultas que envolvam os operadores lógicos AND, OR e Not
 
@@ -650,16 +650,16 @@ WHERE data_nascimento IN( SELECT data_nascimento from aluno WHERE sexo_aluno = '
 
 [Script SQL Atualizado 9.10](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta10.sql)
 
-###
+### Guia dos SQL's utilizados
 
-[Script SQL Criações e Alterações Realizadas](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/bd_completo_criacao_e_alteracoes.sql)
-[Script SQL Selects Utilizados](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/bd_completo_selects.sql)
+[Script SQL Criações e Alterações Realizadas](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/bd_completo_criacao_e_alteracoes.sql)<br>
+[Script SQL Selects Utilizados](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/bd_completo_selects.sql)<br>
 
 ### 10. ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 
 * [Apresentação em PDF](https://github.com/ControleFrequencia/trab01/blob/master/Controle%20de%20frequencias.pdf)
 
-### 11. Backup completo do banco de dados postgres 
+### 11. BACKUP COMPLETO DO BANCO DE DADOS POSTGRES
 
 * [Backup banco de dados](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/bkp.txt)
 
