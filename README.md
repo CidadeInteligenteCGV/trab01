@@ -196,7 +196,7 @@ SELECT * FROM curso;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20curso.PNG)
 
 SELECT * FROM disciplina;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20disciplina.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/disciplina.PNG)
 
 SELECT * FROM professor;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select_professor.png)
@@ -205,7 +205,7 @@ SELECT * FROM historico_aula;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20historico%20aula.PNG)
 
 SELECT * FROM gera;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20gera.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/gera.PNG)
 
 [Script SQL Atualizado 9.1](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta1.sql)
 
