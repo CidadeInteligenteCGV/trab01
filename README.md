@@ -656,15 +656,15 @@ WHERE data_nascimento IN( SELECT data_nascimento from aluno WHERE sexo_aluno = '
 
 ### 11. Backup completo do banco de dados postgres 
 
-* [Backup banco de dados](https://github.com/pulseirasaude/trab01)
+* [Backup banco de dados](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/bkp.txt)
 
 Grupo que realizou o teste
 * [CargaPesada](https://github.com/pulseirasaude/trab01): Leonardo Sena e Walace Silva.  
 
 ### 12.	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
        
+* [Tutorial para Backup](https://github.com/ControleFrequencia/trab01/blob/master/TUTORIAL%20PARA%20RESTAURACAO%20DO%20BANCO.pdf)
        
-        
 ### 13. DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 
    * Algumas das dificuldades encontradas foram:<br>
