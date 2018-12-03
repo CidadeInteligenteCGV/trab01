@@ -287,7 +287,7 @@ Consultas com operação de renomear nomes de campos ou tabelas
 
 ALTER TABLE aluno RENAME COLUMN data_nascimento_aluno TO data_nascimento;<br>
 select * from aluno;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/alter%20aluno%20data.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/alter_data_nascimento.PNG)
 
 2ª Consulta:
 
