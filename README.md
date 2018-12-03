@@ -492,7 +492,7 @@ SELECT nome_professor, cpf_professor
 FROM professor 
 WHERE UPPER(nome_professor) LIKE UPPER('%a%') AND UPPER(cod_professor) LIKE UPPER('%00%') 
 GROUP BY nome_professor, cpf_professor;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.7_2.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group2.PNG)
 
 3ª Consulta:
 
@@ -502,7 +502,7 @@ inner join historico_aula on (historico_aula.fk_professor_cod_servidor = profess
 inner join disciplina on (disciplina.cod_disciplina = historico_aula.fk_disciplina_cod_disciplina) 
 group by cod_professor, cod_disciplina 
 order by nome_professor;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.7_3.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/group3.PNG)
 
 4ª Consulta:
 
@@ -633,19 +633,19 @@ ORDER BY ha1.data_aula;<br>
 
 SELECT * FROM historico_aula 
 WHERE horario_inicio IN( SELECT horario_inicio FROM historico_aula WHERE horario_saida > '11:40:00');<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.10_1.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/sub1.PNG)
 
 2ª Consulta:
 
 SELECT nome_disciplina, cod_disciplina from disciplina 
 WHERE cod_disciplina IN( SELECT cod_disciplina from disciplina WHERE nome_disciplina ILIKE '%m%');<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/sub1.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/sub2.PNG)
 
 3ª Consulta:
 
 SELECT nome_aluno, sexo_aluno from aluno 
 WHERE data_nascimento IN( SELECT data_nascimento from aluno WHERE sexo_aluno = 'M');<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/sub1.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/sub3.PNG)
 
 
 [Script SQL Atualizado 9.10](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta10.sql)
