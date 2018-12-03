@@ -650,25 +650,25 @@ WHERE data_nascimento IN( SELECT data_nascimento from aluno WHERE sexo_aluno = '
 
 [Script SQL Atualizado 9.10](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta10.sql)
 
-### SQL's do Projeto
+## SQL's do Projeto
 
-[Script SQL Criações e Alterações Realizadas](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/bd_completo_criacao_e_alteracoes.sql)<br>
-[Script SQL Selects Utilizados](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/bd_completo_selects.sql)<br>
+* [Script SQL Criações e Alterações Realizadas](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/bd_completo_criacao_e_alteracoes.sql)<br>
+* [Script SQL Selects Utilizados](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/bd_completo_selects.sql)<br>
 
 ### 10. ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 
-* [Apresentação em PDF](https://github.com/ControleFrequencia/trab01/blob/master/Controle%20de%20frequencias.pdf)
+[Apresentação em PDF](https://github.com/ControleFrequencia/trab01/blob/master/Controle%20de%20frequencias.pdf)
 
 ### 11. BACKUP COMPLETO DO BANCO DE DADOS POSTGRES
 
-* [Backup banco de dados](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/bkp.txt)
+[Backup banco de dados](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/bkp.txt)
 
-Grupo que realizou o teste
+Grupo que realizou o teste:
 * [CargaPesada](https://github.com/pulseirasaude/trab01): Leonardo Sena e Walace Silva.  
 
 ### 12.	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
        
-* [Tutorial para Backup](https://github.com/ControleFrequencia/trab01/blob/master/TUTORIAL%20PARA%20RESTAURACAO%20DO%20BANCO.pdf)
+[Tutorial para Backup](https://github.com/ControleFrequencia/trab01/blob/master/TUTORIAL%20PARA%20RESTAURACAO%20DO%20BANCO.pdf)
        
 ### 13. DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 
