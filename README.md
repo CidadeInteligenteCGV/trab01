@@ -279,7 +279,7 @@ select nome_aluno, cod_matricula, data_nascimento_aluno,
 3ª Consulta:
 
 select cod_matricula, nome_aluno, data_nascimento_aluno, (2018 - extract(year from aluno.data_nascimento_aluno)) as idade_aluno_2018 from aluno;<br>
-![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/aritmetica3.PNG)
+![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/arit3.PNG)
 
 Consultas com operação de renomear nomes de campos ou tabelas
 
