@@ -237,27 +237,27 @@ SELECT * FROM disciplina WHERE horas_disciplina < 50;<br>
 
 Consultas que envolvam os operadores lógicos AND, OR e Not
 
-1ª Consulta:
+**1ª Consulta:**
 
 SELECT * FROM historico_aula WHERE data_aula > '2018-08-21' AND horario_inicio = '09:50:00';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.3_1.PNG)
 
-2ª Consulta:
+**2ª Consulta:**
 
 SELECT * FROM historico_aula WHERE horario_inicio < '08:00:00' OR horario_saida > '17:00:00';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.3_2.PNG)
 
-3ª Consulta:
+**3ª Consulta:**
 
 SELECT * FROM disciplina WHERE NOT horas_disciplina > 40;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.3_3.PNG)
 
-4ª Consulta:
+**4ª Consulta:**
 
 SELECT * FROM professor WHERE cod_servidor = '2007IFES023' OR nome_professor = 'Mariana Rocha';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/professor%20where%20or.PNG)
 
-5ª Consulta:
+**5ª Consulta:**
 
 SELECT * FROM campus WHERE cod_campus = 'IFES0005' AND campus = 'Colatina';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/campus%20where%20and.PNG)
