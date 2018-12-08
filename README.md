@@ -235,7 +235,7 @@ SELECT * FROM disciplina WHERE horas_disciplina < 50;<br>
 
 #### 9.3 CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11).
 
-Consultas que envolvam os operadores lógicos AND, OR e Not
+### Consultas que envolvam os operadores lógicos AND, OR e Not
 
 **1ª Consulta:**
 
@@ -289,13 +289,13 @@ ALTER TABLE aluno RENAME COLUMN data_nascimento_aluno TO data_nascimento;<br>
 select * from aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/alter_data_nascimento.PNG)
 
-2ª Consulta:
+**2ª Consulta:**
 
 ALTER TABLE campus RENAME TO campi;<br>
 select * from campi;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/alter%20campus%20rename.PNG)
 
-3ª Consulta:
+**3ª Consulta:**
 
 ALTER TABLE professor RENAME COLUMN cod_servidor TO cod_professor;<br>
 select * from professor;<br>
@@ -306,49 +306,49 @@ select * from professor;<br>
     
 #### 9.4 CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
 
-Consultas que envolvam like ou ilike
+### Consultas que envolvam like ou ilike
 
-1ª Consulta:
+**1ª Consulta:**
 
 select * from campi where campus ilike '%c%';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/ilike1.PNG)
 
-2ª Consulta:
+**2ª Consulta:**
 
 select * from aluno as al where al.nome_aluno ilike '%f%' and al.cod_matricula ilike '%f%';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/ilike2.PNG)
 
-3ª Consulta:
+**3ª Consulta:**
 
 select * from curso where nome_curso ilike '%l%' and nome_curso like '%em%';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select_where.PNG)
 
-4ª Consulta:
+**4ª Consulta:**
 
 select * from campi where campus ilike '%a%' and campus like '%a';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/ilikelike2.PNG)
 
-5ª Consulta:
+**5ª Consulta:**
 
 select * from historico_aula where cast (horario_inicio as varchar) like '%50%';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.4_5.PNG)
 
-6ª Consulta:
+**6ª Consulta:**
 
 select * from professor where nome_professor like '_ar%';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/like2.PNG)
 
-7ª Consulta:
+**7ª Consulta:**
 
 select * from disciplina where nome_disciplina like 'M%';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.4_7.PNG)
 
-8ª Consulta:
+**8ª Consulta:**
 
 select * from curso where nome_curso like '%o';<br>	
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/9.4_8.PNG)
 
-9ª Consulta:
+**9ª Consulta:**
 
 select * from aluno where cast (imei as varchar) not like '4%';<br>	
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/notlike.PNG)
