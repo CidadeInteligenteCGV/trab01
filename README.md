@@ -262,28 +262,28 @@ SELECT * FROM professor WHERE cod_servidor = '2007IFES023' OR nome_professor = '
 SELECT * FROM campus WHERE cod_campus = 'IFES0005' AND campus = 'Colatina';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/campus%20where%20and.PNG)
 
-Consultas com operadores aritméticos
+### Consultas com operadores aritméticos
 
-1ª Consulta:
+**1ª Consulta:**
 
 select horario_inicio, horario_saida, (horario_saida - horario_inicio) as duracao_aula from historico_aula;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/aritmetica1.PNG)
 
-2ª Consulta:
+**2ª Consulta:**
 
 select nome_aluno, cod_matricula, data_nascimento_aluno,
 	(cast(substring(cod_matricula, 0, 5) as int) - extract(year from aluno.data_nascimento_aluno)) as idade_ingresso
 	from aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/aritmetica2.PNG)
 
-3ª Consulta:
+**3ª Consulta:**
 
 select cod_matricula, nome_aluno, data_nascimento_aluno, (2018 - extract(year from aluno.data_nascimento_aluno)) as idade_aluno_2018 from aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/arit3.PNG)
 
-Consultas com operação de renomear nomes de campos ou tabelas
+### Consultas com operação de renomear nomes de campos ou tabelas
 
-1ª Consulta:
+**1ª Consulta:**
 
 ALTER TABLE aluno RENAME COLUMN data_nascimento_aluno TO data_nascimento;<br>
 select * from aluno;<br>
