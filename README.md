@@ -211,22 +211,22 @@ SELECT * FROM gera;<br>
 
 #### 9.2 CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
-1ª Consulta:
+**1ª Consulta:**
 
 SELECT * FROM aluno WHERE cod_matricula = '20162QUI041';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/aluno%20where%20cod%20matricula.PNG)
 
-2ª Consulta:
+**2ª Consulta:**
 
 SELECT * FROM historico_aula WHERE data_aula > '2018-08-25';<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20hist%20aula%20where.PNG)
 
-3ª Consulta:
+**3ª Consulta:**
 
 SELECT * FROM curso WHERE cod_curso = 20013;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20curso%20where.PNG)
 
-4ª Consulta:
+**4ª Consulta:**
 
 SELECT * FROM disciplina WHERE horas_disciplina < 50;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20disciplina%20where.PNG)
