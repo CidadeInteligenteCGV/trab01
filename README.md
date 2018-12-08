@@ -186,25 +186,25 @@ Principais Relatórios do Sistema de Controle de Frequência de Aulas:
     
 #### 9.1 CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
-SELECT * FROM aluno;<br>
+* SELECT * FROM aluno;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select_aluno.PNG)
 
-SELECT * FROM campus;<br>
+* SELECT * FROM campus;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select_campus.png)
 
-SELECT * FROM curso;<br>
+* SELECT * FROM curso;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20curso.PNG)
 
-SELECT * FROM disciplina;<br>
+* SELECT * FROM disciplina;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/disciplina.PNG)
 
-SELECT * FROM professor;<br>
+* SELECT * FROM professor;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select_professor.png)
 
-SELECT * FROM historico_aula;<br>
+* SELECT * FROM historico_aula;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/select%20historico%20aula.PNG)
 
-SELECT * FROM gera;<br>
+* SELECT * FROM gera;<br>
 ![Alt text](https://github.com/ControleFrequencia/trab01/blob/master/tabelas-consultas/imagens/gera.PNG)
 
 [Script SQL Atualizado 9.1](https://github.com/ControleFrequencia/trab01/blob/master/codigos-sql/consulta1.sql)
